@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@itwin/build-tools/tsconfig-base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist"
+  },
+  "include": ["server"],
+  "exclude": ["dist", "node_modules"]
+}

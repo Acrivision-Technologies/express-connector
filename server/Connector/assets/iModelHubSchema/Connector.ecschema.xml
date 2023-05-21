@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ECSchema schemaName="TowerConnector" alias="TowerConnector" version="01.00"
+    xmlns="http://www.bentley.com/schemas/Bentley.ECXML.3.1">
+
+    <ECSchemaReference name="BisCore" version="01.00" alias="bis" />
+
+    <ECEntityClass typeName="TowerConnectorGroupInformationModel">
+        <BaseClass>bis:GroupInformationModel</BaseClass>
+    </ECEntityClass>
+   
+    <ECEntityClass typeName="TowerInformation">
+        <BaseClass>bis:GroupInformationElement</BaseClass>
+        <ECProperty propertyName="TowerID" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="TowerName" typeName="string"></ECProperty>
+        <ECProperty propertyName="Description" typeName="string"></ECProperty>
+        <ECProperty propertyName="UnitSystem" typeName="string"></ECProperty>
+        <ECProperty propertyName="Convention" typeName="string"></ECProperty>
+        <ECProperty propertyName="BearingAngle" typeName="string"></ECProperty>
+        <ECProperty propertyName="TowerType" typeName="string"></ECProperty>
+        <ECProperty propertyName="TowerHeight" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopFaceWidth" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopFaceDepth" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomFaceWidth" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomFaceDepth" typeName="string"></ECProperty>
+        <ECProperty propertyName="NoofPanel" typeName="string"></ECProperty>
+    </ECEntityClass>
+
+    <ECEntityClass typeName="TowerPanel">
+        <BaseClass>bis:PhysicalElement</BaseClass>
+        <ECProperty propertyName="PanelID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="Height" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopWidth" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomWidth" typeName="string"></ECProperty>
+        <ECProperty propertyName="FaceBracing" typeName="string"></ECProperty>
+        <ECProperty propertyName="PlanBracing" typeName="string"></ECProperty>
+        <ECProperty propertyName="HipBracing" typeName="string"></ECProperty>
+        <ECProperty propertyName="NumberOfSegments" typeName="string"></ECProperty>
+        <ECProperty propertyName="Weight" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="SourceAppElementId" typeName="string"></ECProperty>
+    </ECEntityClass>
+    <ECEntityClass typeName="TowerMount">
+        <BaseClass>bis:PhysicalElement</BaseClass>
+        <ECProperty propertyName="MountID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="Name" typeName="string"></ECProperty>
+        <ECProperty propertyName="Elevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="Manufacturer" typeName="string"></ECProperty>
+        <ECProperty propertyName="ModelName" typeName="string"></ECProperty>
+        <ECProperty propertyName="Type" typeName="string"></ECProperty>
+        <ECProperty propertyName="Location" typeName="string"></ECProperty>
+        <ECProperty propertyName="Azimuth" typeName="string"></ECProperty>
+        <ECProperty propertyName="Height" typeName="string"></ECProperty>
+        <ECProperty propertyName="Width" typeName="string"></ECProperty>
+        <ECProperty propertyName="Standoff" typeName="string"></ECProperty>
+        <ECProperty propertyName="Weight" typeName="string"></ECProperty>
+        <ECProperty propertyName="Classification" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="SourceAppElementId" typeName="string"></ECProperty>
+
+    </ECEntityClass>
+
+    <ECEntityClass typeName="TowerMountPipe">
+        <BaseClass>bis:PhysicalElement</BaseClass>
+        <ECProperty propertyName="MountPropertyID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="Name" typeName="string"></ECProperty>
+        <ECProperty propertyName="Elevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="LateralOffset" typeName="string"></ECProperty>
+        <ECProperty propertyName="HorizontalOffset" typeName="string"></ECProperty>
+        <ECProperty propertyName="Height" typeName="string"></ECProperty>
+        <ECProperty propertyName="VerticalOffset" typeName="string"></ECProperty>
+        <ECProperty propertyName="Weight" typeName="string"></ECProperty>
+        <ECProperty propertyName="OuterDia" typeName="string"></ECProperty>
+        <ECProperty propertyName="InnerDia" typeName="string"></ECProperty>
+        <ECProperty propertyName="Thickness" typeName="string"></ECProperty>
+        <ECProperty propertyName="MountRefId" typeName="string"></ECProperty>
+        <ECProperty propertyName="AntennaRefId" typeName="string"></ECProperty>
+        <ECProperty propertyName="FaceRef" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="SourceAppElementId" typeName="string"></ECProperty>
+
+    </ECEntityClass>
+    
+    <ECEntityClass typeName="TowerAntenna">
+        <BaseClass>bis:PhysicalElement</BaseClass>
+        <ECProperty propertyName="AntennaPropertyID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="Name" typeName="string"></ECProperty>
+        <ECProperty propertyName="Elevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="Manufacturer" typeName="string"></ECProperty>
+        <ECProperty propertyName="ModelName" typeName="string"></ECProperty>
+        <ECProperty propertyName="Type" typeName="string"></ECProperty>
+        <ECProperty propertyName="Location" typeName="string"></ECProperty>
+        <ECProperty propertyName="Azimuth" typeName="string"></ECProperty>
+        <ECProperty propertyName="LateralOffset" typeName="string"></ECProperty>
+        <ECProperty propertyName="VerticalOffset" typeName="string"></ECProperty>
+        <ECProperty propertyName="HorizontalOffset" typeName="string"></ECProperty>
+        <ECProperty propertyName="Height" typeName="string"></ECProperty>
+        <ECProperty propertyName="Width" typeName="string"></ECProperty>
+        <ECProperty propertyName="Depth" typeName="string"></ECProperty>
+        <ECProperty propertyName="Weight" typeName="string"></ECProperty>
+        <ECProperty propertyName="Classification" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="SourceAppElementId" typeName="string"></ECProperty>
+        <ECProperty propertyName="IconID" typeName="string"></ECProperty>
+        <ECProperty propertyName="DirectionVector" typeName="string"></ECProperty>
+    </ECEntityClass>
+    
+    <ECEntityClass typeName="TowerAttachment">
+        <BaseClass>bis:PhysicalElement</BaseClass>
+        <ECProperty propertyName="AttachmentPropertyID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="AttachmentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="AttachmentType" typeName="string"></ECProperty>
+        <ECProperty propertyName="Location" typeName="string"></ECProperty>
+        <ECProperty propertyName="Azimuth" typeName="string"></ECProperty>
+        <ECProperty propertyName="Width" typeName="string"></ECProperty>
+        <ECProperty propertyName="Depth" typeName="string"></ECProperty>
+        <ECProperty propertyName="Weight" typeName="string"></ECProperty>
+        <ECProperty propertyName="Classification" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="SourceAppElementId" typeName="string"></ECProperty>
+    </ECEntityClass>
+    
+    <ECEntityClass typeName="TowerAppurtenance">
+        <BaseClass>bis:PhysicalElement</BaseClass>
+        <ECProperty propertyName="AppurtenancePropertyID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="StartElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="EndElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="Manufacturer" typeName="string"></ECProperty>
+        <ECProperty propertyName="ModelName" typeName="string"></ECProperty>
+        <ECProperty propertyName="Location" typeName="string"></ECProperty>
+        <ECProperty propertyName="Depth" typeName="string"></ECProperty>
+        <ECProperty propertyName="Width" typeName="string"></ECProperty>
+        <ECProperty propertyName="ForceCoefficient" typeName="string"></ECProperty>
+        <ECProperty propertyName="Weight" typeName="string"></ECProperty>
+        <ECProperty propertyName="AttachmentID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Classification" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+        <ECProperty propertyName="SourceAppElementId" typeName="string"></ECProperty>
+    </ECEntityClass>
+    
+    <ECEntityClass typeName="TowerPole">
+        <BaseClass>bis:PhysicalElement</BaseClass>
+        <ECProperty propertyName="PoleID" typeName="string"></ECProperty>
+        <ECProperty propertyName="Label" typeName="string"></ECProperty>
+        <ECProperty propertyName="SectionLength" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomElevation" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopFlatDiameter" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomFlatDiameter" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopTipDiameter" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomTipDiameter" typeName="string"></ECProperty>
+        <ECProperty propertyName="Thickness" typeName="string"></ECProperty>
+        <ECProperty propertyName="PolesectionType" typeName="string"></ECProperty>
+        <ECProperty propertyName="TopFlatWidth" typeName="string"></ECProperty>
+        <ECProperty propertyName="BottomFlatWidth" typeName="string"></ECProperty>
+        <ECProperty propertyName="ComponentName" typeName="string"></ECProperty>
+    </ECEntityClass>
+
+</ECSchema>

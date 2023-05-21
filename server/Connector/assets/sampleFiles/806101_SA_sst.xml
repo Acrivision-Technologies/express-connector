@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Staad>
+	<Sections>
+		<Section ID="1" Name="HollowCircleProfile" Radius="0.02804414" WallThickness="0.0208333333333333" />
+		<Section ID="2" Name="HollowCircleProfile" Radius="0.01825625" WallThickness="0.0208333333333333" />
+		<Section ID="3" Name="HollowCircleProfile" Radius="0.03439414" WallThickness="0.03125" />
+		<Section ID="4" Name="HollowCircleProfile" Radius="0.04087622" WallThickness="0.03125" />
+		<Section ID="5" Name="LShapeProfile" Width="0.04445" Depth="0.04445" Thickness="0.0047625" FilletRadius="0" EdgeRadius="0" />
+	</Sections>
+	<TowerInformation TowerID="xxxxx" ComponentName="TowerInformation" SourceAppElementId="xxxxx" Label="Tower Information" TowerName="xxxxxx" Description="xxxxxx" UnitSystem="English" Convention="True" BearingAngle="xxxxx" TowerType="SelfSupported" TowerHeight="100.00 " TopFaceWidth="6.54 " TopFaceDepth="6.54 " BottomFaceWidth="8.54 " BottomFaceDepth="8.54 " NoofPanel="5"/>
+	<PanelProperties>
+		<Panel PanelID="T1" Label="Panel T1" Height="6.096" TopWidth="6.54" TopElevation="100.0" BottomElevation="80.0" BottomWidth="6.54" FaceBracing="X Brace" PlanBracing="XXXXXXXXXX" HipBracing="XXXXXXXXXXXXXX" NumberOfSegments="5" Weight="xxxxxxxxxxxxxxx" ComponentName="Panel" SourceAppElementId="Panel_T1"/>
+		<Panel PanelID="T2" Label="Panel T2" Height="6.096" TopWidth="6.54" TopElevation="80.0" BottomElevation="60.0" BottomWidth="8.54" FaceBracing="K Brace Down" PlanBracing="XXXXXXXXXX" HipBracing="XXXXXXXXXXXXXX" NumberOfSegments="3" Weight="xxxxxxxxxxxxxxx" ComponentName="Panel" SourceAppElementId="Panel_T2"/>
+		<Panel PanelID="T3" Label="Panel T3" Height="6.096" TopWidth="8.54" TopElevation="60.0" BottomElevation="40.0" BottomWidth="8.54" FaceBracing="K Brace Down" PlanBracing="XXXXXXXXXX" HipBracing="XXXXXXXXXXXXXX" NumberOfSegments="3" Weight="xxxxxxxxxxxxxxx" ComponentName="Panel" SourceAppElementId="Panel_T3"/>
+		<Panel PanelID="T4" Label="Panel T4" Height="6.096" TopWidth="8.54" TopElevation="40.0" BottomElevation="20.0" BottomWidth="8.54" FaceBracing="K Brace Down" PlanBracing="XXXXXXXXXX" HipBracing="XXXXXXXXXXXXXX" NumberOfSegments="3" Weight="xxxxxxxxxxxxxxx" ComponentName="Panel" SourceAppElementId="Panel_T4"/>
+		<Panel PanelID="T5" Label="Panel T5" Height="6.096" TopWidth="8.54" TopElevation="20.0" BottomElevation="0.0" BottomWidth="8.54 " FaceBracing="K Brace Down" PlanBracing="XXXXXXXXXX" HipBracing="XXXXXXXXXXXXXX" NumberOfSegments="3" Weight="xxxxxxxxxxxxxxx" ComponentName="Panel" SourceAppElementId="Panel_T5"/>
+	</PanelProperties>
+	<Panel ID="T1">
+		<Legs>
+			<Leg Name="B">
+				<PhysicalMember PanelPropertyID="1" ID="1" StartNodeID="1" EndNodeID="2" SectionID="1" BetaAngle="-225" Label="Leg_B" SourceAppElementId="Leg_1"/>
+			</Leg>
+			<Leg Name="C">
+				<PhysicalMember PanelPropertyID="1" ID="2" StartNodeID="3" EndNodeID="4" SectionID="1" BetaAngle="90" Label="Leg_C" SourceAppElementId="Leg_2"/>
+			</Leg>
+			<Leg Name="A">
+				<PhysicalMember PanelPropertyID="1" ID="3" StartNodeID="5" EndNodeID="6" SectionID="1" BetaAngle="-90" Label="Leg_A" SourceAppElementId="Leg_3"/>
+			</Leg>
+		</Legs>
+		<FaceBracingDetails>
+			<Face ID="1" Name="FaceA">
+				<Segments>
+					<Segment ID="1" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="4" MemberTag="DIAGONAL" StartNodeID="7" EndNodeID="9" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_4"/>
+						<PhysicalMember PanelPropertyID="T1" ID="5" MemberTag="DIAGONAL" StartNodeID="8" EndNodeID="10" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_5"/>
+						<PhysicalMember PanelPropertyID="T1" ID="6" MemberTag="TOPHORIZONTAL" StartNodeID="10" EndNodeID="9" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="TOPHORIZONTAL_6"/>
+						<PhysicalMember PanelPropertyID="T1" ID="7" MemberTag="DIAGONAL" StartNodeID="14" EndNodeID="16" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_7"/>
+						<PhysicalMember PanelPropertyID="T1" ID="8" MemberTag="DIAGONAL" StartNodeID="15" EndNodeID="17" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_8"/>
+						<PhysicalMember PanelPropertyID="T1" ID="9" MemberTag="TOPHORIZONTAL" StartNodeID="17" EndNodeID="16" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="TOPHORIZONTAL_9"/>
+						<PhysicalMember PanelPropertyID="T1" ID="10" MemberTag="DIAGONAL" StartNodeID="21" EndNodeID="23" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_10"/>
+						<PhysicalMember PanelPropertyID="T1" ID="11" MemberTag="DIAGONAL" StartNodeID="22" EndNodeID="24" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_11"/>
+						<PhysicalMember PanelPropertyID="T1" ID="12" MemberTag="TOPHORIZONTAL" StartNodeID="24" EndNodeID="23" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="TOPHORIZONTAL_12"/>
+					</Segment>
+					<Segment ID="2" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="13" MemberTag="DIAGONAL" StartNodeID="28" EndNodeID="30" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_13"/>
+						<PhysicalMember PanelPropertyID="T1" ID="14" MemberTag="DIAGONAL" StartNodeID="29" EndNodeID="31" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_14"/>
+						<PhysicalMember PanelPropertyID="T1" ID="15" MemberTag="DIAGONAL" StartNodeID="35" EndNodeID="37" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_15"/>
+						<PhysicalMember PanelPropertyID="T1" ID="16" MemberTag="DIAGONAL" StartNodeID="36" EndNodeID="38" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_16"/>
+						<PhysicalMember PanelPropertyID="T1" ID="17" MemberTag="DIAGONAL" StartNodeID="42" EndNodeID="44" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_17"/>
+						<PhysicalMember PanelPropertyID="T1" ID="18" MemberTag="DIAGONAL" StartNodeID="43" EndNodeID="45" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_18"/>
+					</Segment>
+					<Segment ID="3" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="19" MemberTag="DIAGONAL" StartNodeID="49" EndNodeID="51" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_19"/>
+						<PhysicalMember PanelPropertyID="T1" ID="20" MemberTag="DIAGONAL" StartNodeID="50" EndNodeID="52" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_20"/>
+						<PhysicalMember PanelPropertyID="T1" ID="21" MemberTag="DIAGONAL" StartNodeID="56" EndNodeID="58" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_21"/>
+						<PhysicalMember PanelPropertyID="T1" ID="22" MemberTag="DIAGONAL" StartNodeID="57" EndNodeID="59" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_22"/>
+						<PhysicalMember PanelPropertyID="T1" ID="23" MemberTag="DIAGONAL" StartNodeID="63" EndNodeID="65" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_23"/>
+						<PhysicalMember PanelPropertyID="T1" ID="24" MemberTag="DIAGONAL" StartNodeID="64" EndNodeID="66" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_24"/>
+					</Segment>
+					<Segment ID="4" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="25" MemberTag="DIAGONAL" StartNodeID="70" EndNodeID="72" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_25"/>
+						<PhysicalMember PanelPropertyID="T1" ID="26" MemberTag="DIAGONAL" StartNodeID="71" EndNodeID="73" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_26"/>
+						<PhysicalMember PanelPropertyID="T1" ID="27" MemberTag="DIAGONAL" StartNodeID="77" EndNodeID="79" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_27"/>
+						<PhysicalMember PanelPropertyID="T1" ID="28" MemberTag="DIAGONAL" StartNodeID="78" EndNodeID="80" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_28"/>
+						<PhysicalMember PanelPropertyID="T1" ID="29" MemberTag="DIAGONAL" StartNodeID="84" EndNodeID="86" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_29"/>
+						<PhysicalMember PanelPropertyID="T1" ID="30" MemberTag="DIAGONAL" StartNodeID="85" EndNodeID="87" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_30"/>
+					</Segment>
+					<Segment ID="5" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="31" MemberTag="DIAGONAL" StartNodeID="91" EndNodeID="93" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_31"/>
+						<PhysicalMember PanelPropertyID="T1" ID="32" MemberTag="DIAGONAL" StartNodeID="92" EndNodeID="94" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_32"/>
+						<PhysicalMember PanelPropertyID="T1" ID="33" MemberTag="DIAGONAL" StartNodeID="98" EndNodeID="100" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_33"/>
+						<PhysicalMember PanelPropertyID="T1" ID="34" MemberTag="DIAGONAL" StartNodeID="99" EndNodeID="101" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_34"/>
+						<PhysicalMember PanelPropertyID="T1" ID="35" MemberTag="DIAGONAL" StartNodeID="105" EndNodeID="107" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_35"/>
+						<PhysicalMember PanelPropertyID="T1" ID="36" MemberTag="DIAGONAL" StartNodeID="106" EndNodeID="108" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_36"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="2" Name="FaceB">
+				<Segments>
+					<Segment ID="1" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="37" MemberTag="DIAGONAL" StartNodeID="112" EndNodeID="114" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_37"/>
+						<PhysicalMember PanelPropertyID="T1" ID="38" MemberTag="DIAGONAL" StartNodeID="113" EndNodeID="115" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_38"/>
+						<PhysicalMember PanelPropertyID="T1" ID="39" MemberTag="TOPHORIZONTAL" StartNodeID="115" EndNodeID="114" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="TOPHORIZONTAL_39"/>
+						<PhysicalMember PanelPropertyID="T1" ID="40" MemberTag="DIAGONAL" StartNodeID="119" EndNodeID="121" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_40"/>
+						<PhysicalMember PanelPropertyID="T1" ID="41" MemberTag="DIAGONAL" StartNodeID="120" EndNodeID="122" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_41"/>
+						<PhysicalMember PanelPropertyID="T1" ID="42" MemberTag="TOPHORIZONTAL" StartNodeID="122" EndNodeID="121" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="TOPHORIZONTAL_42"/>
+						<PhysicalMember PanelPropertyID="T1" ID="43" MemberTag="DIAGONAL" StartNodeID="126" EndNodeID="128" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_43"/>
+						<PhysicalMember PanelPropertyID="T1" ID="44" MemberTag="DIAGONAL" StartNodeID="127" EndNodeID="129" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_44"/>
+						<PhysicalMember PanelPropertyID="T1" ID="45" MemberTag="TOPHORIZONTAL" StartNodeID="129" EndNodeID="128" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="TOPHORIZONTAL_45"/>
+					</Segment>
+					<Segment ID="2" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="46" MemberTag="DIAGONAL" StartNodeID="133" EndNodeID="135" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_46"/>
+						<PhysicalMember PanelPropertyID="T1" ID="47" MemberTag="DIAGONAL" StartNodeID="134" EndNodeID="136" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_47"/>
+						<PhysicalMember PanelPropertyID="T1" ID="48" MemberTag="DIAGONAL" StartNodeID="140" EndNodeID="142" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_48"/>
+						<PhysicalMember PanelPropertyID="T1" ID="49" MemberTag="DIAGONAL" StartNodeID="141" EndNodeID="143" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_49"/>
+						<PhysicalMember PanelPropertyID="T1" ID="50" MemberTag="DIAGONAL" StartNodeID="147" EndNodeID="149" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_50"/>
+						<PhysicalMember PanelPropertyID="T1" ID="51" MemberTag="DIAGONAL" StartNodeID="148" EndNodeID="150" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_51"/>
+					</Segment>
+					<Segment ID="3" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="52" MemberTag="DIAGONAL" StartNodeID="154" EndNodeID="156" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_52"/>
+						<PhysicalMember PanelPropertyID="T1" ID="53" MemberTag="DIAGONAL" StartNodeID="155" EndNodeID="157" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_53"/>
+						<PhysicalMember PanelPropertyID="T1" ID="54" MemberTag="DIAGONAL" StartNodeID="161" EndNodeID="163" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_54"/>
+						<PhysicalMember PanelPropertyID="T1" ID="55" MemberTag="DIAGONAL" StartNodeID="162" EndNodeID="164" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_55"/>
+						<PhysicalMember PanelPropertyID="T1" ID="56" MemberTag="DIAGONAL" StartNodeID="168" EndNodeID="170" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_56"/>
+						<PhysicalMember PanelPropertyID="T1" ID="57" MemberTag="DIAGONAL" StartNodeID="169" EndNodeID="171" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_57"/>
+					</Segment>
+					<Segment ID="4" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="58" MemberTag="DIAGONAL" StartNodeID="175" EndNodeID="177" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_58"/>
+						<PhysicalMember PanelPropertyID="T1" ID="59" MemberTag="DIAGONAL" StartNodeID="176" EndNodeID="178" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_59"/>
+						<PhysicalMember PanelPropertyID="T1" ID="60" MemberTag="DIAGONAL" StartNodeID="182" EndNodeID="184" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_60"/>
+						<PhysicalMember PanelPropertyID="T1" ID="61" MemberTag="DIAGONAL" StartNodeID="183" EndNodeID="185" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_61"/>
+						<PhysicalMember PanelPropertyID="T1" ID="62" MemberTag="DIAGONAL" StartNodeID="189" EndNodeID="191" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_62"/>
+						<PhysicalMember PanelPropertyID="T1" ID="63" MemberTag="DIAGONAL" StartNodeID="190" EndNodeID="192" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_63"/>
+					</Segment>
+					<Segment ID="5" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="64" MemberTag="DIAGONAL" StartNodeID="196" EndNodeID="198" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_64"/>
+						<PhysicalMember PanelPropertyID="T1" ID="65" MemberTag="DIAGONAL" StartNodeID="197" EndNodeID="199" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_65"/>
+						<PhysicalMember PanelPropertyID="T1" ID="66" MemberTag="DIAGONAL" StartNodeID="203" EndNodeID="205" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_66"/>
+						<PhysicalMember PanelPropertyID="T1" ID="67" MemberTag="DIAGONAL" StartNodeID="204" EndNodeID="206" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_67"/>
+						<PhysicalMember PanelPropertyID="T1" ID="68" MemberTag="DIAGONAL" StartNodeID="210" EndNodeID="212" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_68"/>
+						<PhysicalMember PanelPropertyID="T1" ID="69" MemberTag="DIAGONAL" StartNodeID="211" EndNodeID="213" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_69"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="3" Name="FaceC">
+				<Segments>
+					<Segment ID="1" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="70" MemberTag="DIAGONAL" StartNodeID="217" EndNodeID="219" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_70"/>
+						<PhysicalMember PanelPropertyID="T1" ID="71" MemberTag="DIAGONAL" StartNodeID="218" EndNodeID="220" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_71"/>
+						<PhysicalMember PanelPropertyID="T1" ID="72" MemberTag="TOPHORIZONTAL" StartNodeID="220" EndNodeID="219" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="TOPHORIZONTAL_72"/>
+						<PhysicalMember PanelPropertyID="T1" ID="73" MemberTag="DIAGONAL" StartNodeID="224" EndNodeID="226" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_73"/>
+						<PhysicalMember PanelPropertyID="T1" ID="74" MemberTag="DIAGONAL" StartNodeID="225" EndNodeID="227" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_74"/>
+						<PhysicalMember PanelPropertyID="T1" ID="75" MemberTag="TOPHORIZONTAL" StartNodeID="227" EndNodeID="226" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="TOPHORIZONTAL_75"/>
+						<PhysicalMember PanelPropertyID="T1" ID="76" MemberTag="DIAGONAL" StartNodeID="231" EndNodeID="233" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_76"/>
+						<PhysicalMember PanelPropertyID="T1" ID="77" MemberTag="DIAGONAL" StartNodeID="232" EndNodeID="234" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_77"/>
+						<PhysicalMember PanelPropertyID="T1" ID="78" MemberTag="TOPHORIZONTAL" StartNodeID="234" EndNodeID="233" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="TOPHORIZONTAL_78"/>
+					</Segment>
+					<Segment ID="2" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="79" MemberTag="DIAGONAL" StartNodeID="238" EndNodeID="240" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_79"/>
+						<PhysicalMember PanelPropertyID="T1" ID="80" MemberTag="DIAGONAL" StartNodeID="239" EndNodeID="241" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_80"/>
+						<PhysicalMember PanelPropertyID="T1" ID="81" MemberTag="DIAGONAL" StartNodeID="245" EndNodeID="247" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_81"/>
+						<PhysicalMember PanelPropertyID="T1" ID="82" MemberTag="DIAGONAL" StartNodeID="246" EndNodeID="248" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_82"/>
+						<PhysicalMember PanelPropertyID="T1" ID="83" MemberTag="DIAGONAL" StartNodeID="252" EndNodeID="254" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_83"/>
+						<PhysicalMember PanelPropertyID="T1" ID="84" MemberTag="DIAGONAL" StartNodeID="253" EndNodeID="255" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_84"/>
+					</Segment>
+					<Segment ID="3" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="85" MemberTag="DIAGONAL" StartNodeID="259" EndNodeID="261" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_85"/>
+						<PhysicalMember PanelPropertyID="T1" ID="86" MemberTag="DIAGONAL" StartNodeID="260" EndNodeID="262" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_86"/>
+						<PhysicalMember PanelPropertyID="T1" ID="87" MemberTag="DIAGONAL" StartNodeID="266" EndNodeID="268" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_87"/>
+						<PhysicalMember PanelPropertyID="T1" ID="88" MemberTag="DIAGONAL" StartNodeID="267" EndNodeID="269" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_88"/>
+						<PhysicalMember PanelPropertyID="T1" ID="89" MemberTag="DIAGONAL" StartNodeID="273" EndNodeID="275" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_89"/>
+						<PhysicalMember PanelPropertyID="T1" ID="90" MemberTag="DIAGONAL" StartNodeID="274" EndNodeID="276" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_90"/>
+					</Segment>
+					<Segment ID="4" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="91" MemberTag="DIAGONAL" StartNodeID="280" EndNodeID="282" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_91"/>
+						<PhysicalMember PanelPropertyID="T1" ID="92" MemberTag="DIAGONAL" StartNodeID="281" EndNodeID="283" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_92"/>
+						<PhysicalMember PanelPropertyID="T1" ID="93" MemberTag="DIAGONAL" StartNodeID="287" EndNodeID="289" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_93"/>
+						<PhysicalMember PanelPropertyID="T1" ID="94" MemberTag="DIAGONAL" StartNodeID="288" EndNodeID="290" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_94"/>
+						<PhysicalMember PanelPropertyID="T1" ID="95" MemberTag="DIAGONAL" StartNodeID="294" EndNodeID="296" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_95"/>
+						<PhysicalMember PanelPropertyID="T1" ID="96" MemberTag="DIAGONAL" StartNodeID="295" EndNodeID="297" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_96"/>
+					</Segment>
+					<Segment ID="5" Name="X Brace">
+						<PhysicalMember PanelPropertyID="T1" ID="97" MemberTag="DIAGONAL" StartNodeID="301" EndNodeID="303" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_97"/>
+						<PhysicalMember PanelPropertyID="T1" ID="98" MemberTag="DIAGONAL" StartNodeID="302" EndNodeID="304" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_98"/>
+						<PhysicalMember PanelPropertyID="T1" ID="99" MemberTag="DIAGONAL" StartNodeID="308" EndNodeID="310" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_99"/>
+						<PhysicalMember PanelPropertyID="T1" ID="100" MemberTag="DIAGONAL" StartNodeID="309" EndNodeID="311" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_100"/>
+						<PhysicalMember PanelPropertyID="T1" ID="101" MemberTag="DIAGONAL" StartNodeID="315" EndNodeID="317" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_101"/>
+						<PhysicalMember PanelPropertyID="T1" ID="102" MemberTag="DIAGONAL" StartNodeID="316" EndNodeID="318" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_102"/>
+					</Segment>
+				</Segments>
+			</Face>
+		</FaceBracingDetails>
+		<PlanBracingDetails/>
+		<HipBracingDetails/>
+	</Panel>
+	<Panel ID="T2">
+		<Legs>
+			<Leg Name="B">
+				<PhysicalMember PanelPropertyID="2" ID="103" StartNodeID="322" EndNodeID="323" SectionID="1" BetaAngle="-225" Label="Leg_B" SourceAppElementId="Leg_103"/>
+			</Leg>
+			<Leg Name="C">
+				<PhysicalMember PanelPropertyID="2" ID="104" StartNodeID="324" EndNodeID="325" SectionID="1" BetaAngle="90" Label="Leg_C" SourceAppElementId="Leg_104"/>
+			</Leg>
+			<Leg Name="A">
+				<PhysicalMember PanelPropertyID="2" ID="105" StartNodeID="326" EndNodeID="327" SectionID="1" BetaAngle="-90" Label="Leg_A" SourceAppElementId="Leg_105"/>
+			</Leg>
+		</Legs>
+		<FaceBracingDetails>
+			<Face ID="1" Name="FaceA">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="106" MemberTag="DIAGONAL" StartNodeID="328" EndNodeID="332" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_106"/>
+						<PhysicalMember PanelPropertyID="T2" ID="107" MemberTag="DIAGONAL" StartNodeID="329" EndNodeID="332" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_107"/>
+						<PhysicalMember PanelPropertyID="T2" ID="108" MemberTag="HORIZONTAL" StartNodeID="331" EndNodeID="330" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_108"/>
+						<PhysicalMember PanelPropertyID="T2" ID="109" MemberTag="DIAGONAL" StartNodeID="336" EndNodeID="340" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_109"/>
+						<PhysicalMember PanelPropertyID="T2" ID="110" MemberTag="DIAGONAL" StartNodeID="337" EndNodeID="340" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_110"/>
+						<PhysicalMember PanelPropertyID="T2" ID="111" MemberTag="HORIZONTAL" StartNodeID="339" EndNodeID="338" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_111"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="112" MemberTag="DIAGONAL" StartNodeID="344" EndNodeID="348" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_112"/>
+						<PhysicalMember PanelPropertyID="T2" ID="113" MemberTag="DIAGONAL" StartNodeID="345" EndNodeID="348" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_113"/>
+						<PhysicalMember PanelPropertyID="T2" ID="114" MemberTag="HORIZONTAL" StartNodeID="347" EndNodeID="346" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_114"/>
+						<PhysicalMember PanelPropertyID="T2" ID="115" MemberTag="DIAGONAL" StartNodeID="352" EndNodeID="356" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_115"/>
+						<PhysicalMember PanelPropertyID="T2" ID="116" MemberTag="DIAGONAL" StartNodeID="353" EndNodeID="356" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_116"/>
+						<PhysicalMember PanelPropertyID="T2" ID="117" MemberTag="HORIZONTAL" StartNodeID="355" EndNodeID="354" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_117"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="118" MemberTag="DIAGONAL" StartNodeID="360" EndNodeID="364" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_118"/>
+						<PhysicalMember PanelPropertyID="T2" ID="119" MemberTag="DIAGONAL" StartNodeID="361" EndNodeID="364" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_119"/>
+						<PhysicalMember PanelPropertyID="T2" ID="120" MemberTag="HORIZONTAL" StartNodeID="363" EndNodeID="362" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_120"/>
+						<PhysicalMember PanelPropertyID="T2" ID="121" MemberTag="DIAGONAL" StartNodeID="368" EndNodeID="372" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_121"/>
+						<PhysicalMember PanelPropertyID="T2" ID="122" MemberTag="DIAGONAL" StartNodeID="369" EndNodeID="372" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_122"/>
+						<PhysicalMember PanelPropertyID="T2" ID="123" MemberTag="HORIZONTAL" StartNodeID="371" EndNodeID="370" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_123"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="2" Name="FaceB">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="124" MemberTag="DIAGONAL" StartNodeID="376" EndNodeID="380" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_124"/>
+						<PhysicalMember PanelPropertyID="T2" ID="125" MemberTag="DIAGONAL" StartNodeID="377" EndNodeID="380" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_125"/>
+						<PhysicalMember PanelPropertyID="T2" ID="126" MemberTag="HORIZONTAL" StartNodeID="379" EndNodeID="378" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_126"/>
+						<PhysicalMember PanelPropertyID="T2" ID="127" MemberTag="DIAGONAL" StartNodeID="384" EndNodeID="388" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_127"/>
+						<PhysicalMember PanelPropertyID="T2" ID="128" MemberTag="DIAGONAL" StartNodeID="385" EndNodeID="388" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_128"/>
+						<PhysicalMember PanelPropertyID="T2" ID="129" MemberTag="HORIZONTAL" StartNodeID="387" EndNodeID="386" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_129"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="130" MemberTag="DIAGONAL" StartNodeID="392" EndNodeID="396" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_130"/>
+						<PhysicalMember PanelPropertyID="T2" ID="131" MemberTag="DIAGONAL" StartNodeID="393" EndNodeID="396" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_131"/>
+						<PhysicalMember PanelPropertyID="T2" ID="132" MemberTag="HORIZONTAL" StartNodeID="395" EndNodeID="394" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_132"/>
+						<PhysicalMember PanelPropertyID="T2" ID="133" MemberTag="DIAGONAL" StartNodeID="400" EndNodeID="404" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_133"/>
+						<PhysicalMember PanelPropertyID="T2" ID="134" MemberTag="DIAGONAL" StartNodeID="401" EndNodeID="404" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_134"/>
+						<PhysicalMember PanelPropertyID="T2" ID="135" MemberTag="HORIZONTAL" StartNodeID="403" EndNodeID="402" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_135"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="136" MemberTag="DIAGONAL" StartNodeID="408" EndNodeID="412" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_136"/>
+						<PhysicalMember PanelPropertyID="T2" ID="137" MemberTag="DIAGONAL" StartNodeID="409" EndNodeID="412" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_137"/>
+						<PhysicalMember PanelPropertyID="T2" ID="138" MemberTag="HORIZONTAL" StartNodeID="411" EndNodeID="410" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_138"/>
+						<PhysicalMember PanelPropertyID="T2" ID="139" MemberTag="DIAGONAL" StartNodeID="416" EndNodeID="420" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_139"/>
+						<PhysicalMember PanelPropertyID="T2" ID="140" MemberTag="DIAGONAL" StartNodeID="417" EndNodeID="420" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_140"/>
+						<PhysicalMember PanelPropertyID="T2" ID="141" MemberTag="HORIZONTAL" StartNodeID="419" EndNodeID="418" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_141"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="3" Name="FaceC">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="142" MemberTag="DIAGONAL" StartNodeID="424" EndNodeID="428" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_142"/>
+						<PhysicalMember PanelPropertyID="T2" ID="143" MemberTag="DIAGONAL" StartNodeID="425" EndNodeID="428" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_143"/>
+						<PhysicalMember PanelPropertyID="T2" ID="144" MemberTag="HORIZONTAL" StartNodeID="427" EndNodeID="426" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_144"/>
+						<PhysicalMember PanelPropertyID="T2" ID="145" MemberTag="DIAGONAL" StartNodeID="432" EndNodeID="436" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_145"/>
+						<PhysicalMember PanelPropertyID="T2" ID="146" MemberTag="DIAGONAL" StartNodeID="433" EndNodeID="436" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_146"/>
+						<PhysicalMember PanelPropertyID="T2" ID="147" MemberTag="HORIZONTAL" StartNodeID="435" EndNodeID="434" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_147"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="148" MemberTag="DIAGONAL" StartNodeID="440" EndNodeID="444" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_148"/>
+						<PhysicalMember PanelPropertyID="T2" ID="149" MemberTag="DIAGONAL" StartNodeID="441" EndNodeID="444" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_149"/>
+						<PhysicalMember PanelPropertyID="T2" ID="150" MemberTag="HORIZONTAL" StartNodeID="443" EndNodeID="442" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_150"/>
+						<PhysicalMember PanelPropertyID="T2" ID="151" MemberTag="DIAGONAL" StartNodeID="448" EndNodeID="452" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_151"/>
+						<PhysicalMember PanelPropertyID="T2" ID="152" MemberTag="DIAGONAL" StartNodeID="449" EndNodeID="452" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_152"/>
+						<PhysicalMember PanelPropertyID="T2" ID="153" MemberTag="HORIZONTAL" StartNodeID="451" EndNodeID="450" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_153"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T2" ID="154" MemberTag="DIAGONAL" StartNodeID="456" EndNodeID="460" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_154"/>
+						<PhysicalMember PanelPropertyID="T2" ID="155" MemberTag="DIAGONAL" StartNodeID="457" EndNodeID="460" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_155"/>
+						<PhysicalMember PanelPropertyID="T2" ID="156" MemberTag="HORIZONTAL" StartNodeID="459" EndNodeID="458" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_156"/>
+						<PhysicalMember PanelPropertyID="T2" ID="157" MemberTag="DIAGONAL" StartNodeID="464" EndNodeID="468" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_157"/>
+						<PhysicalMember PanelPropertyID="T2" ID="158" MemberTag="DIAGONAL" StartNodeID="465" EndNodeID="468" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_158"/>
+						<PhysicalMember PanelPropertyID="T2" ID="159" MemberTag="HORIZONTAL" StartNodeID="467" EndNodeID="466" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_159"/>
+					</Segment>
+				</Segments>
+			</Face>
+		</FaceBracingDetails>
+		<PlanBracingDetails>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="1" ID="160" MemberTag="INNERBRACING1" StartNodeID="472" EndNodeID="473" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan0" SourceAppElementId="Inner__160"/>
+				<PhysicalMember PanelPropertyID="1" ID="161" MemberTag="INNERBRACING1" StartNodeID="474" EndNodeID="475" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan1" SourceAppElementId="Inner__161"/>
+				<PhysicalMember PanelPropertyID="1" ID="162" MemberTag="INNERBRACING1" StartNodeID="476" EndNodeID="477" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan2" SourceAppElementId="Inner__162"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="1" ID="163" MemberTag="INNERBRACING1" StartNodeID="478" EndNodeID="479" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan3" SourceAppElementId="Inner__163"/>
+				<PhysicalMember PanelPropertyID="1" ID="164" MemberTag="INNERBRACING1" StartNodeID="480" EndNodeID="481" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan4" SourceAppElementId="Inner__164"/>
+				<PhysicalMember PanelPropertyID="1" ID="165" MemberTag="INNERBRACING1" StartNodeID="482" EndNodeID="483" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan5" SourceAppElementId="Inner__165"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="1" ID="166" MemberTag="INNERBRACING1" StartNodeID="484" EndNodeID="485" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan6" SourceAppElementId="Inner__166"/>
+				<PhysicalMember PanelPropertyID="1" ID="167" MemberTag="INNERBRACING1" StartNodeID="486" EndNodeID="487" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan7" SourceAppElementId="Inner__167"/>
+				<PhysicalMember PanelPropertyID="1" ID="168" MemberTag="INNERBRACING1" StartNodeID="488" EndNodeID="489" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan8" SourceAppElementId="Inner__168"/>
+			</PlanBracing>
+		</PlanBracingDetails>
+		<HipBracingDetails/>
+	</Panel>
+	<Panel ID="T3">
+		<Legs>
+			<Leg Name="B">
+				<PhysicalMember PanelPropertyID="3" ID="169" StartNodeID="490" EndNodeID="491" SectionID="1" BetaAngle="-225" Label="Leg_B" SourceAppElementId="Leg_169"/>
+			</Leg>
+			<Leg Name="C">
+				<PhysicalMember PanelPropertyID="3" ID="170" StartNodeID="492" EndNodeID="493" SectionID="1" BetaAngle="90" Label="Leg_C" SourceAppElementId="Leg_170"/>
+			</Leg>
+			<Leg Name="A">
+				<PhysicalMember PanelPropertyID="3" ID="171" StartNodeID="494" EndNodeID="495" SectionID="1" BetaAngle="-90" Label="Leg_A" SourceAppElementId="Leg_171"/>
+			</Leg>
+		</Legs>
+		<FaceBracingDetails>
+			<Face ID="1" Name="FaceA">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="172" MemberTag="DIAGONAL" StartNodeID="496" EndNodeID="500" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_172"/>
+						<PhysicalMember PanelPropertyID="T3" ID="173" MemberTag="DIAGONAL" StartNodeID="497" EndNodeID="500" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_173"/>
+						<PhysicalMember PanelPropertyID="T3" ID="174" MemberTag="HORIZONTAL" StartNodeID="499" EndNodeID="498" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_174"/>
+						<PhysicalMember PanelPropertyID="T3" ID="175" MemberTag="DIAGONAL" StartNodeID="504" EndNodeID="508" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_175"/>
+						<PhysicalMember PanelPropertyID="T3" ID="176" MemberTag="DIAGONAL" StartNodeID="505" EndNodeID="508" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_176"/>
+						<PhysicalMember PanelPropertyID="T3" ID="177" MemberTag="HORIZONTAL" StartNodeID="507" EndNodeID="506" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_177"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="178" MemberTag="DIAGONAL" StartNodeID="512" EndNodeID="516" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_178"/>
+						<PhysicalMember PanelPropertyID="T3" ID="179" MemberTag="DIAGONAL" StartNodeID="513" EndNodeID="516" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_179"/>
+						<PhysicalMember PanelPropertyID="T3" ID="180" MemberTag="HORIZONTAL" StartNodeID="515" EndNodeID="514" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_180"/>
+						<PhysicalMember PanelPropertyID="T3" ID="181" MemberTag="DIAGONAL" StartNodeID="520" EndNodeID="524" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_181"/>
+						<PhysicalMember PanelPropertyID="T3" ID="182" MemberTag="DIAGONAL" StartNodeID="521" EndNodeID="524" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_182"/>
+						<PhysicalMember PanelPropertyID="T3" ID="183" MemberTag="HORIZONTAL" StartNodeID="523" EndNodeID="522" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_183"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="184" MemberTag="DIAGONAL" StartNodeID="528" EndNodeID="532" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_184"/>
+						<PhysicalMember PanelPropertyID="T3" ID="185" MemberTag="DIAGONAL" StartNodeID="529" EndNodeID="532" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_185"/>
+						<PhysicalMember PanelPropertyID="T3" ID="186" MemberTag="HORIZONTAL" StartNodeID="531" EndNodeID="530" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_186"/>
+						<PhysicalMember PanelPropertyID="T3" ID="187" MemberTag="DIAGONAL" StartNodeID="536" EndNodeID="540" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_187"/>
+						<PhysicalMember PanelPropertyID="T3" ID="188" MemberTag="DIAGONAL" StartNodeID="537" EndNodeID="540" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_188"/>
+						<PhysicalMember PanelPropertyID="T3" ID="189" MemberTag="HORIZONTAL" StartNodeID="539" EndNodeID="538" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_189"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="2" Name="FaceB">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="190" MemberTag="DIAGONAL" StartNodeID="544" EndNodeID="548" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_190"/>
+						<PhysicalMember PanelPropertyID="T3" ID="191" MemberTag="DIAGONAL" StartNodeID="545" EndNodeID="548" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_191"/>
+						<PhysicalMember PanelPropertyID="T3" ID="192" MemberTag="HORIZONTAL" StartNodeID="547" EndNodeID="546" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_192"/>
+						<PhysicalMember PanelPropertyID="T3" ID="193" MemberTag="DIAGONAL" StartNodeID="552" EndNodeID="556" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_193"/>
+						<PhysicalMember PanelPropertyID="T3" ID="194" MemberTag="DIAGONAL" StartNodeID="553" EndNodeID="556" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_194"/>
+						<PhysicalMember PanelPropertyID="T3" ID="195" MemberTag="HORIZONTAL" StartNodeID="555" EndNodeID="554" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_195"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="196" MemberTag="DIAGONAL" StartNodeID="560" EndNodeID="564" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_196"/>
+						<PhysicalMember PanelPropertyID="T3" ID="197" MemberTag="DIAGONAL" StartNodeID="561" EndNodeID="564" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_197"/>
+						<PhysicalMember PanelPropertyID="T3" ID="198" MemberTag="HORIZONTAL" StartNodeID="563" EndNodeID="562" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_198"/>
+						<PhysicalMember PanelPropertyID="T3" ID="199" MemberTag="DIAGONAL" StartNodeID="568" EndNodeID="572" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_199"/>
+						<PhysicalMember PanelPropertyID="T3" ID="200" MemberTag="DIAGONAL" StartNodeID="569" EndNodeID="572" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_200"/>
+						<PhysicalMember PanelPropertyID="T3" ID="201" MemberTag="HORIZONTAL" StartNodeID="571" EndNodeID="570" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_201"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="202" MemberTag="DIAGONAL" StartNodeID="576" EndNodeID="580" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_202"/>
+						<PhysicalMember PanelPropertyID="T3" ID="203" MemberTag="DIAGONAL" StartNodeID="577" EndNodeID="580" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_203"/>
+						<PhysicalMember PanelPropertyID="T3" ID="204" MemberTag="HORIZONTAL" StartNodeID="579" EndNodeID="578" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_204"/>
+						<PhysicalMember PanelPropertyID="T3" ID="205" MemberTag="DIAGONAL" StartNodeID="584" EndNodeID="588" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_205"/>
+						<PhysicalMember PanelPropertyID="T3" ID="206" MemberTag="DIAGONAL" StartNodeID="585" EndNodeID="588" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_206"/>
+						<PhysicalMember PanelPropertyID="T3" ID="207" MemberTag="HORIZONTAL" StartNodeID="587" EndNodeID="586" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_207"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="3" Name="FaceC">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="208" MemberTag="DIAGONAL" StartNodeID="592" EndNodeID="596" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_208"/>
+						<PhysicalMember PanelPropertyID="T3" ID="209" MemberTag="DIAGONAL" StartNodeID="593" EndNodeID="596" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_209"/>
+						<PhysicalMember PanelPropertyID="T3" ID="210" MemberTag="HORIZONTAL" StartNodeID="595" EndNodeID="594" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_210"/>
+						<PhysicalMember PanelPropertyID="T3" ID="211" MemberTag="DIAGONAL" StartNodeID="600" EndNodeID="604" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_211"/>
+						<PhysicalMember PanelPropertyID="T3" ID="212" MemberTag="DIAGONAL" StartNodeID="601" EndNodeID="604" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_212"/>
+						<PhysicalMember PanelPropertyID="T3" ID="213" MemberTag="HORIZONTAL" StartNodeID="603" EndNodeID="602" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_213"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="214" MemberTag="DIAGONAL" StartNodeID="608" EndNodeID="612" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_214"/>
+						<PhysicalMember PanelPropertyID="T3" ID="215" MemberTag="DIAGONAL" StartNodeID="609" EndNodeID="612" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_215"/>
+						<PhysicalMember PanelPropertyID="T3" ID="216" MemberTag="HORIZONTAL" StartNodeID="611" EndNodeID="610" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_216"/>
+						<PhysicalMember PanelPropertyID="T3" ID="217" MemberTag="DIAGONAL" StartNodeID="616" EndNodeID="620" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_217"/>
+						<PhysicalMember PanelPropertyID="T3" ID="218" MemberTag="DIAGONAL" StartNodeID="617" EndNodeID="620" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_218"/>
+						<PhysicalMember PanelPropertyID="T3" ID="219" MemberTag="HORIZONTAL" StartNodeID="619" EndNodeID="618" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_219"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T3" ID="220" MemberTag="DIAGONAL" StartNodeID="624" EndNodeID="628" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_220"/>
+						<PhysicalMember PanelPropertyID="T3" ID="221" MemberTag="DIAGONAL" StartNodeID="625" EndNodeID="628" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_221"/>
+						<PhysicalMember PanelPropertyID="T3" ID="222" MemberTag="HORIZONTAL" StartNodeID="627" EndNodeID="626" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_222"/>
+						<PhysicalMember PanelPropertyID="T3" ID="223" MemberTag="DIAGONAL" StartNodeID="632" EndNodeID="636" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_223"/>
+						<PhysicalMember PanelPropertyID="T3" ID="224" MemberTag="DIAGONAL" StartNodeID="633" EndNodeID="636" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_224"/>
+						<PhysicalMember PanelPropertyID="T3" ID="225" MemberTag="HORIZONTAL" StartNodeID="635" EndNodeID="634" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_225"/>
+					</Segment>
+				</Segments>
+			</Face>
+		</FaceBracingDetails>
+		<PlanBracingDetails>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="2" ID="226" MemberTag="INNERBRACING1" StartNodeID="640" EndNodeID="641" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan0" SourceAppElementId="Inner__226"/>
+				<PhysicalMember PanelPropertyID="2" ID="227" MemberTag="INNERBRACING1" StartNodeID="642" EndNodeID="643" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan1" SourceAppElementId="Inner__227"/>
+				<PhysicalMember PanelPropertyID="2" ID="228" MemberTag="INNERBRACING1" StartNodeID="644" EndNodeID="645" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan2" SourceAppElementId="Inner__228"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="2" ID="229" MemberTag="INNERBRACING1" StartNodeID="646" EndNodeID="647" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan3" SourceAppElementId="Inner__229"/>
+				<PhysicalMember PanelPropertyID="2" ID="230" MemberTag="INNERBRACING1" StartNodeID="648" EndNodeID="649" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan4" SourceAppElementId="Inner__230"/>
+				<PhysicalMember PanelPropertyID="2" ID="231" MemberTag="INNERBRACING1" StartNodeID="650" EndNodeID="651" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan5" SourceAppElementId="Inner__231"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="2" ID="232" MemberTag="INNERBRACING1" StartNodeID="652" EndNodeID="653" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan6" SourceAppElementId="Inner__232"/>
+				<PhysicalMember PanelPropertyID="2" ID="233" MemberTag="INNERBRACING1" StartNodeID="654" EndNodeID="655" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan7" SourceAppElementId="Inner__233"/>
+				<PhysicalMember PanelPropertyID="2" ID="234" MemberTag="INNERBRACING1" StartNodeID="656" EndNodeID="657" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan8" SourceAppElementId="Inner__234"/>
+			</PlanBracing>
+		</PlanBracingDetails>
+		<HipBracingDetails/>
+	</Panel>
+	<Panel ID="T4">
+		<Legs>
+			<Leg Name="B">
+				<PhysicalMember PanelPropertyID="4" ID="235" StartNodeID="658" EndNodeID="659" SectionID="1" BetaAngle="-225" Label="Leg_B" SourceAppElementId="Leg_235"/>
+			</Leg>
+			<Leg Name="C">
+				<PhysicalMember PanelPropertyID="4" ID="236" StartNodeID="660" EndNodeID="661" SectionID="1" BetaAngle="90" Label="Leg_C" SourceAppElementId="Leg_236"/>
+			</Leg>
+			<Leg Name="A">
+				<PhysicalMember PanelPropertyID="4" ID="237" StartNodeID="662" EndNodeID="663" SectionID="1" BetaAngle="-90" Label="Leg_A" SourceAppElementId="Leg_237"/>
+			</Leg>
+		</Legs>
+		<FaceBracingDetails>
+			<Face ID="1" Name="FaceA">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="238" MemberTag="DIAGONAL" StartNodeID="664" EndNodeID="668" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_238"/>
+						<PhysicalMember PanelPropertyID="T4" ID="239" MemberTag="DIAGONAL" StartNodeID="665" EndNodeID="668" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_239"/>
+						<PhysicalMember PanelPropertyID="T4" ID="240" MemberTag="HORIZONTAL" StartNodeID="667" EndNodeID="666" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_240"/>
+						<PhysicalMember PanelPropertyID="T4" ID="241" MemberTag="DIAGONAL" StartNodeID="672" EndNodeID="676" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_241"/>
+						<PhysicalMember PanelPropertyID="T4" ID="242" MemberTag="DIAGONAL" StartNodeID="673" EndNodeID="676" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_242"/>
+						<PhysicalMember PanelPropertyID="T4" ID="243" MemberTag="HORIZONTAL" StartNodeID="675" EndNodeID="674" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_243"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="244" MemberTag="DIAGONAL" StartNodeID="680" EndNodeID="684" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_244"/>
+						<PhysicalMember PanelPropertyID="T4" ID="245" MemberTag="DIAGONAL" StartNodeID="681" EndNodeID="684" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_245"/>
+						<PhysicalMember PanelPropertyID="T4" ID="246" MemberTag="HORIZONTAL" StartNodeID="683" EndNodeID="682" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_246"/>
+						<PhysicalMember PanelPropertyID="T4" ID="247" MemberTag="DIAGONAL" StartNodeID="688" EndNodeID="692" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_247"/>
+						<PhysicalMember PanelPropertyID="T4" ID="248" MemberTag="DIAGONAL" StartNodeID="689" EndNodeID="692" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_248"/>
+						<PhysicalMember PanelPropertyID="T4" ID="249" MemberTag="HORIZONTAL" StartNodeID="691" EndNodeID="690" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_249"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="250" MemberTag="DIAGONAL" StartNodeID="696" EndNodeID="700" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_250"/>
+						<PhysicalMember PanelPropertyID="T4" ID="251" MemberTag="DIAGONAL" StartNodeID="697" EndNodeID="700" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_251"/>
+						<PhysicalMember PanelPropertyID="T4" ID="252" MemberTag="HORIZONTAL" StartNodeID="699" EndNodeID="698" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_252"/>
+						<PhysicalMember PanelPropertyID="T4" ID="253" MemberTag="DIAGONAL" StartNodeID="704" EndNodeID="708" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_253"/>
+						<PhysicalMember PanelPropertyID="T4" ID="254" MemberTag="DIAGONAL" StartNodeID="705" EndNodeID="708" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_254"/>
+						<PhysicalMember PanelPropertyID="T4" ID="255" MemberTag="HORIZONTAL" StartNodeID="707" EndNodeID="706" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_255"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="2" Name="FaceB">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="256" MemberTag="DIAGONAL" StartNodeID="712" EndNodeID="716" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_256"/>
+						<PhysicalMember PanelPropertyID="T4" ID="257" MemberTag="DIAGONAL" StartNodeID="713" EndNodeID="716" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_257"/>
+						<PhysicalMember PanelPropertyID="T4" ID="258" MemberTag="HORIZONTAL" StartNodeID="715" EndNodeID="714" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_258"/>
+						<PhysicalMember PanelPropertyID="T4" ID="259" MemberTag="DIAGONAL" StartNodeID="720" EndNodeID="724" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_259"/>
+						<PhysicalMember PanelPropertyID="T4" ID="260" MemberTag="DIAGONAL" StartNodeID="721" EndNodeID="724" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_260"/>
+						<PhysicalMember PanelPropertyID="T4" ID="261" MemberTag="HORIZONTAL" StartNodeID="723" EndNodeID="722" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_261"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="262" MemberTag="DIAGONAL" StartNodeID="728" EndNodeID="732" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_262"/>
+						<PhysicalMember PanelPropertyID="T4" ID="263" MemberTag="DIAGONAL" StartNodeID="729" EndNodeID="732" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_263"/>
+						<PhysicalMember PanelPropertyID="T4" ID="264" MemberTag="HORIZONTAL" StartNodeID="731" EndNodeID="730" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_264"/>
+						<PhysicalMember PanelPropertyID="T4" ID="265" MemberTag="DIAGONAL" StartNodeID="736" EndNodeID="740" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_265"/>
+						<PhysicalMember PanelPropertyID="T4" ID="266" MemberTag="DIAGONAL" StartNodeID="737" EndNodeID="740" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_266"/>
+						<PhysicalMember PanelPropertyID="T4" ID="267" MemberTag="HORIZONTAL" StartNodeID="739" EndNodeID="738" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_267"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="268" MemberTag="DIAGONAL" StartNodeID="744" EndNodeID="748" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_268"/>
+						<PhysicalMember PanelPropertyID="T4" ID="269" MemberTag="DIAGONAL" StartNodeID="745" EndNodeID="748" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_269"/>
+						<PhysicalMember PanelPropertyID="T4" ID="270" MemberTag="HORIZONTAL" StartNodeID="747" EndNodeID="746" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_270"/>
+						<PhysicalMember PanelPropertyID="T4" ID="271" MemberTag="DIAGONAL" StartNodeID="752" EndNodeID="756" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_271"/>
+						<PhysicalMember PanelPropertyID="T4" ID="272" MemberTag="DIAGONAL" StartNodeID="753" EndNodeID="756" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_272"/>
+						<PhysicalMember PanelPropertyID="T4" ID="273" MemberTag="HORIZONTAL" StartNodeID="755" EndNodeID="754" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_273"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="3" Name="FaceC">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="274" MemberTag="DIAGONAL" StartNodeID="760" EndNodeID="764" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_274"/>
+						<PhysicalMember PanelPropertyID="T4" ID="275" MemberTag="DIAGONAL" StartNodeID="761" EndNodeID="764" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_275"/>
+						<PhysicalMember PanelPropertyID="T4" ID="276" MemberTag="HORIZONTAL" StartNodeID="763" EndNodeID="762" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_276"/>
+						<PhysicalMember PanelPropertyID="T4" ID="277" MemberTag="DIAGONAL" StartNodeID="768" EndNodeID="772" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_277"/>
+						<PhysicalMember PanelPropertyID="T4" ID="278" MemberTag="DIAGONAL" StartNodeID="769" EndNodeID="772" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_278"/>
+						<PhysicalMember PanelPropertyID="T4" ID="279" MemberTag="HORIZONTAL" StartNodeID="771" EndNodeID="770" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_279"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="280" MemberTag="DIAGONAL" StartNodeID="776" EndNodeID="780" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_280"/>
+						<PhysicalMember PanelPropertyID="T4" ID="281" MemberTag="DIAGONAL" StartNodeID="777" EndNodeID="780" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_281"/>
+						<PhysicalMember PanelPropertyID="T4" ID="282" MemberTag="HORIZONTAL" StartNodeID="779" EndNodeID="778" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_282"/>
+						<PhysicalMember PanelPropertyID="T4" ID="283" MemberTag="DIAGONAL" StartNodeID="784" EndNodeID="788" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_283"/>
+						<PhysicalMember PanelPropertyID="T4" ID="284" MemberTag="DIAGONAL" StartNodeID="785" EndNodeID="788" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_284"/>
+						<PhysicalMember PanelPropertyID="T4" ID="285" MemberTag="HORIZONTAL" StartNodeID="787" EndNodeID="786" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_285"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T4" ID="286" MemberTag="DIAGONAL" StartNodeID="792" EndNodeID="796" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_286"/>
+						<PhysicalMember PanelPropertyID="T4" ID="287" MemberTag="DIAGONAL" StartNodeID="793" EndNodeID="796" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_287"/>
+						<PhysicalMember PanelPropertyID="T4" ID="288" MemberTag="HORIZONTAL" StartNodeID="795" EndNodeID="794" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_288"/>
+						<PhysicalMember PanelPropertyID="T4" ID="289" MemberTag="DIAGONAL" StartNodeID="800" EndNodeID="804" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_289"/>
+						<PhysicalMember PanelPropertyID="T4" ID="290" MemberTag="DIAGONAL" StartNodeID="801" EndNodeID="804" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_290"/>
+						<PhysicalMember PanelPropertyID="T4" ID="291" MemberTag="HORIZONTAL" StartNodeID="803" EndNodeID="802" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_291"/>
+					</Segment>
+				</Segments>
+			</Face>
+		</FaceBracingDetails>
+		<PlanBracingDetails>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="3" ID="292" MemberTag="INNERBRACING1" StartNodeID="808" EndNodeID="809" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan0" SourceAppElementId="Inner__292"/>
+				<PhysicalMember PanelPropertyID="3" ID="293" MemberTag="INNERBRACING1" StartNodeID="810" EndNodeID="811" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan1" SourceAppElementId="Inner__293"/>
+				<PhysicalMember PanelPropertyID="3" ID="294" MemberTag="INNERBRACING1" StartNodeID="812" EndNodeID="813" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan2" SourceAppElementId="Inner__294"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="3" ID="295" MemberTag="INNERBRACING1" StartNodeID="814" EndNodeID="815" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan3" SourceAppElementId="Inner__295"/>
+				<PhysicalMember PanelPropertyID="3" ID="296" MemberTag="INNERBRACING1" StartNodeID="816" EndNodeID="817" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan4" SourceAppElementId="Inner__296"/>
+				<PhysicalMember PanelPropertyID="3" ID="297" MemberTag="INNERBRACING1" StartNodeID="818" EndNodeID="819" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan5" SourceAppElementId="Inner__297"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="3" ID="298" MemberTag="INNERBRACING1" StartNodeID="820" EndNodeID="821" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan6" SourceAppElementId="Inner__298"/>
+				<PhysicalMember PanelPropertyID="3" ID="299" MemberTag="INNERBRACING1" StartNodeID="822" EndNodeID="823" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan7" SourceAppElementId="Inner__299"/>
+				<PhysicalMember PanelPropertyID="3" ID="300" MemberTag="INNERBRACING1" StartNodeID="824" EndNodeID="825" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan8" SourceAppElementId="Inner__300"/>
+			</PlanBracing>
+		</PlanBracingDetails>
+		<HipBracingDetails/>
+	</Panel>
+	<Panel ID="T5">
+		<Legs>
+			<Leg Name="B">
+				<PhysicalMember PanelPropertyID="5" ID="301" StartNodeID="826" EndNodeID="827" SectionID="1" BetaAngle="-225" Label="Leg_B" SourceAppElementId="Leg_301"/>
+			</Leg>
+			<Leg Name="C">
+				<PhysicalMember PanelPropertyID="5" ID="302" StartNodeID="828" EndNodeID="829" SectionID="1" BetaAngle="90" Label="Leg_C" SourceAppElementId="Leg_302"/>
+			</Leg>
+			<Leg Name="A">
+				<PhysicalMember PanelPropertyID="5" ID="303" StartNodeID="830" EndNodeID="831" SectionID="1" BetaAngle="-90" Label="Leg_A" SourceAppElementId="Leg_303"/>
+			</Leg>
+		</Legs>
+		<FaceBracingDetails>
+			<Face ID="1" Name="FaceA">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="304" MemberTag="DIAGONAL" StartNodeID="832" EndNodeID="836" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_304"/>
+						<PhysicalMember PanelPropertyID="T5" ID="305" MemberTag="DIAGONAL" StartNodeID="833" EndNodeID="836" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_305"/>
+						<PhysicalMember PanelPropertyID="T5" ID="306" MemberTag="HORIZONTAL" StartNodeID="835" EndNodeID="834" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_306"/>
+						<PhysicalMember PanelPropertyID="T5" ID="307" MemberTag="DIAGONAL" StartNodeID="840" EndNodeID="844" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_307"/>
+						<PhysicalMember PanelPropertyID="T5" ID="308" MemberTag="DIAGONAL" StartNodeID="841" EndNodeID="844" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_308"/>
+						<PhysicalMember PanelPropertyID="T5" ID="309" MemberTag="HORIZONTAL" StartNodeID="843" EndNodeID="842" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_309"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="310" MemberTag="DIAGONAL" StartNodeID="848" EndNodeID="852" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_310"/>
+						<PhysicalMember PanelPropertyID="T5" ID="311" MemberTag="DIAGONAL" StartNodeID="849" EndNodeID="852" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_311"/>
+						<PhysicalMember PanelPropertyID="T5" ID="312" MemberTag="HORIZONTAL" StartNodeID="851" EndNodeID="850" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_312"/>
+						<PhysicalMember PanelPropertyID="T5" ID="313" MemberTag="DIAGONAL" StartNodeID="856" EndNodeID="860" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_313"/>
+						<PhysicalMember PanelPropertyID="T5" ID="314" MemberTag="DIAGONAL" StartNodeID="857" EndNodeID="860" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_314"/>
+						<PhysicalMember PanelPropertyID="T5" ID="315" MemberTag="HORIZONTAL" StartNodeID="859" EndNodeID="858" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_315"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="316" MemberTag="DIAGONAL" StartNodeID="864" EndNodeID="868" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_316"/>
+						<PhysicalMember PanelPropertyID="T5" ID="317" MemberTag="DIAGONAL" StartNodeID="865" EndNodeID="868" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_317"/>
+						<PhysicalMember PanelPropertyID="T5" ID="318" MemberTag="HORIZONTAL" StartNodeID="867" EndNodeID="866" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_318"/>
+						<PhysicalMember PanelPropertyID="T5" ID="319" MemberTag="DIAGONAL" StartNodeID="872" EndNodeID="876" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_0" SourceAppElementId="DIAGONAL_319"/>
+						<PhysicalMember PanelPropertyID="T5" ID="320" MemberTag="DIAGONAL" StartNodeID="873" EndNodeID="876" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_1" SourceAppElementId="DIAGONAL_320"/>
+						<PhysicalMember PanelPropertyID="T5" ID="321" MemberTag="HORIZONTAL" StartNodeID="875" EndNodeID="874" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_A_2" SourceAppElementId="HORIZONTAL_321"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="2" Name="FaceB">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="322" MemberTag="DIAGONAL" StartNodeID="880" EndNodeID="884" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_322"/>
+						<PhysicalMember PanelPropertyID="T5" ID="323" MemberTag="DIAGONAL" StartNodeID="881" EndNodeID="884" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_323"/>
+						<PhysicalMember PanelPropertyID="T5" ID="324" MemberTag="HORIZONTAL" StartNodeID="883" EndNodeID="882" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_324"/>
+						<PhysicalMember PanelPropertyID="T5" ID="325" MemberTag="DIAGONAL" StartNodeID="888" EndNodeID="892" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_325"/>
+						<PhysicalMember PanelPropertyID="T5" ID="326" MemberTag="DIAGONAL" StartNodeID="889" EndNodeID="892" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_326"/>
+						<PhysicalMember PanelPropertyID="T5" ID="327" MemberTag="HORIZONTAL" StartNodeID="891" EndNodeID="890" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_327"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="328" MemberTag="DIAGONAL" StartNodeID="896" EndNodeID="900" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_328"/>
+						<PhysicalMember PanelPropertyID="T5" ID="329" MemberTag="DIAGONAL" StartNodeID="897" EndNodeID="900" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_329"/>
+						<PhysicalMember PanelPropertyID="T5" ID="330" MemberTag="HORIZONTAL" StartNodeID="899" EndNodeID="898" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_330"/>
+						<PhysicalMember PanelPropertyID="T5" ID="331" MemberTag="DIAGONAL" StartNodeID="904" EndNodeID="908" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_331"/>
+						<PhysicalMember PanelPropertyID="T5" ID="332" MemberTag="DIAGONAL" StartNodeID="905" EndNodeID="908" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_332"/>
+						<PhysicalMember PanelPropertyID="T5" ID="333" MemberTag="HORIZONTAL" StartNodeID="907" EndNodeID="906" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_333"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="334" MemberTag="DIAGONAL" StartNodeID="912" EndNodeID="916" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_334"/>
+						<PhysicalMember PanelPropertyID="T5" ID="335" MemberTag="DIAGONAL" StartNodeID="913" EndNodeID="916" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_335"/>
+						<PhysicalMember PanelPropertyID="T5" ID="336" MemberTag="HORIZONTAL" StartNodeID="915" EndNodeID="914" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_336"/>
+						<PhysicalMember PanelPropertyID="T5" ID="337" MemberTag="DIAGONAL" StartNodeID="920" EndNodeID="924" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_0" SourceAppElementId="DIAGONAL_337"/>
+						<PhysicalMember PanelPropertyID="T5" ID="338" MemberTag="DIAGONAL" StartNodeID="921" EndNodeID="924" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_1" SourceAppElementId="DIAGONAL_338"/>
+						<PhysicalMember PanelPropertyID="T5" ID="339" MemberTag="HORIZONTAL" StartNodeID="923" EndNodeID="922" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_B_2" SourceAppElementId="HORIZONTAL_339"/>
+					</Segment>
+				</Segments>
+			</Face>
+			<Face ID="3" Name="FaceC">
+				<Segments>
+					<Segment ID="1" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="340" MemberTag="DIAGONAL" StartNodeID="928" EndNodeID="932" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_340"/>
+						<PhysicalMember PanelPropertyID="T5" ID="341" MemberTag="DIAGONAL" StartNodeID="929" EndNodeID="932" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_341"/>
+						<PhysicalMember PanelPropertyID="T5" ID="342" MemberTag="HORIZONTAL" StartNodeID="931" EndNodeID="930" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_342"/>
+						<PhysicalMember PanelPropertyID="T5" ID="343" MemberTag="DIAGONAL" StartNodeID="936" EndNodeID="940" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_343"/>
+						<PhysicalMember PanelPropertyID="T5" ID="344" MemberTag="DIAGONAL" StartNodeID="937" EndNodeID="940" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_344"/>
+						<PhysicalMember PanelPropertyID="T5" ID="345" MemberTag="HORIZONTAL" StartNodeID="939" EndNodeID="938" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_345"/>
+					</Segment>
+					<Segment ID="2" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="346" MemberTag="DIAGONAL" StartNodeID="944" EndNodeID="948" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_346"/>
+						<PhysicalMember PanelPropertyID="T5" ID="347" MemberTag="DIAGONAL" StartNodeID="945" EndNodeID="948" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_347"/>
+						<PhysicalMember PanelPropertyID="T5" ID="348" MemberTag="HORIZONTAL" StartNodeID="947" EndNodeID="946" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_348"/>
+						<PhysicalMember PanelPropertyID="T5" ID="349" MemberTag="DIAGONAL" StartNodeID="952" EndNodeID="956" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_349"/>
+						<PhysicalMember PanelPropertyID="T5" ID="350" MemberTag="DIAGONAL" StartNodeID="953" EndNodeID="956" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_350"/>
+						<PhysicalMember PanelPropertyID="T5" ID="351" MemberTag="HORIZONTAL" StartNodeID="955" EndNodeID="954" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_351"/>
+					</Segment>
+					<Segment ID="3" Name="K Brace Down">
+						<PhysicalMember PanelPropertyID="T5" ID="352" MemberTag="DIAGONAL" StartNodeID="960" EndNodeID="964" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_352"/>
+						<PhysicalMember PanelPropertyID="T5" ID="353" MemberTag="DIAGONAL" StartNodeID="961" EndNodeID="964" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_353"/>
+						<PhysicalMember PanelPropertyID="T5" ID="354" MemberTag="HORIZONTAL" StartNodeID="963" EndNodeID="962" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_354"/>
+						<PhysicalMember PanelPropertyID="T5" ID="355" MemberTag="DIAGONAL" StartNodeID="968" EndNodeID="972" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_0" SourceAppElementId="DIAGONAL_355"/>
+						<PhysicalMember PanelPropertyID="T5" ID="356" MemberTag="DIAGONAL" StartNodeID="969" EndNodeID="972" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_1" SourceAppElementId="DIAGONAL_356"/>
+						<PhysicalMember PanelPropertyID="T5" ID="357" MemberTag="HORIZONTAL" StartNodeID="971" EndNodeID="970" SectionID="2" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Face_C_2" SourceAppElementId="HORIZONTAL_357"/>
+					</Segment>
+				</Segments>
+			</Face>
+		</FaceBracingDetails>
+		<PlanBracingDetails>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="4" ID="358" MemberTag="INNERBRACING1" StartNodeID="976" EndNodeID="977" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan0" SourceAppElementId="Inner__358"/>
+				<PhysicalMember PanelPropertyID="4" ID="359" MemberTag="INNERBRACING1" StartNodeID="978" EndNodeID="979" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan1" SourceAppElementId="Inner__359"/>
+				<PhysicalMember PanelPropertyID="4" ID="360" MemberTag="INNERBRACING1" StartNodeID="980" EndNodeID="981" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan2" SourceAppElementId="Inner__360"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="4" ID="361" MemberTag="INNERBRACING1" StartNodeID="982" EndNodeID="983" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan3" SourceAppElementId="Inner__361"/>
+				<PhysicalMember PanelPropertyID="4" ID="362" MemberTag="INNERBRACING1" StartNodeID="984" EndNodeID="985" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan4" SourceAppElementId="Inner__362"/>
+				<PhysicalMember PanelPropertyID="4" ID="363" MemberTag="INNERBRACING1" StartNodeID="986" EndNodeID="987" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan5" SourceAppElementId="Inner__363"/>
+			</PlanBracing>
+			<PlanBracing ID="1" Name="DIAMOND 1X">
+				<PhysicalMember PanelPropertyID="4" ID="364" MemberTag="INNERBRACING1" StartNodeID="988" EndNodeID="989" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan6" SourceAppElementId="Inner__364"/>
+				<PhysicalMember PanelPropertyID="4" ID="365" MemberTag="INNERBRACING1" StartNodeID="990" EndNodeID="991" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan7" SourceAppElementId="Inner__365"/>
+				<PhysicalMember PanelPropertyID="4" ID="366" MemberTag="INNERBRACING1" StartNodeID="992" EndNodeID="993" SectionID="5" BetaAngle="xxxxxxxxxxxxxxxxx" Label="Plan8" SourceAppElementId="Inner__366"/>
+			</PlanBracing>
+		</PlanBracingDetails>
+		<HipBracingDetails/>
+	</Panel>
+	<Nodes>
+		<Node ID="1" X="0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="2" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="3" X="-0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="4" X="-0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="5" X="0.0" Y="30.48" Z="-1.1509"/>
+		<Node ID="6" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="7" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="8" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="9" X="0.0" Y="30.48" Z="-1.1509"/>
+		<Node ID="10" X="-0.9967" Y="30.48" Z="0.5755"/>
+		<Node ID="11" X="-0.49835" Y="29.8704" Z="-0.28769999999999996"/>
+		<Node ID="12" X="-0.9967" Y="29.8704" Z="0.5755"/>
+		<Node ID="13" X="0.0" Y="29.8704" Z="-1.1509"/>
+		<Node ID="14" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="15" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="16" X="0.0" Y="30.48" Z="-1.1509"/>
+		<Node ID="17" X="-0.9967" Y="30.48" Z="0.5755"/>
+		<Node ID="18" X="-0.49835" Y="29.8704" Z="-0.28769999999999996"/>
+		<Node ID="19" X="-0.9967" Y="29.8704" Z="0.5755"/>
+		<Node ID="20" X="0.0" Y="29.8704" Z="-1.1509"/>
+		<Node ID="21" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="22" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="23" X="0.0" Y="30.48" Z="-1.1509"/>
+		<Node ID="24" X="-0.9967" Y="30.48" Z="0.5755"/>
+		<Node ID="25" X="-0.49835" Y="29.8704" Z="-0.28769999999999996"/>
+		<Node ID="26" X="-0.9967" Y="29.8704" Z="0.5755"/>
+		<Node ID="27" X="0.0" Y="29.8704" Z="-1.1509"/>
+		<Node ID="28" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="29" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="30" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="31" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="32" X="-0.49835" Y="28.6512" Z="-0.28769999999999996"/>
+		<Node ID="33" X="-0.9967" Y="28.6512" Z="0.5755"/>
+		<Node ID="34" X="0.0" Y="28.6512" Z="-1.1509"/>
+		<Node ID="35" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="36" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="37" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="38" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="39" X="-0.49835" Y="28.6512" Z="-0.28769999999999996"/>
+		<Node ID="40" X="-0.9967" Y="28.6512" Z="0.5755"/>
+		<Node ID="41" X="0.0" Y="28.6512" Z="-1.1509"/>
+		<Node ID="42" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="43" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="44" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="45" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="46" X="-0.49835" Y="28.6512" Z="-0.28769999999999996"/>
+		<Node ID="47" X="-0.9967" Y="28.6512" Z="0.5755"/>
+		<Node ID="48" X="0.0" Y="28.6512" Z="-1.1509"/>
+		<Node ID="49" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="50" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="51" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="52" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="53" X="-0.49835" Y="27.432" Z="-0.28769999999999996"/>
+		<Node ID="54" X="-0.9967" Y="27.432" Z="0.5755"/>
+		<Node ID="55" X="0.0" Y="27.432" Z="-1.1509"/>
+		<Node ID="56" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="57" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="58" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="59" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="60" X="-0.49835" Y="27.432" Z="-0.28769999999999996"/>
+		<Node ID="61" X="-0.9967" Y="27.432" Z="0.5755"/>
+		<Node ID="62" X="0.0" Y="27.432" Z="-1.1509"/>
+		<Node ID="63" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="64" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="65" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="66" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="67" X="-0.49835" Y="27.432" Z="-0.28769999999999996"/>
+		<Node ID="68" X="-0.9967" Y="27.432" Z="0.5755"/>
+		<Node ID="69" X="0.0" Y="27.432" Z="-1.1509"/>
+		<Node ID="70" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="71" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="72" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="73" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="74" X="-0.49835" Y="26.2128" Z="-0.28769999999999996"/>
+		<Node ID="75" X="-0.9967" Y="26.2128" Z="0.5755"/>
+		<Node ID="76" X="0.0" Y="26.2128" Z="-1.1509"/>
+		<Node ID="77" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="78" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="79" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="80" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="81" X="-0.49835" Y="26.2128" Z="-0.28769999999999996"/>
+		<Node ID="82" X="-0.9967" Y="26.2128" Z="0.5755"/>
+		<Node ID="83" X="0.0" Y="26.2128" Z="-1.1509"/>
+		<Node ID="84" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="85" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="86" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="87" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="88" X="-0.49835" Y="26.2128" Z="-0.28769999999999996"/>
+		<Node ID="89" X="-0.9967" Y="26.2128" Z="0.5755"/>
+		<Node ID="90" X="0.0" Y="26.2128" Z="-1.1509"/>
+		<Node ID="91" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="92" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="93" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="94" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="95" X="-0.49835" Y="24.9936" Z="-0.28769999999999996"/>
+		<Node ID="96" X="-0.9967" Y="24.9936" Z="0.5755"/>
+		<Node ID="97" X="0.0" Y="24.9936" Z="-1.1509"/>
+		<Node ID="98" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="99" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="100" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="101" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="102" X="-0.49835" Y="24.9936" Z="-0.28769999999999996"/>
+		<Node ID="103" X="-0.9967" Y="24.9936" Z="0.5755"/>
+		<Node ID="104" X="0.0" Y="24.9936" Z="-1.1509"/>
+		<Node ID="105" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="106" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="107" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="108" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="109" X="-0.49835" Y="24.9936" Z="-0.28769999999999996"/>
+		<Node ID="110" X="-0.9967" Y="24.9936" Z="0.5755"/>
+		<Node ID="111" X="0.0" Y="24.9936" Z="-1.1509"/>
+		<Node ID="112" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="113" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="114" X="0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="115" X="0.0" Y="30.48" Z="-1.1509"/>
+		<Node ID="116" X="0.49835" Y="29.8704" Z="-0.28774999999999995"/>
+		<Node ID="117" X="0.0" Y="29.8704" Z="-1.1509"/>
+		<Node ID="118" X="0.9967" Y="29.8704" Z="0.5754"/>
+		<Node ID="119" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="120" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="121" X="0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="122" X="0.0" Y="30.48" Z="-1.1509"/>
+		<Node ID="123" X="0.49835" Y="29.8704" Z="-0.28774999999999995"/>
+		<Node ID="124" X="0.0" Y="29.8704" Z="-1.1509"/>
+		<Node ID="125" X="0.9967" Y="29.8704" Z="0.5754"/>
+		<Node ID="126" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="127" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="128" X="0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="129" X="0.0" Y="30.48" Z="-1.1509"/>
+		<Node ID="130" X="0.49835" Y="29.8704" Z="-0.28774999999999995"/>
+		<Node ID="131" X="0.0" Y="29.8704" Z="-1.1509"/>
+		<Node ID="132" X="0.9967" Y="29.8704" Z="0.5754"/>
+		<Node ID="133" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="134" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="135" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="136" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="137" X="0.49835" Y="28.6512" Z="-0.28774999999999995"/>
+		<Node ID="138" X="0.0" Y="28.6512" Z="-1.1509"/>
+		<Node ID="139" X="0.9967" Y="28.6512" Z="0.5754"/>
+		<Node ID="140" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="141" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="142" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="143" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="144" X="0.49835" Y="28.6512" Z="-0.28774999999999995"/>
+		<Node ID="145" X="0.0" Y="28.6512" Z="-1.1509"/>
+		<Node ID="146" X="0.9967" Y="28.6512" Z="0.5754"/>
+		<Node ID="147" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="148" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="149" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="150" X="0.0" Y="29.2608" Z="-1.1509"/>
+		<Node ID="151" X="0.49835" Y="28.6512" Z="-0.28774999999999995"/>
+		<Node ID="152" X="0.0" Y="28.6512" Z="-1.1509"/>
+		<Node ID="153" X="0.9967" Y="28.6512" Z="0.5754"/>
+		<Node ID="154" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="155" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="156" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="157" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="158" X="0.49835" Y="27.432" Z="-0.28774999999999995"/>
+		<Node ID="159" X="0.0" Y="27.432" Z="-1.1509"/>
+		<Node ID="160" X="0.9967" Y="27.432" Z="0.5754"/>
+		<Node ID="161" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="162" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="163" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="164" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="165" X="0.49835" Y="27.432" Z="-0.28774999999999995"/>
+		<Node ID="166" X="0.0" Y="27.432" Z="-1.1509"/>
+		<Node ID="167" X="0.9967" Y="27.432" Z="0.5754"/>
+		<Node ID="168" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="169" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="170" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="171" X="0.0" Y="28.0416" Z="-1.1509"/>
+		<Node ID="172" X="0.49835" Y="27.432" Z="-0.28774999999999995"/>
+		<Node ID="173" X="0.0" Y="27.432" Z="-1.1509"/>
+		<Node ID="174" X="0.9967" Y="27.432" Z="0.5754"/>
+		<Node ID="175" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="176" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="177" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="178" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="179" X="0.49835" Y="26.2128" Z="-0.28774999999999995"/>
+		<Node ID="180" X="0.0" Y="26.2128" Z="-1.1509"/>
+		<Node ID="181" X="0.9967" Y="26.2128" Z="0.5754"/>
+		<Node ID="182" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="183" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="184" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="185" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="186" X="0.49835" Y="26.2128" Z="-0.28774999999999995"/>
+		<Node ID="187" X="0.0" Y="26.2128" Z="-1.1509"/>
+		<Node ID="188" X="0.9967" Y="26.2128" Z="0.5754"/>
+		<Node ID="189" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="190" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="191" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="192" X="0.0" Y="26.8224" Z="-1.1509"/>
+		<Node ID="193" X="0.49835" Y="26.2128" Z="-0.28774999999999995"/>
+		<Node ID="194" X="0.0" Y="26.2128" Z="-1.1509"/>
+		<Node ID="195" X="0.9967" Y="26.2128" Z="0.5754"/>
+		<Node ID="196" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="197" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="198" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="199" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="200" X="0.49835" Y="24.9936" Z="-0.28774999999999995"/>
+		<Node ID="201" X="0.0" Y="24.9936" Z="-1.1509"/>
+		<Node ID="202" X="0.9967" Y="24.9936" Z="0.5754"/>
+		<Node ID="203" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="204" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="205" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="206" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="207" X="0.49835" Y="24.9936" Z="-0.28774999999999995"/>
+		<Node ID="208" X="0.0" Y="24.9936" Z="-1.1509"/>
+		<Node ID="209" X="0.9967" Y="24.9936" Z="0.5754"/>
+		<Node ID="210" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="211" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="212" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="213" X="0.0" Y="25.6032" Z="-1.1509"/>
+		<Node ID="214" X="0.49835" Y="24.9936" Z="-0.28774999999999995"/>
+		<Node ID="215" X="0.0" Y="24.9936" Z="-1.1509"/>
+		<Node ID="216" X="0.9967" Y="24.9936" Z="0.5754"/>
+		<Node ID="217" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="218" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="219" X="-0.9967" Y="30.48" Z="0.5755"/>
+		<Node ID="220" X="0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="221" X="0.0" Y="29.8704" Z="0.57545"/>
+		<Node ID="222" X="0.9967" Y="29.8704" Z="0.5754"/>
+		<Node ID="223" X="-0.9967" Y="29.8704" Z="0.5755"/>
+		<Node ID="224" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="225" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="226" X="-0.9967" Y="30.48" Z="0.5755"/>
+		<Node ID="227" X="0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="228" X="0.0" Y="29.8704" Z="0.57545"/>
+		<Node ID="229" X="0.9967" Y="29.8704" Z="0.5754"/>
+		<Node ID="230" X="-0.9967" Y="29.8704" Z="0.5755"/>
+		<Node ID="231" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="232" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="233" X="-0.9967" Y="30.48" Z="0.5755"/>
+		<Node ID="234" X="0.9967" Y="30.48" Z="0.5754"/>
+		<Node ID="235" X="0.0" Y="29.8704" Z="0.57545"/>
+		<Node ID="236" X="0.9967" Y="29.8704" Z="0.5754"/>
+		<Node ID="237" X="-0.9967" Y="29.8704" Z="0.5755"/>
+		<Node ID="238" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="239" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="240" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="241" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="242" X="0.0" Y="28.6512" Z="0.57545"/>
+		<Node ID="243" X="0.9967" Y="28.6512" Z="0.5754"/>
+		<Node ID="244" X="-0.9967" Y="28.6512" Z="0.5755"/>
+		<Node ID="245" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="246" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="247" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="248" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="249" X="0.0" Y="28.6512" Z="0.57545"/>
+		<Node ID="250" X="0.9967" Y="28.6512" Z="0.5754"/>
+		<Node ID="251" X="-0.9967" Y="28.6512" Z="0.5755"/>
+		<Node ID="252" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="253" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="254" X="-0.9967" Y="29.2608" Z="0.5755"/>
+		<Node ID="255" X="0.9967" Y="29.2608" Z="0.5754"/>
+		<Node ID="256" X="0.0" Y="28.6512" Z="0.57545"/>
+		<Node ID="257" X="0.9967" Y="28.6512" Z="0.5754"/>
+		<Node ID="258" X="-0.9967" Y="28.6512" Z="0.5755"/>
+		<Node ID="259" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="260" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="261" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="262" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="263" X="0.0" Y="27.432" Z="0.57545"/>
+		<Node ID="264" X="0.9967" Y="27.432" Z="0.5754"/>
+		<Node ID="265" X="-0.9967" Y="27.432" Z="0.5755"/>
+		<Node ID="266" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="267" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="268" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="269" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="270" X="0.0" Y="27.432" Z="0.57545"/>
+		<Node ID="271" X="0.9967" Y="27.432" Z="0.5754"/>
+		<Node ID="272" X="-0.9967" Y="27.432" Z="0.5755"/>
+		<Node ID="273" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="274" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="275" X="-0.9967" Y="28.0416" Z="0.5755"/>
+		<Node ID="276" X="0.9967" Y="28.0416" Z="0.5754"/>
+		<Node ID="277" X="0.0" Y="27.432" Z="0.57545"/>
+		<Node ID="278" X="0.9967" Y="27.432" Z="0.5754"/>
+		<Node ID="279" X="-0.9967" Y="27.432" Z="0.5755"/>
+		<Node ID="280" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="281" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="282" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="283" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="284" X="0.0" Y="26.2128" Z="0.57545"/>
+		<Node ID="285" X="0.9967" Y="26.2128" Z="0.5754"/>
+		<Node ID="286" X="-0.9967" Y="26.2128" Z="0.5755"/>
+		<Node ID="287" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="288" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="289" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="290" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="291" X="0.0" Y="26.2128" Z="0.57545"/>
+		<Node ID="292" X="0.9967" Y="26.2128" Z="0.5754"/>
+		<Node ID="293" X="-0.9967" Y="26.2128" Z="0.5755"/>
+		<Node ID="294" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="295" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="296" X="-0.9967" Y="26.8224" Z="0.5755"/>
+		<Node ID="297" X="0.9967" Y="26.8224" Z="0.5754"/>
+		<Node ID="298" X="0.0" Y="26.2128" Z="0.57545"/>
+		<Node ID="299" X="0.9967" Y="26.2128" Z="0.5754"/>
+		<Node ID="300" X="-0.9967" Y="26.2128" Z="0.5755"/>
+		<Node ID="301" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="302" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="303" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="304" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="305" X="0.0" Y="24.9936" Z="0.57545"/>
+		<Node ID="306" X="0.9967" Y="24.9936" Z="0.5754"/>
+		<Node ID="307" X="-0.9967" Y="24.9936" Z="0.5755"/>
+		<Node ID="308" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="309" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="310" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="311" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="312" X="0.0" Y="24.9936" Z="0.57545"/>
+		<Node ID="313" X="0.9967" Y="24.9936" Z="0.5754"/>
+		<Node ID="314" X="-0.9967" Y="24.9936" Z="0.5755"/>
+		<Node ID="315" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="316" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="317" X="-0.9967" Y="25.6032" Z="0.5755"/>
+		<Node ID="318" X="0.9967" Y="25.6032" Z="0.5754"/>
+		<Node ID="319" X="0.0" Y="24.9936" Z="0.57545"/>
+		<Node ID="320" X="0.9967" Y="24.9936" Z="0.5754"/>
+		<Node ID="321" X="-0.9967" Y="24.9936" Z="0.5755"/>
+		<Node ID="322" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="323" X="1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="324" X="-0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="325" X="-1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="326" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="327" X="0.0" Y="18.288" Z="-1.5028"/>
+		<Node ID="328" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="329" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="330" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="331" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="332" X="-0.4984" Y="24.384" Z="-0.2877"/>
+		<Node ID="333" X="-1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="334" X="0.0" Y="23.3675" Z="-1.2096"/>
+		<Node ID="335" X="-0.5492" Y="22.351" Z="-0.317"/>
+		<Node ID="336" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="337" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="338" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="339" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="340" X="-0.4984" Y="24.384" Z="-0.2877"/>
+		<Node ID="341" X="-1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="342" X="0.0" Y="23.3675" Z="-1.2096"/>
+		<Node ID="343" X="-0.5492" Y="22.351" Z="-0.317"/>
+		<Node ID="344" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="345" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="346" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="347" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="348" X="-0.5492" Y="22.351" Z="-0.317"/>
+		<Node ID="349" X="-1.1492" Y="21.3345" Z="0.6635"/>
+		<Node ID="350" X="0.0" Y="21.3345" Z="-1.327"/>
+		<Node ID="351" X="-0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="352" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="353" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="354" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="355" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="356" X="-0.5492" Y="22.351" Z="-0.317"/>
+		<Node ID="357" X="-1.1492" Y="21.3345" Z="0.6635"/>
+		<Node ID="358" X="0.0" Y="21.3345" Z="-1.327"/>
+		<Node ID="359" X="-0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="360" X="-1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="361" X="0.0" Y="18.285" Z="-1.503"/>
+		<Node ID="362" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="363" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="364" X="-0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="365" X="-1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="366" X="0.0" Y="19.3015" Z="-1.4443"/>
+		<Node ID="367" X="-0.6508" Y="18.285" Z="-0.3757"/>
+		<Node ID="368" X="-1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="369" X="0.0" Y="18.285" Z="-1.503"/>
+		<Node ID="370" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="371" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="372" X="-0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="373" X="-1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="374" X="0.0" Y="19.3015" Z="-1.4443"/>
+		<Node ID="375" X="-0.6508" Y="18.285" Z="-0.3757"/>
+		<Node ID="376" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="377" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="378" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="379" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="380" X="0.4984" Y="24.384" Z="-0.2877"/>
+		<Node ID="381" X="0.0" Y="23.3675" Z="-1.2096"/>
+		<Node ID="382" X="1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="383" X="0.5492" Y="22.351" Z="-0.3171"/>
+		<Node ID="384" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="385" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="386" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="387" X="0.0" Y="24.384" Z="-1.1509"/>
+		<Node ID="388" X="0.4984" Y="24.384" Z="-0.2877"/>
+		<Node ID="389" X="0.0" Y="23.3675" Z="-1.2096"/>
+		<Node ID="390" X="1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="391" X="0.5492" Y="22.351" Z="-0.3171"/>
+		<Node ID="392" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="393" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="394" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="395" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="396" X="0.5492" Y="22.351" Z="-0.3171"/>
+		<Node ID="397" X="0.0" Y="21.3345" Z="-1.327"/>
+		<Node ID="398" X="1.1492" Y="21.3345" Z="0.6634"/>
+		<Node ID="399" X="0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="400" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="401" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="402" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="403" X="0.0" Y="22.351" Z="-1.2683"/>
+		<Node ID="404" X="0.5492" Y="22.351" Z="-0.3171"/>
+		<Node ID="405" X="0.0" Y="21.3345" Z="-1.327"/>
+		<Node ID="406" X="1.1492" Y="21.3345" Z="0.6634"/>
+		<Node ID="407" X="0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="408" X="0.0" Y="18.285" Z="-1.503"/>
+		<Node ID="409" X="1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="410" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="411" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="412" X="0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="413" X="0.0" Y="19.3015" Z="-1.4443"/>
+		<Node ID="414" X="1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="415" X="0.6508" Y="18.285" Z="-0.3758"/>
+		<Node ID="416" X="0.0" Y="18.285" Z="-1.503"/>
+		<Node ID="417" X="1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="418" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="419" X="0.0" Y="20.318" Z="-1.3856"/>
+		<Node ID="420" X="0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="421" X="0.0" Y="19.3015" Z="-1.4443"/>
+		<Node ID="422" X="1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="423" X="0.6508" Y="18.285" Z="-0.3758"/>
+		<Node ID="424" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="425" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="426" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="427" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="428" X="0.0" Y="24.384" Z="0.5755"/>
+		<Node ID="429" X="1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="430" X="-1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="431" X="0.0" Y="22.351" Z="0.6341"/>
+		<Node ID="432" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="433" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="434" X="-0.9967" Y="24.384" Z="0.5755"/>
+		<Node ID="435" X="0.9967" Y="24.384" Z="0.5754"/>
+		<Node ID="436" X="0.0" Y="24.384" Z="0.5755"/>
+		<Node ID="437" X="1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="438" X="-1.0475" Y="23.3675" Z="0.6048"/>
+		<Node ID="439" X="0.0" Y="22.351" Z="0.6341"/>
+		<Node ID="440" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="441" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="442" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="443" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="444" X="0.0" Y="22.351" Z="0.6341"/>
+		<Node ID="445" X="1.1492" Y="21.3345" Z="0.6634"/>
+		<Node ID="446" X="-1.1492" Y="21.3345" Z="0.6635"/>
+		<Node ID="447" X="0.0" Y="20.318" Z="0.6928"/>
+		<Node ID="448" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="449" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="450" X="-1.0984" Y="22.351" Z="0.6342"/>
+		<Node ID="451" X="1.0984" Y="22.351" Z="0.6341"/>
+		<Node ID="452" X="0.0" Y="22.351" Z="0.6341"/>
+		<Node ID="453" X="1.1492" Y="21.3345" Z="0.6634"/>
+		<Node ID="454" X="-1.1492" Y="21.3345" Z="0.6635"/>
+		<Node ID="455" X="0.0" Y="20.318" Z="0.6928"/>
+		<Node ID="456" X="1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="457" X="-1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="458" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="459" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="460" X="0.0" Y="20.318" Z="0.6928"/>
+		<Node ID="461" X="1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="462" X="-1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="463" X="0.0" Y="18.285" Z="0.7515"/>
+		<Node ID="464" X="1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="465" X="-1.3016" Y="18.285" Z="0.7515"/>
+		<Node ID="466" X="-1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="467" X="1.2" Y="20.318" Z="0.6928"/>
+		<Node ID="468" X="0.0" Y="20.318" Z="0.6928"/>
+		<Node ID="469" X="1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="470" X="-1.2508" Y="19.3015" Z="0.7221"/>
+		<Node ID="471" X="0.0" Y="18.285" Z="0.7515"/>
+		<Node ID="472" X="-0.49835" Y="24.384" Z="-0.2877"/>
+		<Node ID="473" X="0.49835" Y="24.384" Z="-0.28775"/>
+		<Node ID="474" X="0.49835" Y="24.384" Z="-0.28775"/>
+		<Node ID="475" X="0.0" Y="24.384" Z="0.57545"/>
+		<Node ID="476" X="0.0" Y="24.384" Z="0.57545"/>
+		<Node ID="477" X="-0.49835" Y="24.384" Z="-0.2877"/>
+		<Node ID="478" X="-0.5492" Y="22.351" Z="-0.31705"/>
+		<Node ID="479" X="0.5492" Y="22.351" Z="-0.3171"/>
+		<Node ID="480" X="0.5492" Y="22.351" Z="-0.3171"/>
+		<Node ID="481" X="0.0" Y="22.351" Z="0.63415"/>
+		<Node ID="482" X="0.0" Y="22.351" Z="0.63415"/>
+		<Node ID="483" X="-0.5492" Y="22.351" Z="-0.31705"/>
+		<Node ID="484" X="-0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="485" X="0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="486" X="0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="487" X="0.0" Y="20.318" Z="0.6928"/>
+		<Node ID="488" X="0.0" Y="20.318" Z="0.6928"/>
+		<Node ID="489" X="-0.6" Y="20.318" Z="-0.3464"/>
+		<Node ID="490" X="1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="491" X="1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="492" X="-1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="493" X="-1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="494" X="0.0" Y="18.288" Z="-1.5028"/>
+		<Node ID="495" X="0.0" Y="12.192" Z="-1.5028"/>
+		<Node ID="496" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="497" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="498" X="0.0" Y="18.288" Z="-1.5028"/>
+		<Node ID="499" X="-1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="500" X="-0.6508" Y="18.288" Z="-0.3757"/>
+		<Node ID="501" X="-1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="502" X="0.0" Y="17.2715" Z="-1.5028"/>
+		<Node ID="503" X="-0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="504" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="505" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="506" X="0.0" Y="18.288" Z="-1.5028"/>
+		<Node ID="507" X="-1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="508" X="-0.6508" Y="18.288" Z="-0.3757"/>
+		<Node ID="509" X="-1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="510" X="0.0" Y="17.2715" Z="-1.5028"/>
+		<Node ID="511" X="-0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="512" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="513" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="514" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="515" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="516" X="-0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="517" X="-1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="518" X="0.0" Y="15.2385" Z="-1.5028"/>
+		<Node ID="519" X="-0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="520" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="521" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="522" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="523" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="524" X="-0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="525" X="-1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="526" X="0.0" Y="15.2385" Z="-1.5028"/>
+		<Node ID="527" X="-0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="528" X="-1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="529" X="0.0" Y="12.189" Z="-1.5028"/>
+		<Node ID="530" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="531" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="532" X="-0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="533" X="-1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="534" X="0.0" Y="13.2055" Z="-1.5028"/>
+		<Node ID="535" X="-0.6508" Y="12.189" Z="-0.3757"/>
+		<Node ID="536" X="-1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="537" X="0.0" Y="12.189" Z="-1.5028"/>
+		<Node ID="538" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="539" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="540" X="-0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="541" X="-1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="542" X="0.0" Y="13.2055" Z="-1.5028"/>
+		<Node ID="543" X="-0.6508" Y="12.189" Z="-0.3757"/>
+		<Node ID="544" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="545" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="546" X="1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="547" X="0.0" Y="18.288" Z="-1.5028"/>
+		<Node ID="548" X="0.6508" Y="18.288" Z="-0.3757"/>
+		<Node ID="549" X="0.0" Y="17.2715" Z="-1.5028"/>
+		<Node ID="550" X="1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="551" X="0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="552" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="553" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="554" X="1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="555" X="0.0" Y="18.288" Z="-1.5028"/>
+		<Node ID="556" X="0.6508" Y="18.288" Z="-0.3757"/>
+		<Node ID="557" X="0.0" Y="17.2715" Z="-1.5028"/>
+		<Node ID="558" X="1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="559" X="0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="560" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="561" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="562" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="563" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="564" X="0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="565" X="0.0" Y="15.2385" Z="-1.5028"/>
+		<Node ID="566" X="1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="567" X="0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="568" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="569" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="570" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="571" X="0.0" Y="16.255" Z="-1.5028"/>
+		<Node ID="572" X="0.6508" Y="16.255" Z="-0.3757"/>
+		<Node ID="573" X="0.0" Y="15.2385" Z="-1.5028"/>
+		<Node ID="574" X="1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="575" X="0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="576" X="0.0" Y="12.189" Z="-1.5028"/>
+		<Node ID="577" X="1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="578" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="579" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="580" X="0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="581" X="0.0" Y="13.2055" Z="-1.5028"/>
+		<Node ID="582" X="1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="583" X="0.6508" Y="12.189" Z="-0.3757"/>
+		<Node ID="584" X="0.0" Y="12.189" Z="-1.5028"/>
+		<Node ID="585" X="1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="586" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="587" X="0.0" Y="14.222" Z="-1.5028"/>
+		<Node ID="588" X="0.6508" Y="14.222" Z="-0.3757"/>
+		<Node ID="589" X="0.0" Y="13.2055" Z="-1.5028"/>
+		<Node ID="590" X="1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="591" X="0.6508" Y="12.189" Z="-0.3757"/>
+		<Node ID="592" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="593" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="594" X="-1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="595" X="1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="596" X="0.0" Y="18.288" Z="0.7514"/>
+		<Node ID="597" X="1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="598" X="-1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="599" X="0.0" Y="16.255" Z="0.7514"/>
+		<Node ID="600" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="601" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="602" X="-1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="603" X="1.3015" Y="18.288" Z="0.7514"/>
+		<Node ID="604" X="0.0" Y="18.288" Z="0.7514"/>
+		<Node ID="605" X="1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="606" X="-1.3015" Y="17.2715" Z="0.7514"/>
+		<Node ID="607" X="0.0" Y="16.255" Z="0.7514"/>
+		<Node ID="608" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="609" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="610" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="611" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="612" X="0.0" Y="16.255" Z="0.7514"/>
+		<Node ID="613" X="1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="614" X="-1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="615" X="0.0" Y="14.222" Z="0.7514"/>
+		<Node ID="616" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="617" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="618" X="-1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="619" X="1.3015" Y="16.255" Z="0.7514"/>
+		<Node ID="620" X="0.0" Y="16.255" Z="0.7514"/>
+		<Node ID="621" X="1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="622" X="-1.3015" Y="15.2385" Z="0.7514"/>
+		<Node ID="623" X="0.0" Y="14.222" Z="0.7514"/>
+		<Node ID="624" X="1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="625" X="-1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="626" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="627" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="628" X="0.0" Y="14.222" Z="0.7514"/>
+		<Node ID="629" X="1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="630" X="-1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="631" X="0.0" Y="12.189" Z="0.7514"/>
+		<Node ID="632" X="1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="633" X="-1.3015" Y="12.189" Z="0.7514"/>
+		<Node ID="634" X="-1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="635" X="1.3015" Y="14.222" Z="0.7514"/>
+		<Node ID="636" X="0.0" Y="14.222" Z="0.7514"/>
+		<Node ID="637" X="1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="638" X="-1.3015" Y="13.2055" Z="0.7514"/>
+		<Node ID="639" X="0.0" Y="12.189" Z="0.7514"/>
+		<Node ID="640" X="-0.65075" Y="18.288" Z="-0.3757"/>
+		<Node ID="641" X="0.65075" Y="18.288" Z="-0.3757"/>
+		<Node ID="642" X="0.65075" Y="18.288" Z="-0.3757"/>
+		<Node ID="643" X="0.0" Y="18.288" Z="0.7514"/>
+		<Node ID="644" X="0.0" Y="18.288" Z="0.7514"/>
+		<Node ID="645" X="-0.65075" Y="18.288" Z="-0.3757"/>
+		<Node ID="646" X="-0.65075" Y="16.255" Z="-0.3757"/>
+		<Node ID="647" X="0.65075" Y="16.255" Z="-0.3757"/>
+		<Node ID="648" X="0.65075" Y="16.255" Z="-0.3757"/>
+		<Node ID="649" X="0.0" Y="16.255" Z="0.7514"/>
+		<Node ID="650" X="0.0" Y="16.255" Z="0.7514"/>
+		<Node ID="651" X="-0.65075" Y="16.255" Z="-0.3757"/>
+		<Node ID="652" X="-0.65075" Y="14.222" Z="-0.3757"/>
+		<Node ID="653" X="0.65075" Y="14.222" Z="-0.3757"/>
+		<Node ID="654" X="0.65075" Y="14.222" Z="-0.3757"/>
+		<Node ID="655" X="0.0" Y="14.222" Z="0.7514"/>
+		<Node ID="656" X="0.0" Y="14.222" Z="0.7514"/>
+		<Node ID="657" X="-0.65075" Y="14.222" Z="-0.3757"/>
+		<Node ID="658" X="1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="659" X="1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="660" X="-1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="661" X="-1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="662" X="0.0" Y="12.192" Z="-1.5028"/>
+		<Node ID="663" X="0.0" Y="6.096" Z="-1.5028"/>
+		<Node ID="664" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="665" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="666" X="0.0" Y="12.192" Z="-1.5028"/>
+		<Node ID="667" X="-1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="668" X="-0.6508" Y="12.192" Z="-0.3757"/>
+		<Node ID="669" X="-1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="670" X="0.0" Y="11.1755" Z="-1.5028"/>
+		<Node ID="671" X="-0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="672" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="673" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="674" X="0.0" Y="12.192" Z="-1.5028"/>
+		<Node ID="675" X="-1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="676" X="-0.6508" Y="12.192" Z="-0.3757"/>
+		<Node ID="677" X="-1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="678" X="0.0" Y="11.1755" Z="-1.5028"/>
+		<Node ID="679" X="-0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="680" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="681" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="682" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="683" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="684" X="-0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="685" X="-1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="686" X="0.0" Y="9.1425" Z="-1.5028"/>
+		<Node ID="687" X="-0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="688" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="689" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="690" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="691" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="692" X="-0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="693" X="-1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="694" X="0.0" Y="9.1425" Z="-1.5028"/>
+		<Node ID="695" X="-0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="696" X="-1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="697" X="0.0" Y="6.093" Z="-1.5028"/>
+		<Node ID="698" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="699" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="700" X="-0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="701" X="-1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="702" X="0.0" Y="7.1095" Z="-1.5028"/>
+		<Node ID="703" X="-0.6508" Y="6.093" Z="-0.3757"/>
+		<Node ID="704" X="-1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="705" X="0.0" Y="6.093" Z="-1.5028"/>
+		<Node ID="706" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="707" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="708" X="-0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="709" X="-1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="710" X="0.0" Y="7.1095" Z="-1.5028"/>
+		<Node ID="711" X="-0.6508" Y="6.093" Z="-0.3757"/>
+		<Node ID="712" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="713" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="714" X="1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="715" X="0.0" Y="12.192" Z="-1.5028"/>
+		<Node ID="716" X="0.6508" Y="12.192" Z="-0.3757"/>
+		<Node ID="717" X="0.0" Y="11.1755" Z="-1.5028"/>
+		<Node ID="718" X="1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="719" X="0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="720" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="721" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="722" X="1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="723" X="0.0" Y="12.192" Z="-1.5028"/>
+		<Node ID="724" X="0.6508" Y="12.192" Z="-0.3757"/>
+		<Node ID="725" X="0.0" Y="11.1755" Z="-1.5028"/>
+		<Node ID="726" X="1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="727" X="0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="728" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="729" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="730" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="731" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="732" X="0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="733" X="0.0" Y="9.1425" Z="-1.5028"/>
+		<Node ID="734" X="1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="735" X="0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="736" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="737" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="738" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="739" X="0.0" Y="10.159" Z="-1.5028"/>
+		<Node ID="740" X="0.6508" Y="10.159" Z="-0.3757"/>
+		<Node ID="741" X="0.0" Y="9.1425" Z="-1.5028"/>
+		<Node ID="742" X="1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="743" X="0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="744" X="0.0" Y="6.093" Z="-1.5028"/>
+		<Node ID="745" X="1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="746" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="747" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="748" X="0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="749" X="0.0" Y="7.1095" Z="-1.5028"/>
+		<Node ID="750" X="1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="751" X="0.6508" Y="6.093" Z="-0.3757"/>
+		<Node ID="752" X="0.0" Y="6.093" Z="-1.5028"/>
+		<Node ID="753" X="1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="754" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="755" X="0.0" Y="8.126" Z="-1.5028"/>
+		<Node ID="756" X="0.6508" Y="8.126" Z="-0.3757"/>
+		<Node ID="757" X="0.0" Y="7.1095" Z="-1.5028"/>
+		<Node ID="758" X="1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="759" X="0.6508" Y="6.093" Z="-0.3757"/>
+		<Node ID="760" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="761" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="762" X="-1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="763" X="1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="764" X="0.0" Y="12.192" Z="0.7514"/>
+		<Node ID="765" X="1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="766" X="-1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="767" X="0.0" Y="10.159" Z="0.7514"/>
+		<Node ID="768" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="769" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="770" X="-1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="771" X="1.3015" Y="12.192" Z="0.7514"/>
+		<Node ID="772" X="0.0" Y="12.192" Z="0.7514"/>
+		<Node ID="773" X="1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="774" X="-1.3015" Y="11.1755" Z="0.7514"/>
+		<Node ID="775" X="0.0" Y="10.159" Z="0.7514"/>
+		<Node ID="776" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="777" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="778" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="779" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="780" X="0.0" Y="10.159" Z="0.7514"/>
+		<Node ID="781" X="1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="782" X="-1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="783" X="0.0" Y="8.126" Z="0.7514"/>
+		<Node ID="784" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="785" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="786" X="-1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="787" X="1.3015" Y="10.159" Z="0.7514"/>
+		<Node ID="788" X="0.0" Y="10.159" Z="0.7514"/>
+		<Node ID="789" X="1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="790" X="-1.3015" Y="9.1425" Z="0.7514"/>
+		<Node ID="791" X="0.0" Y="8.126" Z="0.7514"/>
+		<Node ID="792" X="1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="793" X="-1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="794" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="795" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="796" X="0.0" Y="8.126" Z="0.7514"/>
+		<Node ID="797" X="1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="798" X="-1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="799" X="0.0" Y="6.093" Z="0.7514"/>
+		<Node ID="800" X="1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="801" X="-1.3015" Y="6.093" Z="0.7514"/>
+		<Node ID="802" X="-1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="803" X="1.3015" Y="8.126" Z="0.7514"/>
+		<Node ID="804" X="0.0" Y="8.126" Z="0.7514"/>
+		<Node ID="805" X="1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="806" X="-1.3015" Y="7.1095" Z="0.7514"/>
+		<Node ID="807" X="0.0" Y="6.093" Z="0.7514"/>
+		<Node ID="808" X="-0.65075" Y="12.192" Z="-0.3757"/>
+		<Node ID="809" X="0.65075" Y="12.192" Z="-0.3757"/>
+		<Node ID="810" X="0.65075" Y="12.192" Z="-0.3757"/>
+		<Node ID="811" X="0.0" Y="12.192" Z="0.7514"/>
+		<Node ID="812" X="0.0" Y="12.192" Z="0.7514"/>
+		<Node ID="813" X="-0.65075" Y="12.192" Z="-0.3757"/>
+		<Node ID="814" X="-0.65075" Y="10.159" Z="-0.3757"/>
+		<Node ID="815" X="0.65075" Y="10.159" Z="-0.3757"/>
+		<Node ID="816" X="0.65075" Y="10.159" Z="-0.3757"/>
+		<Node ID="817" X="0.0" Y="10.159" Z="0.7514"/>
+		<Node ID="818" X="0.0" Y="10.159" Z="0.7514"/>
+		<Node ID="819" X="-0.65075" Y="10.159" Z="-0.3757"/>
+		<Node ID="820" X="-0.65075" Y="8.126" Z="-0.3757"/>
+		<Node ID="821" X="0.65075" Y="8.126" Z="-0.3757"/>
+		<Node ID="822" X="0.65075" Y="8.126" Z="-0.3757"/>
+		<Node ID="823" X="0.0" Y="8.126" Z="0.7514"/>
+		<Node ID="824" X="0.0" Y="8.126" Z="0.7514"/>
+		<Node ID="825" X="-0.65075" Y="8.126" Z="-0.3757"/>
+		<Node ID="826" X="1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="827" X="1.3015" Y="0.0" Z="0.7514"/>
+		<Node ID="828" X="-1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="829" X="-1.3015" Y="0.0" Z="0.7514"/>
+		<Node ID="830" X="0.0" Y="6.096" Z="-1.5028"/>
+		<Node ID="831" X="0.0" Y="0.0" Z="-1.5028"/>
+		<Node ID="832" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="833" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="834" X="0.0" Y="6.096" Z="-1.5028"/>
+		<Node ID="835" X="-1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="836" X="-0.6508" Y="6.096" Z="-0.3757"/>
+		<Node ID="837" X="-1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="838" X="0.0" Y="5.0795" Z="-1.5028"/>
+		<Node ID="839" X="-0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="840" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="841" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="842" X="0.0" Y="6.096" Z="-1.5028"/>
+		<Node ID="843" X="-1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="844" X="-0.6508" Y="6.096" Z="-0.3757"/>
+		<Node ID="845" X="-1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="846" X="0.0" Y="5.0795" Z="-1.5028"/>
+		<Node ID="847" X="-0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="848" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="849" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="850" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="851" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="852" X="-0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="853" X="-1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="854" X="0.0" Y="3.0465" Z="-1.5028"/>
+		<Node ID="855" X="-0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="856" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="857" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="858" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="859" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="860" X="-0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="861" X="-1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="862" X="0.0" Y="3.0465" Z="-1.5028"/>
+		<Node ID="863" X="-0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="864" X="-1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="865" X="0.0" Y="-0.003" Z="-1.5028"/>
+		<Node ID="866" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="867" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="868" X="-0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="869" X="-1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="870" X="0.0" Y="1.0135" Z="-1.5028"/>
+		<Node ID="871" X="-0.6508" Y="-0.003" Z="-0.3757"/>
+		<Node ID="872" X="-1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="873" X="0.0" Y="-0.003" Z="-1.5028"/>
+		<Node ID="874" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="875" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="876" X="-0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="877" X="-1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="878" X="0.0" Y="1.0135" Z="-1.5028"/>
+		<Node ID="879" X="-0.6508" Y="-0.003" Z="-0.3757"/>
+		<Node ID="880" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="881" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="882" X="1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="883" X="0.0" Y="6.096" Z="-1.5028"/>
+		<Node ID="884" X="0.6508" Y="6.096" Z="-0.3757"/>
+		<Node ID="885" X="0.0" Y="5.0795" Z="-1.5028"/>
+		<Node ID="886" X="1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="887" X="0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="888" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="889" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="890" X="1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="891" X="0.0" Y="6.096" Z="-1.5028"/>
+		<Node ID="892" X="0.6508" Y="6.096" Z="-0.3757"/>
+		<Node ID="893" X="0.0" Y="5.0795" Z="-1.5028"/>
+		<Node ID="894" X="1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="895" X="0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="896" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="897" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="898" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="899" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="900" X="0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="901" X="0.0" Y="3.0465" Z="-1.5028"/>
+		<Node ID="902" X="1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="903" X="0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="904" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="905" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="906" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="907" X="0.0" Y="4.063" Z="-1.5028"/>
+		<Node ID="908" X="0.6508" Y="4.063" Z="-0.3757"/>
+		<Node ID="909" X="0.0" Y="3.0465" Z="-1.5028"/>
+		<Node ID="910" X="1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="911" X="0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="912" X="0.0" Y="-0.003" Z="-1.5028"/>
+		<Node ID="913" X="1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="914" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="915" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="916" X="0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="917" X="0.0" Y="1.0135" Z="-1.5028"/>
+		<Node ID="918" X="1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="919" X="0.6508" Y="-0.003" Z="-0.3757"/>
+		<Node ID="920" X="0.0" Y="-0.003" Z="-1.5028"/>
+		<Node ID="921" X="1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="922" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="923" X="0.0" Y="2.03" Z="-1.5028"/>
+		<Node ID="924" X="0.6508" Y="2.03" Z="-0.3757"/>
+		<Node ID="925" X="0.0" Y="1.0135" Z="-1.5028"/>
+		<Node ID="926" X="1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="927" X="0.6508" Y="-0.003" Z="-0.3757"/>
+		<Node ID="928" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="929" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="930" X="-1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="931" X="1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="932" X="0.0" Y="6.096" Z="0.7514"/>
+		<Node ID="933" X="1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="934" X="-1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="935" X="0.0" Y="4.063" Z="0.7514"/>
+		<Node ID="936" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="937" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="938" X="-1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="939" X="1.3015" Y="6.096" Z="0.7514"/>
+		<Node ID="940" X="0.0" Y="6.096" Z="0.7514"/>
+		<Node ID="941" X="1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="942" X="-1.3015" Y="5.0795" Z="0.7514"/>
+		<Node ID="943" X="0.0" Y="4.063" Z="0.7514"/>
+		<Node ID="944" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="945" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="946" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="947" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="948" X="0.0" Y="4.063" Z="0.7514"/>
+		<Node ID="949" X="1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="950" X="-1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="951" X="0.0" Y="2.03" Z="0.7514"/>
+		<Node ID="952" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="953" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="954" X="-1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="955" X="1.3015" Y="4.063" Z="0.7514"/>
+		<Node ID="956" X="0.0" Y="4.063" Z="0.7514"/>
+		<Node ID="957" X="1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="958" X="-1.3015" Y="3.0465" Z="0.7514"/>
+		<Node ID="959" X="0.0" Y="2.03" Z="0.7514"/>
+		<Node ID="960" X="1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="961" X="-1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="962" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="963" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="964" X="0.0" Y="2.03" Z="0.7514"/>
+		<Node ID="965" X="1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="966" X="-1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="967" X="0.0" Y="-0.003" Z="0.7514"/>
+		<Node ID="968" X="1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="969" X="-1.3015" Y="-0.003" Z="0.7514"/>
+		<Node ID="970" X="-1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="971" X="1.3015" Y="2.03" Z="0.7514"/>
+		<Node ID="972" X="0.0" Y="2.03" Z="0.7514"/>
+		<Node ID="973" X="1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="974" X="-1.3015" Y="1.0135" Z="0.7514"/>
+		<Node ID="975" X="0.0" Y="-0.003" Z="0.7514"/>
+		<Node ID="976" X="-0.65075" Y="6.096" Z="-0.3757"/>
+		<Node ID="977" X="0.65075" Y="6.096" Z="-0.3757"/>
+		<Node ID="978" X="0.65075" Y="6.096" Z="-0.3757"/>
+		<Node ID="979" X="0.0" Y="6.096" Z="0.7514"/>
+		<Node ID="980" X="0.0" Y="6.096" Z="0.7514"/>
+		<Node ID="981" X="-0.65075" Y="6.096" Z="-0.3757"/>
+		<Node ID="982" X="-0.65075" Y="4.063" Z="-0.3757"/>
+		<Node ID="983" X="0.65075" Y="4.063" Z="-0.3757"/>
+		<Node ID="984" X="0.65075" Y="4.063" Z="-0.3757"/>
+		<Node ID="985" X="0.0" Y="4.063" Z="0.7514"/>
+		<Node ID="986" X="0.0" Y="4.063" Z="0.7514"/>
+		<Node ID="987" X="-0.65075" Y="4.063" Z="-0.3757"/>
+		<Node ID="988" X="-0.65075" Y="2.03" Z="-0.3757"/>
+		<Node ID="989" X="0.65075" Y="2.03" Z="-0.3757"/>
+		<Node ID="990" X="0.65075" Y="2.03" Z="-0.3757"/>
+		<Node ID="991" X="0.0" Y="2.03" Z="0.7514"/>
+		<Node ID="992" X="0.0" Y="2.03" Z="0.7514"/>
+		<Node ID="993" X="-0.65075" Y="2.03" Z="-0.3757"/>
+	</Nodes>
+	<AttachmentProperties>
+		<AttachmentProperty ID="1" Label="Step Pegs" TopElevation="80.0" BottomElevation="8.0" AttachmentName="Step Pegs" AttachmentType="Continuous" Location="A" Azimuth="0" Width="0.8000" Depth="xxxxxxxxxxxx" Weight="2.72" Classification="Existing" ComponentName="Attachment" SourceAppElementId="Attachment_1_Continuous"/>
+		<AttachmentProperty ID="2" Label="Step Pegs" TopElevation="100.0" BottomElevation="8.0" AttachmentName="Step Pegs" AttachmentType="Continuous" Location="B" Azimuth="0" Width="0.8000" Depth="xxxxxxxxxxxx" Weight="2.72" Classification="Existing" ComponentName="Attachment" SourceAppElementId="Attachment_2_Continuous"/>
+		<AttachmentProperty ID="3" Label="FeedlineLadder (Af)" TopElevation="100.0" BottomElevation="8.0" AttachmentName="FeedlineLadder (Af)" AttachmentType="Continuous" Location="B" Azimuth="0" Width="3.0000" Depth="xxxxxxxxxxxx" Weight="8.40" Classification="Existing" ComponentName="Attachment" SourceAppElementId="Attachment_3_Continuous"/>
+		<AttachmentProperty ID="4" Label="Step Pegs" TopElevation="80.0" BottomElevation="8.0" AttachmentName="Step Pegs" AttachmentType="Continuous" Location="C" Azimuth="0" Width="0.8000" Depth="xxxxxxxxxxxx" Weight="2.72" Classification="Existing" ComponentName="Attachment" SourceAppElementId="Attachment_4_Continuous"/>
+		<AttachmentProperty ID="5" Label="Feedline Ladder (Af)" TopElevation="100.0" BottomElevation="8.0" AttachmentName="Feedline Ladder (Af)" AttachmentType="Continuous" Location="C" Azimuth="0" Width="3.0000" Depth="xxxxxxxxxxxx" Weight="8.40" Classification="Existing" ComponentName="Attachment" SourceAppElementId="Attachment_5_Continuous"/>
+	</AttachmentProperties>
+	<Attachments>
+		<Attachment ID="1">
+			<AttachmentMember ID="1" AttachmentPropertyID="1" RefId="xxxxxxxx" SectionId="1" StartNodeID="0" EndNodeID="1" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="2" AttachmentPropertyID="1" RefId="xxxxxxxx" SectionId="1" StartNodeID="1" EndNodeID="2" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="3" AttachmentPropertyID="1" RefId="xxxxxxxx" SectionId="1" StartNodeID="2" EndNodeID="3" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="4" AttachmentPropertyID="1" RefId="xxxxxxxx" SectionId="1" StartNodeID="3" EndNodeID="4" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+		</Attachment>
+		<Attachment ID="2">
+			<AttachmentMember ID="1" AttachmentPropertyID="2" RefId="xxxxxxxx" SectionId="1" StartNodeID="5" EndNodeID="6" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="2" AttachmentPropertyID="2" RefId="xxxxxxxx" SectionId="1" StartNodeID="6" EndNodeID="7" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="3" AttachmentPropertyID="2" RefId="xxxxxxxx" SectionId="1" StartNodeID="7" EndNodeID="8" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="4" AttachmentPropertyID="2" RefId="xxxxxxxx" SectionId="1" StartNodeID="8" EndNodeID="9" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="5" AttachmentPropertyID="2" RefId="xxxxxxxx" SectionId="1" StartNodeID="9" EndNodeID="10" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+		</Attachment>
+		<Attachment ID="3">
+			<AttachmentMember ID="1" AttachmentPropertyID="3" RefId="xxxxxxxx" SectionId="1" StartNodeID="11" EndNodeID="12" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="2" AttachmentPropertyID="3" RefId="xxxxxxxx" SectionId="1" StartNodeID="12" EndNodeID="13" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="3" AttachmentPropertyID="3" RefId="xxxxxxxx" SectionId="1" StartNodeID="13" EndNodeID="14" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="4" AttachmentPropertyID="3" RefId="xxxxxxxx" SectionId="1" StartNodeID="14" EndNodeID="15" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="5" AttachmentPropertyID="3" RefId="xxxxxxxx" SectionId="1" StartNodeID="15" EndNodeID="16" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+		</Attachment>
+		<Attachment ID="4">
+			<AttachmentMember ID="1" AttachmentPropertyID="4" RefId="xxxxxxxx" SectionId="1" StartNodeID="17" EndNodeID="18" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="2" AttachmentPropertyID="4" RefId="xxxxxxxx" SectionId="1" StartNodeID="18" EndNodeID="19" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="3" AttachmentPropertyID="4" RefId="xxxxxxxx" SectionId="1" StartNodeID="19" EndNodeID="20" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="4" AttachmentPropertyID="4" RefId="xxxxxxxx" SectionId="1" StartNodeID="20" EndNodeID="21" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+		</Attachment>
+		<Attachment ID="5">
+			<AttachmentMember ID="1" AttachmentPropertyID="5" RefId="xxxxxxxx" SectionId="1" StartNodeID="22" EndNodeID="23" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="2" AttachmentPropertyID="5" RefId="xxxxxxxx" SectionId="1" StartNodeID="23" EndNodeID="24" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="3" AttachmentPropertyID="5" RefId="xxxxxxxx" SectionId="1" StartNodeID="24" EndNodeID="25" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="4" AttachmentPropertyID="5" RefId="xxxxxxxx" SectionId="1" StartNodeID="25" EndNodeID="26" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+			<AttachmentMember ID="5" AttachmentPropertyID="5" RefId="xxxxxxxx" SectionId="1" StartNodeID="26" EndNodeID="27" Label="Attachment" SourceAppElementId="xxxxxxxxxxxxxxxxx"/>
+		</Attachment>
+	</Attachments>
+	<AttachmentNodes>
+		<AttachmentNode ID="0" X="-0.49009208570021395" Y="24.384" Z="-0.31222443912929626"/>
+		<AttachmentNode ID="1" X="-0.6386209670802342" Y="18.288" Z="-0.406879046944523"/>
+		<AttachmentNode ID="2" X="-0.6386209670802342" Y="12.192" Z="-0.406879046944523"/>
+		<AttachmentNode ID="3" X="-0.6386209670802342" Y="6.096" Z="-0.406879046944523"/>
+		<AttachmentNode ID="4" X="-0.6386209670802342" Y="2.4384" Z="-0.406879046944523"/>
+		<AttachmentNode ID="5" X="0.515407914299786" Y="30.48" Z="-0.26837556087070374"/>
+		<AttachmentNode ID="6" X="0.515407914299786" Y="24.384" Z="-0.26837556087070374"/>
+		<AttachmentNode ID="7" X="0.6716790329197658" Y="18.288" Z="-0.34962095305547697"/>
+		<AttachmentNode ID="8" X="0.6716790329197658" Y="12.192" Z="-0.34962095305547697"/>
+		<AttachmentNode ID="9" X="0.6716790329197658" Y="6.096" Z="-0.34962095305547697"/>
+		<AttachmentNode ID="10" X="0.6716790329197658" Y="2.4384" Z="-0.34962095305547697"/>
+		<AttachmentNode ID="11" X="0.51485" Y="30.48" Z="-0.29725"/>
+		<AttachmentNode ID="12" X="0.51485" Y="24.384" Z="-0.29725"/>
+		<AttachmentNode ID="13" X="0.66725" Y="18.288" Z="-0.38525"/>
+		<AttachmentNode ID="14" X="0.66725" Y="12.192" Z="-0.38525"/>
+		<AttachmentNode ID="15" X="0.66725" Y="6.096" Z="-0.38525"/>
+		<AttachmentNode ID="16" X="0.66725" Y="2.4384" Z="-0.38525"/>
+		<AttachmentNode ID="17" X="-0.0253160784" Y="24.384" Z="0.5805"/>
+		<AttachmentNode ID="18" X="-0.0330579984" Y="18.288" Z="0.7565"/>
+		<AttachmentNode ID="19" X="-0.0330579984" Y="12.192" Z="0.7565"/>
+		<AttachmentNode ID="20" X="-0.0330579984" Y="6.096" Z="0.7565"/>
+		<AttachmentNode ID="21" X="-0.0330579984" Y="2.4384" Z="0.7565"/>
+		<AttachmentNode ID="22" X="-0.01012643136" Y="30.48" Z="0.5945"/>
+		<AttachmentNode ID="23" X="-0.01012643136" Y="24.384" Z="0.5945"/>
+		<AttachmentNode ID="24" X="-0.013223199350718686" Y="18.288" Z="0.7704504954364687"/>
+		<AttachmentNode ID="25" X="-0.013223199350718686" Y="12.192" Z="0.7704504954364687"/>
+		<AttachmentNode ID="26" X="-0.013223199350718686" Y="6.096" Z="0.7704504954364687"/>
+		<AttachmentNode ID="27" X="-0.013223199350718686" Y="2.4384" Z="0.7704504954364687"/>
+	</AttachmentNodes>
+	<MountProperties>
+		<MountProperty ID="1" Label="LP 602-1" Name="LP 602-1" Elevation="102.0" Manufacturer="MOUNTS" ModelName="LP 602-1" Type="FRAMEDPLTF3" Location="LegC" Azimuth="0.0000" Height="4.0" Width="12.0" Standoff="0.0" Weight="1343.3" Classification="Existing" ComponentName="Mount" SourceAppElementId="Attachment_1"/>
+	</MountProperties>
+	<MountNodes>
+		<MountNode ID="2" X="-1.8288" Y="31.6992" Z="1.0559"/>
+		<MountNode ID="3" X="0.0" Y="31.6992" Z="-2.1117"/>
+		<MountNode ID="4" X="0.0" Y="30.48" Z="-1.1509"/>
+		<MountNode ID="5" X="-1.8288" Y="30.48" Z="1.0559"/>
+		<MountNode ID="6" X="0.0" Y="30.48" Z="-2.1117"/>
+		<MountNode ID="7" X="0.0" Y="31.6992" Z="-2.1117"/>
+		<MountNode ID="8" X="1.8288" Y="31.6992" Z="1.0559"/>
+		<MountNode ID="9" X="0.9967" Y="30.48" Z="0.5754"/>
+		<MountNode ID="10" X="0.0" Y="30.48" Z="-2.1117"/>
+		<MountNode ID="11" X="1.8288" Y="30.48" Z="1.0559"/>
+		<MountNode ID="12" X="1.8288" Y="31.6992" Z="1.0559"/>
+		<MountNode ID="13" X="-1.8288" Y="31.6992" Z="1.0559"/>
+		<MountNode ID="14" X="-0.9967" Y="30.48" Z="0.5755"/>
+		<MountNode ID="15" X="1.8288" Y="30.48" Z="1.0559"/>
+		<MountNode ID="16" X="-1.8288" Y="30.48" Z="1.0559"/>
+	</MountNodes>
+	<Mounts>
+		<Mount ID="1">
+			<MountMember ID="2" RefID="1" StartNodeID="2" EndNodeID="3" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_2"/>
+			<MountMember ID="3" RefID="1" StartNodeID="5" EndNodeID="6" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_3"/>
+			<MountMember ID="4" RefID="1" StartNodeID="6" EndNodeID="4" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_4"/>
+			<MountMember ID="5" RefID="1" StartNodeID="2" EndNodeID="5" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_5"/>
+			<MountMember ID="6" RefID="1" StartNodeID="3" EndNodeID="6" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_6"/>
+			<MountMember ID="7" RefID="1" StartNodeID="7" EndNodeID="8" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_7"/>
+			<MountMember ID="8" RefID="1" StartNodeID="10" EndNodeID="11" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_8"/>
+			<MountMember ID="9" RefID="1" StartNodeID="11" EndNodeID="9" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_9"/>
+			<MountMember ID="10" RefID="1" StartNodeID="7" EndNodeID="10" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_10"/>
+			<MountMember ID="11" RefID="1" StartNodeID="8" EndNodeID="11" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_11"/>
+			<MountMember ID="12" RefID="1" StartNodeID="12" EndNodeID="13" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_12"/>
+			<MountMember ID="13" RefID="1" StartNodeID="15" EndNodeID="16" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_13"/>
+			<MountMember ID="14" RefID="1" StartNodeID="16" EndNodeID="14" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_14"/>
+			<MountMember ID="15" RefID="1" StartNodeID="12" EndNodeID="15" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_15"/>
+			<MountMember ID="16" RefID="1" StartNodeID="13" EndNodeID="16" SectionID="2" Label="Mount" MountPropertyID="1" SourceAppElementId="Mount_1_SectorFrame_16"/>
+		</Mount>
+	</Mounts>
+	<AntennaProperties>
+		<AntennaProperty ID="1" Label="BXA-185063/8CF" Name="BXA-185063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-185063/8CF" Location="LegA" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="48.8" Width="6.1" Depth="3.2" Weight="10.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_1"/>
+		<AntennaProperty ID="2" Label="BXA-185063/8CF" Name="BXA-185063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-185063/8CF" Location="LegB" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="48.8" Width="6.1" Depth="3.2" Weight="10.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_2"/>
+		<AntennaProperty ID="3" Label="BXA-185063/8CF" Name="BXA-185063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-185063/8CF" Location="LegC" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="48.8" Width="6.1" Depth="3.2" Weight="10.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_3"/>
+		<AntennaProperty ID="4" Label="BXA-70063/8CF" Name="BXA-70063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-70063/8CF" Location="LegA" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="94.7" Width="11.2" Depth="5.2" Weight="24.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_4"/>
+		<AntennaProperty ID="5" Label="BXA-70063/8CF" Name="BXA-70063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-70063/8CF" Location="LegB" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="94.7" Width="11.2" Depth="5.2" Weight="24.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_5"/>
+		<AntennaProperty ID="6" Label="BXA-70063/8CF" Name="BXA-70063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-70063/8CF" Location="LegC" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="94.7" Width="11.2" Depth="5.2" Weight="24.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_6"/>
+		<AntennaProperty ID="7" Label="BXA-70063/8CF" Name="BXA-70063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-70063/8CF" Location="LegA" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="94.7" Width="11.2" Depth="5.2" Weight="24.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_7"/>
+		<AntennaProperty ID="8" Label="BXA-70063/8CF" Name="BXA-70063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-70063/8CF" Location="LegB" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="94.7" Width="11.2" Depth="5.2" Weight="24.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_8"/>
+		<AntennaProperty ID="9" Label="BXA-70063/8CF" Name="BXA-70063/8CF" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-70063/8CF" Location="LegC" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="94.7" Width="11.2" Depth="5.2" Weight="24.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_9"/>
+		<AntennaProperty ID="10" Label="BXA-171063-12CF-EDIN-X" Name="BXA-171063-12CF-EDIN-X" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-171063-12CF-EDIN-X" Location="LegA" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="72.4" Width="6.1" Depth="4.1" Weight="12.8" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_10"/>
+		<AntennaProperty ID="11" Label="BXA-171063-12CF-EDIN-X" Name="BXA-171063-12CF-EDIN-X" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-171063-12CF-EDIN-X" Location="LegB" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="72.4" Width="6.1" Depth="4.1" Weight="12.8" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_11"/>
+		<AntennaProperty ID="12" Label="BXA-171063-12CF-EDIN-X" Name="BXA-171063-12CF-EDIN-X" Elevation="100.0" Manufacturer="ANTEL" ModelName="BXA-171063-12CF-EDIN-X" Location="LegC" Type="PANEL" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="72.4" Width="6.1" Depth="4.1" Weight="12.8" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_12"/>
+		<AntennaProperty ID="13" Label="FD9R6004/1C-3L" Name="FD9R6004/1C-3L" Elevation="100.0" Manufacturer="RFS/CELWAVE" ModelName="FD9R6004/1C-3L" Location="LegA" Type="TME" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="5.8" Width="6.5" Depth="1.5" Weight="2.6" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_13"/>
+		<AntennaProperty ID="14" Label="FD9R6004/1C-3L" Name="FD9R6004/1C-3L" Elevation="100.0" Manufacturer="RFS/CELWAVE" ModelName="FD9R6004/1C-3L" Location="LegB" Type="TME" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="5.8" Width="6.5" Depth="1.5" Weight="2.6" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_14"/>
+		<AntennaProperty ID="15" Label="FD9R6004/1C-3L" Name="FD9R6004/1C-3L" Elevation="100.0" Manufacturer="RFS/CELWAVE" ModelName="FD9R6004/1C-3L" Location="LegC" Type="TME" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="5.8" Width="6.5" Depth="1.5" Weight="2.6" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_15"/>
+		<AntennaProperty ID="16" Label="9442 RRH AWS" Name="9442 RRH AWS" Elevation="100.0" Manufacturer="ALCATEL LUCENT" ModelName="9442 RRH AWS" Location="LegA" Type="TME" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="24.4" Width="10.6" Depth="6.7" Weight="43.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_16"/>
+		<AntennaProperty ID="17" Label="9442 RRH AWS" Name="9442 RRH AWS" Elevation="100.0" Manufacturer="ALCATEL LUCENT" ModelName="9442 RRH AWS" Location="LegB" Type="TME" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="24.4" Width="10.6" Depth="6.7" Weight="43.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_17"/>
+		<AntennaProperty ID="18" Label="9442 RRH AWS" Name="9442 RRH AWS" Elevation="100.0" Manufacturer="ALCATEL LUCENT" ModelName="9442 RRH AWS" Location="LegC" Type="TME" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="24.4" Width="10.6" Depth="6.7" Weight="43.0" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_18"/>
+		<AntennaProperty ID="19" Label="DB-B1-6C-12AB-0Z" Name="DB-B1-6C-12AB-0Z" Elevation="100.0" Manufacturer="RFS/CELWAVE" ModelName="DB-B1-6C-12AB-0Z" Location="LegC" Type="TME" Azimuth="0.0000" LateralOffset="3.0" VerticalOffset="0.0" HorizontalOffset="4.0" Height="25.66" Width="15.73" Depth="10.25" Weight="21.4" Classification="Existing" ComponentName="Antenna" SourceAppElementId="Attachment_19"/>
+	</AntennaProperties>
+	<AntennaNodes>
+		<AntennaNode ID="1" X="-1.0756834713000445" Y="30.46984" Z="-0.5330283023904306"/>
+		<AntennaNode ID="2" X="-1.0756834713000445" Y="31.70936" Z="-0.5330283023904306"/>
+		<AntennaNode ID="3" X="0.9994839310691409" Y="30.46984" Z="-0.6650108393739228"/>
+		<AntennaNode ID="4" X="0.9994839310691409" Y="31.70936" Z="-0.6650108393739228"/>
+		<AntennaNode ID="5" X="0.07619999999999999" Y="30.46984" Z="1.19814"/>
+		<AntennaNode ID="6" X="0.07619999999999999" Y="31.70936" Z="1.19814"/>
+		<AntennaNode ID="7" X="-1.097680560797293" Y="29.88691" Z="-0.5457282257622479"/>
+		<AntennaNode ID="8" X="-1.097680560797293" Y="32.29229" Z="-0.5457282257622479"/>
+		<AntennaNode ID="9" X="1.0214810205663896" Y="29.88691" Z="-0.67771076274574"/>
+		<AntennaNode ID="10" X="1.0214810205663896" Y="32.29229" Z="-0.67771076274574"/>
+		<AntennaNode ID="11" X="0.07619999999999999" Y="29.88691" Z="1.22354"/>
+		<AntennaNode ID="12" X="0.07619999999999999" Y="32.29229" Z="1.22354"/>
+		<AntennaNode ID="13" X="-1.097680560797293" Y="29.88691" Z="-0.5457282257622479"/>
+		<AntennaNode ID="14" X="-1.097680560797293" Y="32.29229" Z="-0.5457282257622479"/>
+		<AntennaNode ID="15" X="1.0214810205663896" Y="29.88691" Z="-0.67771076274574"/>
+		<AntennaNode ID="16" X="1.0214810205663896" Y="32.29229" Z="-0.67771076274574"/>
+		<AntennaNode ID="17" X="0.07619999999999999" Y="29.88691" Z="1.22354"/>
+		<AntennaNode ID="18" X="0.07619999999999999" Y="32.29229" Z="1.22354"/>
+		<AntennaNode ID="19" X="-1.0855821615738064" Y="30.17012" Z="-0.5387432679077484"/>
+		<AntennaNode ID="20" X="-1.0855821615738064" Y="32.00908" Z="-0.5387432679077484"/>
+		<AntennaNode ID="21" X="1.009382621342903" Y="30.17012" Z="-0.6707258048912406"/>
+		<AntennaNode ID="22" X="1.009382621342903" Y="32.00908" Z="-0.6707258048912406"/>
+		<AntennaNode ID="23" X="0.07619999999999999" Y="30.17012" Z="1.20957"/>
+		<AntennaNode ID="24" X="0.07619999999999999" Y="32.00908" Z="1.20957"/>
+		<AntennaNode ID="25" X="-1.056985945227383" Y="31.01594" Z="-0.5222333675243859"/>
+		<AntennaNode ID="26" X="-1.056985945227383" Y="31.16326" Z="-0.5222333675243859"/>
+		<AntennaNode ID="27" X="0.9807864049964795" Y="31.01594" Z="-0.654215904507878"/>
+		<AntennaNode ID="28" X="0.9807864049964795" Y="31.16326" Z="-0.654215904507878"/>
+		<AntennaNode ID="29" X="0.07619999999999999" Y="31.01594" Z="1.17655"/>
+		<AntennaNode ID="30" X="0.07619999999999999" Y="31.16326" Z="1.17655"/>
+		<AntennaNode ID="31" X="-1.1141783779202297" Y="30.77972" Z="-0.5552531682911108"/>
+		<AntennaNode ID="32" X="-1.1141783779202297" Y="31.39948" Z="-0.5552531682911108"/>
+		<AntennaNode ID="33" X="1.0379788376893262" Y="30.77972" Z="-0.687235705274603"/>
+		<AntennaNode ID="34" X="1.0379788376893262" Y="31.39948" Z="-0.687235705274603"/>
+		<AntennaNode ID="35" X="0.07619999999999999" Y="30.77972" Z="1.2425899999999999"/>
+		<AntennaNode ID="36" X="0.07619999999999999" Y="31.39948" Z="1.2425899999999999"/>
+		<AntennaNode ID="37" X="0.07619999999999999" Y="30.763718" Z="1.287675"/>
+		<AntennaNode ID="38" X="0.07619999999999999" Y="31.415482" Z="1.287675"/>
+	</AntennaNodes>
+	<Antennas>
+		<Antenna ID="1">
+			<AntennaMember ID="1" RefID="1" StartNodeID="1" EndNodeID="2" SectionID="3" AntennaPropertyID="1" Label="Antenna" MountID="1" SourceAppElementId="Antenna_1_PANEL"/>
+		</Antenna>
+		<Antenna ID="2">
+			<AntennaMember ID="2" RefID="2" StartNodeID="3" EndNodeID="4" SectionID="3" AntennaPropertyID="2" Label="Antenna" MountID="1" SourceAppElementId="Antenna_2_PANEL"/>
+		</Antenna>
+		<Antenna ID="3">
+			<AntennaMember ID="3" RefID="3" StartNodeID="5" EndNodeID="6" SectionID="3" AntennaPropertyID="3" Label="Antenna" MountID="1" SourceAppElementId="Antenna_3_PANEL"/>
+		</Antenna>
+		<Antenna ID="4">
+			<AntennaMember ID="4" RefID="4" StartNodeID="7" EndNodeID="8" SectionID="3" AntennaPropertyID="4" Label="Antenna" MountID="1" SourceAppElementId="Antenna_4_PANEL"/>
+		</Antenna>
+		<Antenna ID="5">
+			<AntennaMember ID="5" RefID="5" StartNodeID="9" EndNodeID="10" SectionID="3" AntennaPropertyID="5" Label="Antenna" MountID="1" SourceAppElementId="Antenna_5_PANEL"/>
+		</Antenna>
+		<Antenna ID="6">
+			<AntennaMember ID="6" RefID="6" StartNodeID="11" EndNodeID="12" SectionID="3" AntennaPropertyID="6" Label="Antenna" MountID="1" SourceAppElementId="Antenna_6_PANEL"/>
+		</Antenna>
+		<Antenna ID="7">
+			<AntennaMember ID="7" RefID="7" StartNodeID="13" EndNodeID="14" SectionID="3" AntennaPropertyID="7" Label="Antenna" MountID="1" SourceAppElementId="Antenna_7_PANEL"/>
+		</Antenna>
+		<Antenna ID="8">
+			<AntennaMember ID="8" RefID="8" StartNodeID="15" EndNodeID="16" SectionID="3" AntennaPropertyID="8" Label="Antenna" MountID="1" SourceAppElementId="Antenna_8_PANEL"/>
+		</Antenna>
+		<Antenna ID="9">
+			<AntennaMember ID="9" RefID="9" StartNodeID="17" EndNodeID="18" SectionID="3" AntennaPropertyID="9" Label="Antenna" MountID="1" SourceAppElementId="Antenna_9_PANEL"/>
+		</Antenna>
+		<Antenna ID="10">
+			<AntennaMember ID="10" RefID="10" StartNodeID="19" EndNodeID="20" SectionID="3" AntennaPropertyID="10" Label="Antenna" MountID="1" SourceAppElementId="Antenna_10_PANEL"/>
+		</Antenna>
+		<Antenna ID="11">
+			<AntennaMember ID="11" RefID="11" StartNodeID="21" EndNodeID="22" SectionID="3" AntennaPropertyID="11" Label="Antenna" MountID="1" SourceAppElementId="Antenna_11_PANEL"/>
+		</Antenna>
+		<Antenna ID="12">
+			<AntennaMember ID="12" RefID="12" StartNodeID="23" EndNodeID="24" SectionID="3" AntennaPropertyID="12" Label="Antenna" MountID="1" SourceAppElementId="Antenna_12_PANEL"/>
+		</Antenna>
+		<Antenna ID="13">
+			<AntennaMember ID="13" RefID="13" StartNodeID="25" EndNodeID="26" SectionID="3" AntennaPropertyID="13" Label="Antenna" MountID="1" SourceAppElementId="Antenna_13_TME"/>
+		</Antenna>
+		<Antenna ID="14">
+			<AntennaMember ID="14" RefID="14" StartNodeID="27" EndNodeID="28" SectionID="3" AntennaPropertyID="14" Label="Antenna" MountID="1" SourceAppElementId="Antenna_14_TME"/>
+		</Antenna>
+		<Antenna ID="15">
+			<AntennaMember ID="15" RefID="15" StartNodeID="29" EndNodeID="30" SectionID="3" AntennaPropertyID="15" Label="Antenna" MountID="1" SourceAppElementId="Antenna_15_TME"/>
+		</Antenna>
+		<Antenna ID="16">
+			<AntennaMember ID="16" RefID="16" StartNodeID="31" EndNodeID="32" SectionID="3" AntennaPropertyID="16" Label="Antenna" MountID="1" SourceAppElementId="Antenna_16_TME"/>
+		</Antenna>
+		<Antenna ID="17">
+			<AntennaMember ID="17" RefID="17" StartNodeID="33" EndNodeID="34" SectionID="3" AntennaPropertyID="17" Label="Antenna" MountID="1" SourceAppElementId="Antenna_17_TME"/>
+		</Antenna>
+		<Antenna ID="18">
+			<AntennaMember ID="18" RefID="18" StartNodeID="35" EndNodeID="36" SectionID="3" AntennaPropertyID="18" Label="Antenna" MountID="1" SourceAppElementId="Antenna_18_TME"/>
+		</Antenna>
+		<Antenna ID="19">
+			<AntennaMember ID="19" RefID="19" StartNodeID="37" EndNodeID="38" SectionID="3" AntennaPropertyID="19" Label="Antenna" MountID="1" SourceAppElementId="Antenna_19_TME"/>
+		</Antenna>
+	</Antennas>
+</Staad>

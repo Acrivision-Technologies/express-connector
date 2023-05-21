@@ -1,0 +1,1207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Staad>
+  <Sections>
+    <Section ID="1" Name="HollowCircleProfile" Radius="1.1875" WallThickness="0.143" />
+    <Section ID="2" Name="LShapeProfile" Width="2" Depth="2" Thickness="0.1875" FilletRadius="0" EdgeRadius="0" />
+    <Section ID="3" Name="LShapeProfile" Width="3.5" Depth="3.5" Thickness="0.25" FilletRadius="0" EdgeRadius="0" />
+    <Section ID="4" Name="LShapeProfile" Width="1.75" Depth="1.75" Thickness="0.25" FilletRadius="0" EdgeRadius="0" />
+    <Section ID="5" Name="LShapeProfile" Width="1.75" Depth="1.75" Thickness="0.125" FilletRadius="0" EdgeRadius="0" />
+    <Section ID="6" Name="LShapeProfile" Width="3.5" Depth="3.5" Thickness="0.3125" FilletRadius="0" EdgeRadius="0" />
+    <Section ID="7" Name="LShapeProfile" Width="2.5" Depth="2.5" Thickness="0.1875" FilletRadius="0" EdgeRadius="0" />
+  </Sections>
+  <TowerInformation TowerID="DemoTower" ComponentName="TowerInformation" Label="Tower Information" TowerName="DemoTower" Description="" UnitSystem="English" Convention="OpenTower" BearingAngle="45" TowerType="SelfSupported" TowerHeight="45" TopFaceWidth="7" TopFaceDepth="7" BottomFaceWidth="7" BottomFaceDepth="7" NoofPanel="7" />
+  <Nodes>
+    <Node ID="1" X="-1.0668" Y="12.4968" Z="-1.0668" />
+    <Node ID="2" X="-1.0668" Y="13.716" Z="-1.0668" />
+    <Node ID="3" X="-1.0668" Y="12.4968" Z="1.0668" />
+    <Node ID="4" X="-1.0668" Y="13.716" Z="1.0668" />
+    <Node ID="5" X="1.0668" Y="12.4968" Z="1.0668" />
+    <Node ID="6" X="1.0668" Y="13.716" Z="1.0668" />
+    <Node ID="7" X="1.0668" Y="12.4968" Z="-1.0668" />
+    <Node ID="8" X="1.0668" Y="13.716" Z="-1.0668" />
+    <Node ID="9" X="-1.0668" Y="13.716" Z="9.02389274415327E-17" />
+    <Node ID="10" X="9.02389274415327E-17" Y="13.716" Z="1.0668" />
+    <Node ID="11" X="1.0668" Y="13.716" Z="-9.02389274415327E-17" />
+    <Node ID="12" X="-9.02389274415327E-17" Y="13.716" Z="-1.0668" />
+    <Node ID="13" X="-1.0668" Y="13.716" Z="-0.21336" />
+    <Node ID="14" X="-1.0668" Y="13.716" Z="0.21336" />
+    <Node ID="15" X="-0.21336" Y="13.716" Z="1.0668" />
+    <Node ID="16" X="0.21336" Y="13.716" Z="1.0668" />
+    <Node ID="17" X="1.0668" Y="13.716" Z="0.21336" />
+    <Node ID="18" X="1.0668" Y="13.716" Z="-0.21336" />
+    <Node ID="19" X="0.21336" Y="13.716" Z="-1.0668" />
+    <Node ID="20" X="-0.21336" Y="13.716" Z="-1.0668" />
+    <Node ID="21" X="-1.0668" Y="10.8204" Z="-1.0668" />
+    <Node ID="22" X="-1.0668" Y="10.8204" Z="1.0668" />
+    <Node ID="23" X="1.0668" Y="10.8204" Z="1.0668" />
+    <Node ID="24" X="1.0668" Y="10.8204" Z="-1.0668" />
+    <Node ID="25" X="-1.0668" Y="12.4968" Z="-0.21336" />
+    <Node ID="26" X="-1.0668" Y="12.4968" Z="0.21336" />
+    <Node ID="27" X="-0.21336" Y="12.4968" Z="1.0668" />
+    <Node ID="28" X="0.21336" Y="12.4968" Z="1.0668" />
+    <Node ID="29" X="1.0668" Y="12.4968" Z="0.21336" />
+    <Node ID="30" X="1.0668" Y="12.4968" Z="-0.21336" />
+    <Node ID="31" X="0.21336" Y="12.4968" Z="-1.0668" />
+    <Node ID="32" X="-0.21336" Y="12.4968" Z="-1.0668" />
+    <Node ID="33" X="1.0668" Y="12.4968" Z="-9.02389274415327E-17" />
+    <Node ID="34" X="-1.0668" Y="12.4968" Z="9.02389274415327E-17" />
+    <Node ID="35" X="-1.0668" Y="9.144" Z="-1.0668" />
+    <Node ID="36" X="-1.0668" Y="9.144" Z="1.0668" />
+    <Node ID="37" X="1.0668" Y="9.144" Z="1.0668" />
+    <Node ID="38" X="1.0668" Y="9.144" Z="-1.0668" />
+    <Node ID="39" X="-1.0668" Y="7.9248" Z="-1.0668" />
+    <Node ID="40" X="-1.0668" Y="7.9248" Z="1.0668" />
+    <Node ID="41" X="1.0668" Y="7.9248" Z="1.0668" />
+    <Node ID="42" X="1.0668" Y="7.9248" Z="-1.0668" />
+    <Node ID="43" X="-1.0668" Y="9.144" Z="9.02389274415327E-17" />
+    <Node ID="44" X="9.02389274415327E-17" Y="9.144" Z="1.0668" />
+    <Node ID="45" X="1.0668" Y="9.144" Z="-9.02389274415327E-17" />
+    <Node ID="46" X="-9.02389274415327E-17" Y="9.144" Z="-1.0668" />
+    <Node ID="47" X="-1.0668" Y="9.144" Z="-0.21336" />
+    <Node ID="48" X="-1.0668" Y="9.144" Z="0.21336" />
+    <Node ID="49" X="-0.21336" Y="9.144" Z="1.0668" />
+    <Node ID="50" X="0.21336" Y="9.144" Z="1.0668" />
+    <Node ID="51" X="1.0668" Y="9.144" Z="0.21336" />
+    <Node ID="52" X="1.0668" Y="9.144" Z="-0.21336" />
+    <Node ID="53" X="0.21336" Y="9.144" Z="-1.0668" />
+    <Node ID="54" X="-0.21336" Y="9.144" Z="-1.0668" />
+    <Node ID="55" X="-1.0668" Y="6.096" Z="-1.0668" />
+    <Node ID="56" X="-1.0668" Y="6.096" Z="1.0668" />
+    <Node ID="57" X="1.0668" Y="6.096" Z="1.0668" />
+    <Node ID="58" X="1.0668" Y="6.096" Z="-1.0668" />
+    <Node ID="59" X="-1.0668" Y="7.9248" Z="-0.21336" />
+    <Node ID="60" X="-1.0668" Y="7.9248" Z="0.21336" />
+    <Node ID="61" X="-0.21336" Y="7.9248" Z="1.0668" />
+    <Node ID="62" X="0.21336" Y="7.9248" Z="1.0668" />
+    <Node ID="63" X="1.0668" Y="7.9248" Z="0.21336" />
+    <Node ID="64" X="1.0668" Y="7.9248" Z="-0.21336" />
+    <Node ID="65" X="0.21336" Y="7.9248" Z="-1.0668" />
+    <Node ID="66" X="-0.21336" Y="7.9248" Z="-1.0668" />
+    <Node ID="67" X="1.0668" Y="7.9248" Z="-9.02389274415327E-17" />
+    <Node ID="68" X="-1.0668" Y="7.9248" Z="9.02389274415327E-17" />
+    <Node ID="69" X="-1.0668" Y="4.8768" Z="-1.0668" />
+    <Node ID="70" X="-1.0668" Y="4.8768" Z="1.0668" />
+    <Node ID="71" X="1.0668" Y="4.8768" Z="1.0668" />
+    <Node ID="72" X="1.0668" Y="4.8768" Z="-1.0668" />
+    <Node ID="73" X="-1.0668" Y="6.096" Z="9.02389274415327E-17" />
+    <Node ID="74" X="9.02389274415327E-17" Y="6.096" Z="1.0668" />
+    <Node ID="75" X="1.0668" Y="6.096" Z="-9.02389274415327E-17" />
+    <Node ID="76" X="-9.02389274415327E-17" Y="6.096" Z="-1.0668" />
+    <Node ID="77" X="-1.0668" Y="6.096" Z="-0.21336" />
+    <Node ID="78" X="-1.0668" Y="6.096" Z="0.21336" />
+    <Node ID="79" X="-0.21336" Y="6.096" Z="1.0668" />
+    <Node ID="80" X="0.21336" Y="6.096" Z="1.0668" />
+    <Node ID="81" X="1.0668" Y="6.096" Z="0.21336" />
+    <Node ID="82" X="1.0668" Y="6.096" Z="-0.21336" />
+    <Node ID="83" X="0.21336" Y="6.096" Z="-1.0668" />
+    <Node ID="84" X="-0.21336" Y="6.096" Z="-1.0668" />
+    <Node ID="85" X="-1.0668" Y="3.252216" Z="-1.0668" />
+    <Node ID="86" X="-1.0668" Y="3.252216" Z="1.0668" />
+    <Node ID="87" X="1.0668" Y="3.252216" Z="1.0668" />
+    <Node ID="88" X="1.0668" Y="3.252216" Z="-1.0668" />
+    <Node ID="89" X="-1.0668" Y="4.8768" Z="-0.21336" />
+    <Node ID="90" X="-1.0668" Y="4.8768" Z="0.21336" />
+    <Node ID="91" X="-0.21336" Y="4.8768" Z="1.0668" />
+    <Node ID="92" X="0.21336" Y="4.8768" Z="1.0668" />
+    <Node ID="93" X="1.0668" Y="4.8768" Z="0.21336" />
+    <Node ID="94" X="1.0668" Y="4.8768" Z="-0.21336" />
+    <Node ID="95" X="0.21336" Y="4.8768" Z="-1.0668" />
+    <Node ID="96" X="-0.21336" Y="4.8768" Z="-1.0668" />
+    <Node ID="97" X="1.0668" Y="4.8768" Z="-9.02389274415327E-17" />
+    <Node ID="98" X="-1.0668" Y="4.8768" Z="9.02389274415327E-17" />
+    <Node ID="99" X="-1.0668" Y="1.627632" Z="-1.0668" />
+    <Node ID="100" X="-1.0668" Y="1.627632" Z="1.0668" />
+    <Node ID="101" X="1.0668" Y="1.627632" Z="1.0668" />
+    <Node ID="102" X="1.0668" Y="1.627632" Z="-1.0668" />
+    <Node ID="103" X="-1.0668" Y="-1.08286712929839E-15" Z="-1.0668" />
+    <Node ID="104" X="-1.0668" Y="-1.08286712929839E-15" Z="1.0668" />
+    <Node ID="105" X="1.0668" Y="-1.08286712929839E-15" Z="1.0668" />
+    <Node ID="106" X="1.0668" Y="-1.08286712929839E-15" Z="-1.0668" />
+  </Nodes>
+  <PanelProperties>
+    <PanelProperty PanelID="1" Label="Panel 1" Height="4" TopWidth="7" TopElevation="45" BottomElevation="41" BottomWidth="7" FaceBracing="K BRACE DOWN" PlanBracing="DIAMOND 4" HipBracing="None" NumberOfSegments="1" Weight="315" ComponentName="Panel" />
+    <PanelProperty PanelID="2" Label="Panel 2" Height="5.5" TopWidth="7" TopElevation="41" BottomElevation="35.5" BottomWidth="7" FaceBracing="X BRACE" PlanBracing="DIAMOND 4" HipBracing="None" NumberOfSegments="1" Weight="444" ComponentName="Panel" />
+    <PanelProperty PanelID="3" Label="Panel 3" Height="5.5" TopWidth="7" TopElevation="35.5" BottomElevation="30" BottomWidth="7" FaceBracing="X BRACE" PlanBracing="None" HipBracing="None" NumberOfSegments="1" Weight="325" ComponentName="Panel" />
+    <PanelProperty PanelID="4" Label="Panel 4" Height="4" TopWidth="7" TopElevation="30" BottomElevation="26" BottomWidth="7" FaceBracing="K BRACE DOWN" PlanBracing="DIAMOND 4" HipBracing="None" NumberOfSegments="1" Weight="315" ComponentName="Panel" />
+    <PanelProperty PanelID="5" Label="Panel 5" Height="6" TopWidth="7" TopElevation="26" BottomElevation="20" BottomWidth="7" FaceBracing="X BRACE" PlanBracing="DIAMOND 4" HipBracing="None" NumberOfSegments="1" Weight="364" ComponentName="Panel" />
+    <PanelProperty PanelID="6" Label="Panel 6" Height="4" TopWidth="7" TopElevation="20" BottomElevation="16" BottomWidth="7" FaceBracing="K BRACE DOWN" PlanBracing="DIAMOND 4" HipBracing="None" NumberOfSegments="1" Weight="315" ComponentName="Panel" />
+    <PanelProperty PanelID="7" Label="Panel 7" Height="5.33" TopWidth="7" TopElevation="16" BottomElevation="10.67" BottomWidth="7" FaceBracing="X BRACE" PlanBracing="DIAMOND 4" HipBracing="None" NumberOfSegments="1" Weight="467" ComponentName="Panel" />
+    <PanelProperty PanelID="8" Label="Panel 8" Height="5.33" TopWidth="7" TopElevation="10.67" BottomElevation="5.34" BottomWidth="7" FaceBracing="X BRACE" PlanBracing="None" HipBracing="None" NumberOfSegments="1" Weight="348" ComponentName="Panel" />
+    <PanelProperty PanelID="9" Label="Panel 9" Height="5.34" TopWidth="7" TopElevation="5.34" BottomElevation="-3.5527136788005E-15" BottomWidth="7" FaceBracing="X BRACE" PlanBracing="None" HipBracing="None" NumberOfSegments="1" Weight="349" ComponentName="Panel" />
+  </PanelProperties>
+  <Panel ID="1">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="1" ID="1" StartNodeID="1" EndNodeID="2" SectionID="3" BetaAngle="0" Label="Leg_D" HashId="1_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_12.4968_-1.0668_-1.0668_13.716_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="1" ID="2" StartNodeID="3" EndNodeID="4" SectionID="3" BetaAngle="90" Label="Leg_C" HashId="2_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_12.4968_1.0668_-1.0668_13.716_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="1" ID="3" StartNodeID="5" EndNodeID="6" SectionID="3" BetaAngle="-180" Label="Leg_B" HashId="3_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_12.4968_1.0668_1.0668_13.716_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="1" ID="4" StartNodeID="7" EndNodeID="8" SectionID="3" BetaAngle="-90" Label="Leg_A" HashId="4_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_12.4968_-1.0668_1.0668_13.716_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="1" ID="46" MemberTag="DIAGONAL" StartNodeID="7" EndNodeID="12" SectionID="2" BetaAngle="0" Label="Face_A_0" HashId="46_LShapeProfile_2_2_0.1875_0_0_1.0668_12.4968_-1.0668_-9.02389274415327E-17_13.716_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="1" ID="47" MemberTag="DIAGONAL" StartNodeID="1" EndNodeID="12" SectionID="2" BetaAngle="-180" Label="Face_A_1" HashId="47_LShapeProfile_2_2_0.1875_0_0_-1.0668_12.4968_-1.0668_-9.02389274415327E-17_13.716_-1.0668_-180_Face_A_1" />
+            <PhysicalMember PanelPropertyID="1" ID="48" MemberTag="HORIZONTAL" StartNodeID="8" EndNodeID="2" SectionID="7" BetaAngle="-180" Label="Face_A_2" HashId="48_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_13.716_-1.0668_-1.0668_13.716_-1.0668_-180_Face_A_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="1" ID="43" MemberTag="DIAGONAL" StartNodeID="5" EndNodeID="11" SectionID="2" BetaAngle="0" Label="Face_B_0" HashId="43_LShapeProfile_2_2_0.1875_0_0_1.0668_12.4968_1.0668_1.0668_13.716_-9.02389274415327E-17_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="1" ID="44" MemberTag="DIAGONAL" StartNodeID="7" EndNodeID="11" SectionID="2" BetaAngle="-180" Label="Face_B_1" HashId="44_LShapeProfile_2_2_0.1875_0_0_1.0668_12.4968_-1.0668_1.0668_13.716_-9.02389274415327E-17_-180_Face_B_1" />
+            <PhysicalMember PanelPropertyID="1" ID="45" MemberTag="HORIZONTAL" StartNodeID="6" EndNodeID="8" SectionID="7" BetaAngle="-180" Label="Face_B_2" HashId="45_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_13.716_1.0668_1.0668_13.716_-1.0668_-180_Face_B_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="1" ID="40" MemberTag="DIAGONAL" StartNodeID="3" EndNodeID="10" SectionID="2" BetaAngle="0" Label="Face_C_0" HashId="40_LShapeProfile_2_2_0.1875_0_0_-1.0668_12.4968_1.0668_9.02389274415327E-17_13.716_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="1" ID="41" MemberTag="DIAGONAL" StartNodeID="5" EndNodeID="10" SectionID="2" BetaAngle="-180" Label="Face_C_1" HashId="41_LShapeProfile_2_2_0.1875_0_0_1.0668_12.4968_1.0668_9.02389274415327E-17_13.716_1.0668_-180_Face_C_1" />
+            <PhysicalMember PanelPropertyID="1" ID="42" MemberTag="HORIZONTAL" StartNodeID="4" EndNodeID="6" SectionID="7" BetaAngle="-180" Label="Face_C_2" HashId="42_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_13.716_1.0668_1.0668_13.716_1.0668_-180_Face_C_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="1" ID="37" MemberTag="DIAGONAL" StartNodeID="1" EndNodeID="9" SectionID="2" BetaAngle="0" Label="Face_D_0" HashId="37_LShapeProfile_2_2_0.1875_0_0_-1.0668_12.4968_-1.0668_-1.0668_13.716_9.02389274415327E-17_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="1" ID="38" MemberTag="DIAGONAL" StartNodeID="3" EndNodeID="9" SectionID="2" BetaAngle="-180" Label="Face_D_1" HashId="38_LShapeProfile_2_2_0.1875_0_0_-1.0668_12.4968_1.0668_-1.0668_13.716_9.02389274415327E-17_-180_Face_D_1" />
+            <PhysicalMember PanelPropertyID="1" ID="39" MemberTag="HORIZONTAL" StartNodeID="2" EndNodeID="4" SectionID="7" BetaAngle="-180" Label="Face_D_2" HashId="39_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_13.716_-1.0668_-1.0668_13.716_1.0668_-180_Face_D_2" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails>
+      <PlanBracing ID="1" Name="DIAMOND 4">
+        <PhysicalMember PanelPropertyID="1" ID="49" MemberTag="INNERBRACING" StartNodeID="20" EndNodeID="13" SectionID="5" BetaAngle="-90" Label="Plan_1_0" HashId="49_LShapeProfile_1.75_1.75_0.125_0_0_-0.21336_13.716_-1.0668_-1.0668_13.716_-0.21336_-90_Plan_1_0" />
+        <PhysicalMember PanelPropertyID="1" ID="50" MemberTag="INNERBRACING" StartNodeID="14" EndNodeID="15" SectionID="5" BetaAngle="-90" Label="Plan_1_1" HashId="50_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_13.716_0.21336_-0.21336_13.716_1.0668_-90_Plan_1_1" />
+        <PhysicalMember PanelPropertyID="1" ID="51" MemberTag="INNERBRACING" StartNodeID="16" EndNodeID="17" SectionID="5" BetaAngle="-90" Label="Plan_1_2" HashId="51_LShapeProfile_1.75_1.75_0.125_0_0_0.21336_13.716_1.0668_1.0668_13.716_0.21336_-90_Plan_1_2" />
+        <PhysicalMember PanelPropertyID="1" ID="52" MemberTag="INNERBRACING" StartNodeID="18" EndNodeID="19" SectionID="5" BetaAngle="-90" Label="Plan_1_3" HashId="52_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_13.716_-0.21336_0.21336_13.716_-1.0668_-90_Plan_1_3" />
+        <PhysicalMember PanelPropertyID="1" ID="53" MemberTag="INNERBRACING1" StartNodeID="11" EndNodeID="9" SectionID="5" BetaAngle="-90" Label="Plan_1_4" HashId="53_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_13.716_-9.02389274415327E-17_-1.0668_13.716_9.02389274415327E-17_-90_Plan_1_4" />
+      </PlanBracing>
+    </PlanBracingDetails>
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="2">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="2" ID="5" StartNodeID="21" EndNodeID="1" SectionID="3" BetaAngle="0" Label="Leg_D" HashId="5_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_10.8204_-1.0668_-1.0668_12.4968_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="2" ID="6" StartNodeID="22" EndNodeID="3" SectionID="3" BetaAngle="90" Label="Leg_C" HashId="6_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_10.8204_1.0668_-1.0668_12.4968_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="2" ID="7" StartNodeID="23" EndNodeID="5" SectionID="3" BetaAngle="-180" Label="Leg_B" HashId="7_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_10.8204_1.0668_1.0668_12.4968_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="2" ID="8" StartNodeID="24" EndNodeID="7" SectionID="3" BetaAngle="-90" Label="Leg_A" HashId="8_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_10.8204_-1.0668_1.0668_12.4968_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="2" ID="63" MemberTag="DIAGONAL" StartNodeID="24" EndNodeID="1" SectionID="4" BetaAngle="0" Label="Face_A_0" HashId="63_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_10.8204_-1.0668_-1.0668_12.4968_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="2" ID="64" MemberTag="DIAGONAL" StartNodeID="21" EndNodeID="7" SectionID="4" BetaAngle="-90" Label="Face_A_1" HashId="64_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_10.8204_-1.0668_1.0668_12.4968_-1.0668_-90_Face_A_1" />
+            <PhysicalMember PanelPropertyID="2" ID="65" MemberTag="TOPHORIZONTAL" StartNodeID="7" EndNodeID="1" SectionID="7" BetaAngle="-180" Label="Face_A_2" HashId="65_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_12.4968_-1.0668_-1.0668_12.4968_-1.0668_-180_Face_A_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="2" ID="60" MemberTag="DIAGONAL" StartNodeID="23" EndNodeID="7" SectionID="4" BetaAngle="0" Label="Face_B_0" HashId="60_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_10.8204_1.0668_1.0668_12.4968_-1.0668_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="2" ID="61" MemberTag="DIAGONAL" StartNodeID="24" EndNodeID="5" SectionID="4" BetaAngle="-90" Label="Face_B_1" HashId="61_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_10.8204_-1.0668_1.0668_12.4968_1.0668_-90_Face_B_1" />
+            <PhysicalMember PanelPropertyID="2" ID="62" MemberTag="TOPHORIZONTAL" StartNodeID="5" EndNodeID="7" SectionID="7" BetaAngle="-180" Label="Face_B_2" HashId="62_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_12.4968_1.0668_1.0668_12.4968_-1.0668_-180_Face_B_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="2" ID="57" MemberTag="DIAGONAL" StartNodeID="22" EndNodeID="5" SectionID="4" BetaAngle="0" Label="Face_C_0" HashId="57_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_10.8204_1.0668_1.0668_12.4968_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="2" ID="58" MemberTag="DIAGONAL" StartNodeID="23" EndNodeID="3" SectionID="4" BetaAngle="-90" Label="Face_C_1" HashId="58_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_10.8204_1.0668_-1.0668_12.4968_1.0668_-90_Face_C_1" />
+            <PhysicalMember PanelPropertyID="2" ID="59" MemberTag="TOPHORIZONTAL" StartNodeID="3" EndNodeID="5" SectionID="7" BetaAngle="-180" Label="Face_C_2" HashId="59_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_12.4968_1.0668_1.0668_12.4968_1.0668_-180_Face_C_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="2" ID="54" MemberTag="DIAGONAL" StartNodeID="21" EndNodeID="3" SectionID="4" BetaAngle="0" Label="Face_D_0" HashId="54_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_10.8204_-1.0668_-1.0668_12.4968_1.0668_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="2" ID="55" MemberTag="DIAGONAL" StartNodeID="22" EndNodeID="1" SectionID="4" BetaAngle="-90" Label="Face_D_1" HashId="55_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_10.8204_1.0668_-1.0668_12.4968_-1.0668_-90_Face_D_1" />
+            <PhysicalMember PanelPropertyID="2" ID="56" MemberTag="TOPHORIZONTAL" StartNodeID="1" EndNodeID="3" SectionID="7" BetaAngle="-180" Label="Face_D_2" HashId="56_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_12.4968_-1.0668_-1.0668_12.4968_1.0668_-180_Face_D_2" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails>
+      <PlanBracing ID="1" Name="DIAMOND 4">
+        <PhysicalMember PanelPropertyID="2" ID="66" MemberTag="INNERBRACING" StartNodeID="32" EndNodeID="25" SectionID="5" BetaAngle="-90" Label="Plan_1_0" HashId="66_LShapeProfile_1.75_1.75_0.125_0_0_-0.21336_12.4968_-1.0668_-1.0668_12.4968_-0.21336_-90_Plan_1_0" />
+        <PhysicalMember PanelPropertyID="2" ID="67" MemberTag="INNERBRACING" StartNodeID="26" EndNodeID="27" SectionID="5" BetaAngle="-90" Label="Plan_1_1" HashId="67_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_12.4968_0.21336_-0.21336_12.4968_1.0668_-90_Plan_1_1" />
+        <PhysicalMember PanelPropertyID="2" ID="68" MemberTag="INNERBRACING" StartNodeID="28" EndNodeID="29" SectionID="5" BetaAngle="-90" Label="Plan_1_2" HashId="68_LShapeProfile_1.75_1.75_0.125_0_0_0.21336_12.4968_1.0668_1.0668_12.4968_0.21336_-90_Plan_1_2" />
+        <PhysicalMember PanelPropertyID="2" ID="69" MemberTag="INNERBRACING" StartNodeID="30" EndNodeID="31" SectionID="5" BetaAngle="-90" Label="Plan_1_3" HashId="69_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_12.4968_-0.21336_0.21336_12.4968_-1.0668_-90_Plan_1_3" />
+        <PhysicalMember PanelPropertyID="2" ID="70" MemberTag="INNERBRACING1" StartNodeID="33" EndNodeID="34" SectionID="5" BetaAngle="-90" Label="Plan_1_4" HashId="70_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_12.4968_-9.02389274415327E-17_-1.0668_12.4968_9.02389274415327E-17_-90_Plan_1_4" />
+      </PlanBracing>
+    </PlanBracingDetails>
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="3">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="3" ID="9" StartNodeID="35" EndNodeID="21" SectionID="3" BetaAngle="0" Label="Leg_D" HashId="9_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_9.144_-1.0668_-1.0668_10.8204_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="3" ID="10" StartNodeID="36" EndNodeID="22" SectionID="3" BetaAngle="90" Label="Leg_C" HashId="10_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_9.144_1.0668_-1.0668_10.8204_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="3" ID="11" StartNodeID="37" EndNodeID="23" SectionID="3" BetaAngle="-180" Label="Leg_B" HashId="11_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_9.144_1.0668_1.0668_10.8204_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="3" ID="12" StartNodeID="38" EndNodeID="24" SectionID="3" BetaAngle="-90" Label="Leg_A" HashId="12_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_9.144_-1.0668_1.0668_10.8204_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="3" ID="77" MemberTag="DIAGONAL" StartNodeID="38" EndNodeID="21" SectionID="4" BetaAngle="0" Label="Face_A_0" HashId="77_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_9.144_-1.0668_-1.0668_10.8204_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="3" ID="78" MemberTag="DIAGONAL" StartNodeID="35" EndNodeID="24" SectionID="4" BetaAngle="-90" Label="Face_A_1" HashId="78_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_9.144_-1.0668_1.0668_10.8204_-1.0668_-90_Face_A_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="3" ID="75" MemberTag="DIAGONAL" StartNodeID="37" EndNodeID="24" SectionID="4" BetaAngle="0" Label="Face_B_0" HashId="75_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_9.144_1.0668_1.0668_10.8204_-1.0668_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="3" ID="76" MemberTag="DIAGONAL" StartNodeID="38" EndNodeID="23" SectionID="4" BetaAngle="-90" Label="Face_B_1" HashId="76_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_9.144_-1.0668_1.0668_10.8204_1.0668_-90_Face_B_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="3" ID="73" MemberTag="DIAGONAL" StartNodeID="36" EndNodeID="23" SectionID="4" BetaAngle="0" Label="Face_C_0" HashId="73_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_9.144_1.0668_1.0668_10.8204_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="3" ID="74" MemberTag="DIAGONAL" StartNodeID="37" EndNodeID="22" SectionID="4" BetaAngle="-90" Label="Face_C_1" HashId="74_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_9.144_1.0668_-1.0668_10.8204_1.0668_-90_Face_C_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="3" ID="71" MemberTag="DIAGONAL" StartNodeID="35" EndNodeID="22" SectionID="4" BetaAngle="0" Label="Face_D_0" HashId="71_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_9.144_-1.0668_-1.0668_10.8204_1.0668_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="3" ID="72" MemberTag="DIAGONAL" StartNodeID="36" EndNodeID="21" SectionID="4" BetaAngle="-90" Label="Face_D_1" HashId="72_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_9.144_1.0668_-1.0668_10.8204_-1.0668_-90_Face_D_1" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails />
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="4">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="4" ID="13" StartNodeID="39" EndNodeID="35" SectionID="3" BetaAngle="0" Label="Leg_D" HashId="13_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_7.9248_-1.0668_-1.0668_9.144_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="4" ID="14" StartNodeID="40" EndNodeID="36" SectionID="3" BetaAngle="90" Label="Leg_C" HashId="14_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_7.9248_1.0668_-1.0668_9.144_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="4" ID="15" StartNodeID="41" EndNodeID="37" SectionID="3" BetaAngle="-180" Label="Leg_B" HashId="15_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_7.9248_1.0668_1.0668_9.144_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="4" ID="16" StartNodeID="42" EndNodeID="38" SectionID="3" BetaAngle="-90" Label="Leg_A" HashId="16_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_7.9248_-1.0668_1.0668_9.144_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="4" ID="88" MemberTag="DIAGONAL" StartNodeID="42" EndNodeID="46" SectionID="2" BetaAngle="0" Label="Face_A_0" HashId="88_LShapeProfile_2_2_0.1875_0_0_1.0668_7.9248_-1.0668_-9.02389274415327E-17_9.144_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="4" ID="89" MemberTag="DIAGONAL" StartNodeID="39" EndNodeID="46" SectionID="2" BetaAngle="-180" Label="Face_A_1" HashId="89_LShapeProfile_2_2_0.1875_0_0_-1.0668_7.9248_-1.0668_-9.02389274415327E-17_9.144_-1.0668_-180_Face_A_1" />
+            <PhysicalMember PanelPropertyID="4" ID="90" MemberTag="HORIZONTAL" StartNodeID="38" EndNodeID="35" SectionID="7" BetaAngle="-180" Label="Face_A_2" HashId="90_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_9.144_-1.0668_-1.0668_9.144_-1.0668_-180_Face_A_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="4" ID="85" MemberTag="DIAGONAL" StartNodeID="41" EndNodeID="45" SectionID="2" BetaAngle="0" Label="Face_B_0" HashId="85_LShapeProfile_2_2_0.1875_0_0_1.0668_7.9248_1.0668_1.0668_9.144_-9.02389274415327E-17_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="4" ID="86" MemberTag="DIAGONAL" StartNodeID="42" EndNodeID="45" SectionID="2" BetaAngle="-180" Label="Face_B_1" HashId="86_LShapeProfile_2_2_0.1875_0_0_1.0668_7.9248_-1.0668_1.0668_9.144_-9.02389274415327E-17_-180_Face_B_1" />
+            <PhysicalMember PanelPropertyID="4" ID="87" MemberTag="HORIZONTAL" StartNodeID="37" EndNodeID="38" SectionID="7" BetaAngle="-180" Label="Face_B_2" HashId="87_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_9.144_1.0668_1.0668_9.144_-1.0668_-180_Face_B_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="4" ID="82" MemberTag="DIAGONAL" StartNodeID="40" EndNodeID="44" SectionID="2" BetaAngle="0" Label="Face_C_0" HashId="82_LShapeProfile_2_2_0.1875_0_0_-1.0668_7.9248_1.0668_9.02389274415327E-17_9.144_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="4" ID="83" MemberTag="DIAGONAL" StartNodeID="41" EndNodeID="44" SectionID="2" BetaAngle="-180" Label="Face_C_1" HashId="83_LShapeProfile_2_2_0.1875_0_0_1.0668_7.9248_1.0668_9.02389274415327E-17_9.144_1.0668_-180_Face_C_1" />
+            <PhysicalMember PanelPropertyID="4" ID="84" MemberTag="HORIZONTAL" StartNodeID="36" EndNodeID="37" SectionID="7" BetaAngle="-180" Label="Face_C_2" HashId="84_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_9.144_1.0668_1.0668_9.144_1.0668_-180_Face_C_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="4" ID="79" MemberTag="DIAGONAL" StartNodeID="39" EndNodeID="43" SectionID="2" BetaAngle="0" Label="Face_D_0" HashId="79_LShapeProfile_2_2_0.1875_0_0_-1.0668_7.9248_-1.0668_-1.0668_9.144_9.02389274415327E-17_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="4" ID="80" MemberTag="DIAGONAL" StartNodeID="40" EndNodeID="43" SectionID="2" BetaAngle="-180" Label="Face_D_1" HashId="80_LShapeProfile_2_2_0.1875_0_0_-1.0668_7.9248_1.0668_-1.0668_9.144_9.02389274415327E-17_-180_Face_D_1" />
+            <PhysicalMember PanelPropertyID="4" ID="81" MemberTag="HORIZONTAL" StartNodeID="35" EndNodeID="36" SectionID="7" BetaAngle="-180" Label="Face_D_2" HashId="81_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_9.144_-1.0668_-1.0668_9.144_1.0668_-180_Face_D_2" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails>
+      <PlanBracing ID="1" Name="DIAMOND 4">
+        <PhysicalMember PanelPropertyID="4" ID="91" MemberTag="INNERBRACING" StartNodeID="54" EndNodeID="47" SectionID="5" BetaAngle="-90" Label="Plan_1_0" HashId="91_LShapeProfile_1.75_1.75_0.125_0_0_-0.21336_9.144_-1.0668_-1.0668_9.144_-0.21336_-90_Plan_1_0" />
+        <PhysicalMember PanelPropertyID="4" ID="92" MemberTag="INNERBRACING" StartNodeID="48" EndNodeID="49" SectionID="5" BetaAngle="-90" Label="Plan_1_1" HashId="92_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_9.144_0.21336_-0.21336_9.144_1.0668_-90_Plan_1_1" />
+        <PhysicalMember PanelPropertyID="4" ID="93" MemberTag="INNERBRACING" StartNodeID="50" EndNodeID="51" SectionID="5" BetaAngle="-90" Label="Plan_1_2" HashId="93_LShapeProfile_1.75_1.75_0.125_0_0_0.21336_9.144_1.0668_1.0668_9.144_0.21336_-90_Plan_1_2" />
+        <PhysicalMember PanelPropertyID="4" ID="94" MemberTag="INNERBRACING" StartNodeID="52" EndNodeID="53" SectionID="5" BetaAngle="-90" Label="Plan_1_3" HashId="94_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_9.144_-0.21336_0.21336_9.144_-1.0668_-90_Plan_1_3" />
+        <PhysicalMember PanelPropertyID="4" ID="95" MemberTag="INNERBRACING1" StartNodeID="45" EndNodeID="43" SectionID="5" BetaAngle="-90" Label="Plan_1_4" HashId="95_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_9.144_-9.02389274415327E-17_-1.0668_9.144_9.02389274415327E-17_-90_Plan_1_4" />
+      </PlanBracing>
+    </PlanBracingDetails>
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="5">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="5" ID="17" StartNodeID="55" EndNodeID="39" SectionID="3" BetaAngle="0" Label="Leg_D" HashId="17_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_6.096_-1.0668_-1.0668_7.9248_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="5" ID="18" StartNodeID="56" EndNodeID="40" SectionID="3" BetaAngle="90" Label="Leg_C" HashId="18_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_6.096_1.0668_-1.0668_7.9248_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="5" ID="19" StartNodeID="57" EndNodeID="41" SectionID="3" BetaAngle="-180" Label="Leg_B" HashId="19_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_6.096_1.0668_1.0668_7.9248_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="5" ID="20" StartNodeID="58" EndNodeID="42" SectionID="3" BetaAngle="-90" Label="Leg_A" HashId="20_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_6.096_-1.0668_1.0668_7.9248_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="5" ID="105" MemberTag="DIAGONAL" StartNodeID="58" EndNodeID="39" SectionID="5" BetaAngle="0" Label="Face_A_0" HashId="105_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_6.096_-1.0668_-1.0668_7.9248_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="5" ID="106" MemberTag="DIAGONAL" StartNodeID="55" EndNodeID="42" SectionID="5" BetaAngle="-90" Label="Face_A_1" HashId="106_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_6.096_-1.0668_1.0668_7.9248_-1.0668_-90_Face_A_1" />
+            <PhysicalMember PanelPropertyID="5" ID="107" MemberTag="TOPHORIZONTAL" StartNodeID="42" EndNodeID="39" SectionID="7" BetaAngle="-180" Label="Face_A_2" HashId="107_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_7.9248_-1.0668_-1.0668_7.9248_-1.0668_-180_Face_A_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="5" ID="102" MemberTag="DIAGONAL" StartNodeID="57" EndNodeID="42" SectionID="5" BetaAngle="0" Label="Face_B_0" HashId="102_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_6.096_1.0668_1.0668_7.9248_-1.0668_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="5" ID="103" MemberTag="DIAGONAL" StartNodeID="58" EndNodeID="41" SectionID="5" BetaAngle="-90" Label="Face_B_1" HashId="103_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_6.096_-1.0668_1.0668_7.9248_1.0668_-90_Face_B_1" />
+            <PhysicalMember PanelPropertyID="5" ID="104" MemberTag="TOPHORIZONTAL" StartNodeID="41" EndNodeID="42" SectionID="7" BetaAngle="-180" Label="Face_B_2" HashId="104_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_7.9248_1.0668_1.0668_7.9248_-1.0668_-180_Face_B_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="5" ID="99" MemberTag="DIAGONAL" StartNodeID="56" EndNodeID="41" SectionID="5" BetaAngle="0" Label="Face_C_0" HashId="99_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_6.096_1.0668_1.0668_7.9248_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="5" ID="100" MemberTag="DIAGONAL" StartNodeID="57" EndNodeID="40" SectionID="5" BetaAngle="-90" Label="Face_C_1" HashId="100_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_6.096_1.0668_-1.0668_7.9248_1.0668_-90_Face_C_1" />
+            <PhysicalMember PanelPropertyID="5" ID="101" MemberTag="TOPHORIZONTAL" StartNodeID="40" EndNodeID="41" SectionID="7" BetaAngle="-180" Label="Face_C_2" HashId="101_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_7.9248_1.0668_1.0668_7.9248_1.0668_-180_Face_C_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="5" ID="96" MemberTag="DIAGONAL" StartNodeID="55" EndNodeID="40" SectionID="5" BetaAngle="0" Label="Face_D_0" HashId="96_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_6.096_-1.0668_-1.0668_7.9248_1.0668_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="5" ID="97" MemberTag="DIAGONAL" StartNodeID="56" EndNodeID="39" SectionID="5" BetaAngle="-90" Label="Face_D_1" HashId="97_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_6.096_1.0668_-1.0668_7.9248_-1.0668_-90_Face_D_1" />
+            <PhysicalMember PanelPropertyID="5" ID="98" MemberTag="TOPHORIZONTAL" StartNodeID="39" EndNodeID="40" SectionID="7" BetaAngle="-180" Label="Face_D_2" HashId="98_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_7.9248_-1.0668_-1.0668_7.9248_1.0668_-180_Face_D_2" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails>
+      <PlanBracing ID="1" Name="DIAMOND 4">
+        <PhysicalMember PanelPropertyID="5" ID="108" MemberTag="INNERBRACING" StartNodeID="66" EndNodeID="59" SectionID="5" BetaAngle="-90" Label="Plan_1_0" HashId="108_LShapeProfile_1.75_1.75_0.125_0_0_-0.21336_7.9248_-1.0668_-1.0668_7.9248_-0.21336_-90_Plan_1_0" />
+        <PhysicalMember PanelPropertyID="5" ID="109" MemberTag="INNERBRACING" StartNodeID="60" EndNodeID="61" SectionID="5" BetaAngle="-90" Label="Plan_1_1" HashId="109_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_7.9248_0.21336_-0.21336_7.9248_1.0668_-90_Plan_1_1" />
+        <PhysicalMember PanelPropertyID="5" ID="110" MemberTag="INNERBRACING" StartNodeID="62" EndNodeID="63" SectionID="5" BetaAngle="-90" Label="Plan_1_2" HashId="110_LShapeProfile_1.75_1.75_0.125_0_0_0.21336_7.9248_1.0668_1.0668_7.9248_0.21336_-90_Plan_1_2" />
+        <PhysicalMember PanelPropertyID="5" ID="111" MemberTag="INNERBRACING" StartNodeID="64" EndNodeID="65" SectionID="5" BetaAngle="-90" Label="Plan_1_3" HashId="111_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_7.9248_-0.21336_0.21336_7.9248_-1.0668_-90_Plan_1_3" />
+        <PhysicalMember PanelPropertyID="5" ID="112" MemberTag="INNERBRACING1" StartNodeID="67" EndNodeID="68" SectionID="5" BetaAngle="-90" Label="Plan_1_4" HashId="112_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_7.9248_-9.02389274415327E-17_-1.0668_7.9248_9.02389274415327E-17_-90_Plan_1_4" />
+      </PlanBracing>
+    </PlanBracingDetails>
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="6">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="6" ID="21" StartNodeID="69" EndNodeID="55" SectionID="3" BetaAngle="0" Label="Leg_D" HashId="21_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_4.8768_-1.0668_-1.0668_6.096_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="6" ID="22" StartNodeID="70" EndNodeID="56" SectionID="3" BetaAngle="90" Label="Leg_C" HashId="22_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_4.8768_1.0668_-1.0668_6.096_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="6" ID="23" StartNodeID="71" EndNodeID="57" SectionID="3" BetaAngle="-180" Label="Leg_B" HashId="23_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_4.8768_1.0668_1.0668_6.096_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="6" ID="24" StartNodeID="72" EndNodeID="58" SectionID="3" BetaAngle="-90" Label="Leg_A" HashId="24_LShapeProfile_3.5_3.5_0.25_0_0_1.0668_4.8768_-1.0668_1.0668_6.096_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="6" ID="122" MemberTag="DIAGONAL" StartNodeID="72" EndNodeID="76" SectionID="2" BetaAngle="0" Label="Face_A_0" HashId="122_LShapeProfile_2_2_0.1875_0_0_1.0668_4.8768_-1.0668_-9.02389274415327E-17_6.096_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="6" ID="123" MemberTag="DIAGONAL" StartNodeID="69" EndNodeID="76" SectionID="2" BetaAngle="-180" Label="Face_A_1" HashId="123_LShapeProfile_2_2_0.1875_0_0_-1.0668_4.8768_-1.0668_-9.02389274415327E-17_6.096_-1.0668_-180_Face_A_1" />
+            <PhysicalMember PanelPropertyID="6" ID="124" MemberTag="HORIZONTAL" StartNodeID="58" EndNodeID="55" SectionID="7" BetaAngle="-180" Label="Face_A_2" HashId="124_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_6.096_-1.0668_-1.0668_6.096_-1.0668_-180_Face_A_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="6" ID="119" MemberTag="DIAGONAL" StartNodeID="71" EndNodeID="75" SectionID="2" BetaAngle="0" Label="Face_B_0" HashId="119_LShapeProfile_2_2_0.1875_0_0_1.0668_4.8768_1.0668_1.0668_6.096_-9.02389274415327E-17_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="6" ID="120" MemberTag="DIAGONAL" StartNodeID="72" EndNodeID="75" SectionID="2" BetaAngle="-180" Label="Face_B_1" HashId="120_LShapeProfile_2_2_0.1875_0_0_1.0668_4.8768_-1.0668_1.0668_6.096_-9.02389274415327E-17_-180_Face_B_1" />
+            <PhysicalMember PanelPropertyID="6" ID="121" MemberTag="HORIZONTAL" StartNodeID="57" EndNodeID="58" SectionID="7" BetaAngle="-180" Label="Face_B_2" HashId="121_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_6.096_1.0668_1.0668_6.096_-1.0668_-180_Face_B_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="6" ID="116" MemberTag="DIAGONAL" StartNodeID="70" EndNodeID="74" SectionID="2" BetaAngle="0" Label="Face_C_0" HashId="116_LShapeProfile_2_2_0.1875_0_0_-1.0668_4.8768_1.0668_9.02389274415327E-17_6.096_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="6" ID="117" MemberTag="DIAGONAL" StartNodeID="71" EndNodeID="74" SectionID="2" BetaAngle="-180" Label="Face_C_1" HashId="117_LShapeProfile_2_2_0.1875_0_0_1.0668_4.8768_1.0668_9.02389274415327E-17_6.096_1.0668_-180_Face_C_1" />
+            <PhysicalMember PanelPropertyID="6" ID="118" MemberTag="HORIZONTAL" StartNodeID="56" EndNodeID="57" SectionID="7" BetaAngle="-180" Label="Face_C_2" HashId="118_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_6.096_1.0668_1.0668_6.096_1.0668_-180_Face_C_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="K Brace Down">
+            <PhysicalMember PanelPropertyID="6" ID="113" MemberTag="DIAGONAL" StartNodeID="69" EndNodeID="73" SectionID="2" BetaAngle="0" Label="Face_D_0" HashId="113_LShapeProfile_2_2_0.1875_0_0_-1.0668_4.8768_-1.0668_-1.0668_6.096_9.02389274415327E-17_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="6" ID="114" MemberTag="DIAGONAL" StartNodeID="70" EndNodeID="73" SectionID="2" BetaAngle="-180" Label="Face_D_1" HashId="114_LShapeProfile_2_2_0.1875_0_0_-1.0668_4.8768_1.0668_-1.0668_6.096_9.02389274415327E-17_-180_Face_D_1" />
+            <PhysicalMember PanelPropertyID="6" ID="115" MemberTag="HORIZONTAL" StartNodeID="55" EndNodeID="56" SectionID="7" BetaAngle="-180" Label="Face_D_2" HashId="115_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_6.096_-1.0668_-1.0668_6.096_1.0668_-180_Face_D_2" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails>
+      <PlanBracing ID="1" Name="DIAMOND 4">
+        <PhysicalMember PanelPropertyID="6" ID="125" MemberTag="INNERBRACING" StartNodeID="84" EndNodeID="77" SectionID="5" BetaAngle="-90" Label="Plan_1_0" HashId="125_LShapeProfile_1.75_1.75_0.125_0_0_-0.21336_6.096_-1.0668_-1.0668_6.096_-0.21336_-90_Plan_1_0" />
+        <PhysicalMember PanelPropertyID="6" ID="126" MemberTag="INNERBRACING" StartNodeID="78" EndNodeID="79" SectionID="5" BetaAngle="-90" Label="Plan_1_1" HashId="126_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_6.096_0.21336_-0.21336_6.096_1.0668_-90_Plan_1_1" />
+        <PhysicalMember PanelPropertyID="6" ID="127" MemberTag="INNERBRACING" StartNodeID="80" EndNodeID="81" SectionID="5" BetaAngle="-90" Label="Plan_1_2" HashId="127_LShapeProfile_1.75_1.75_0.125_0_0_0.21336_6.096_1.0668_1.0668_6.096_0.21336_-90_Plan_1_2" />
+        <PhysicalMember PanelPropertyID="6" ID="128" MemberTag="INNERBRACING" StartNodeID="82" EndNodeID="83" SectionID="5" BetaAngle="-90" Label="Plan_1_3" HashId="128_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_6.096_-0.21336_0.21336_6.096_-1.0668_-90_Plan_1_3" />
+        <PhysicalMember PanelPropertyID="6" ID="129" MemberTag="INNERBRACING1" StartNodeID="75" EndNodeID="73" SectionID="5" BetaAngle="-90" Label="Plan_1_4" HashId="129_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_6.096_-9.02389274415327E-17_-1.0668_6.096_9.02389274415327E-17_-90_Plan_1_4" />
+      </PlanBracing>
+    </PlanBracingDetails>
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="7">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="7" ID="25" StartNodeID="85" EndNodeID="69" SectionID="6" BetaAngle="0" Label="Leg_D" HashId="25_LShapeProfile_3.5_3.5_0.3125_0_0_-1.0668_3.252216_-1.0668_-1.0668_4.8768_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="7" ID="26" StartNodeID="86" EndNodeID="70" SectionID="6" BetaAngle="90" Label="Leg_C" HashId="26_LShapeProfile_3.5_3.5_0.3125_0_0_-1.0668_3.252216_1.0668_-1.0668_4.8768_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="7" ID="27" StartNodeID="87" EndNodeID="71" SectionID="6" BetaAngle="-180" Label="Leg_B" HashId="27_LShapeProfile_3.5_3.5_0.3125_0_0_1.0668_3.252216_1.0668_1.0668_4.8768_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="7" ID="28" StartNodeID="88" EndNodeID="72" SectionID="6" BetaAngle="-90" Label="Leg_A" HashId="28_LShapeProfile_3.5_3.5_0.3125_0_0_1.0668_3.252216_-1.0668_1.0668_4.8768_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="7" ID="139" MemberTag="DIAGONAL" StartNodeID="88" EndNodeID="69" SectionID="4" BetaAngle="0" Label="Face_A_0" HashId="139_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_3.252216_-1.0668_-1.0668_4.8768_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="7" ID="140" MemberTag="DIAGONAL" StartNodeID="85" EndNodeID="72" SectionID="4" BetaAngle="-90" Label="Face_A_1" HashId="140_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_3.252216_-1.0668_1.0668_4.8768_-1.0668_-90_Face_A_1" />
+            <PhysicalMember PanelPropertyID="7" ID="141" MemberTag="TOPHORIZONTAL" StartNodeID="72" EndNodeID="69" SectionID="7" BetaAngle="-180" Label="Face_A_2" HashId="141_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_4.8768_-1.0668_-1.0668_4.8768_-1.0668_-180_Face_A_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="7" ID="136" MemberTag="DIAGONAL" StartNodeID="87" EndNodeID="72" SectionID="4" BetaAngle="0" Label="Face_B_0" HashId="136_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_3.252216_1.0668_1.0668_4.8768_-1.0668_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="7" ID="137" MemberTag="DIAGONAL" StartNodeID="88" EndNodeID="71" SectionID="4" BetaAngle="-90" Label="Face_B_1" HashId="137_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_3.252216_-1.0668_1.0668_4.8768_1.0668_-90_Face_B_1" />
+            <PhysicalMember PanelPropertyID="7" ID="138" MemberTag="TOPHORIZONTAL" StartNodeID="71" EndNodeID="72" SectionID="7" BetaAngle="-180" Label="Face_B_2" HashId="138_LShapeProfile_2.5_2.5_0.1875_0_0_1.0668_4.8768_1.0668_1.0668_4.8768_-1.0668_-180_Face_B_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="7" ID="133" MemberTag="DIAGONAL" StartNodeID="86" EndNodeID="71" SectionID="4" BetaAngle="0" Label="Face_C_0" HashId="133_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_3.252216_1.0668_1.0668_4.8768_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="7" ID="134" MemberTag="DIAGONAL" StartNodeID="87" EndNodeID="70" SectionID="4" BetaAngle="-90" Label="Face_C_1" HashId="134_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_3.252216_1.0668_-1.0668_4.8768_1.0668_-90_Face_C_1" />
+            <PhysicalMember PanelPropertyID="7" ID="135" MemberTag="TOPHORIZONTAL" StartNodeID="70" EndNodeID="71" SectionID="7" BetaAngle="-180" Label="Face_C_2" HashId="135_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_4.8768_1.0668_1.0668_4.8768_1.0668_-180_Face_C_2" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="7" ID="130" MemberTag="DIAGONAL" StartNodeID="85" EndNodeID="70" SectionID="4" BetaAngle="0" Label="Face_D_0" HashId="130_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_3.252216_-1.0668_-1.0668_4.8768_1.0668_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="7" ID="131" MemberTag="DIAGONAL" StartNodeID="86" EndNodeID="69" SectionID="4" BetaAngle="-90" Label="Face_D_1" HashId="131_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_3.252216_1.0668_-1.0668_4.8768_-1.0668_-90_Face_D_1" />
+            <PhysicalMember PanelPropertyID="7" ID="132" MemberTag="TOPHORIZONTAL" StartNodeID="69" EndNodeID="70" SectionID="7" BetaAngle="-180" Label="Face_D_2" HashId="132_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_4.8768_-1.0668_-1.0668_4.8768_1.0668_-180_Face_D_2" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails>
+      <PlanBracing ID="1" Name="DIAMOND 4">
+        <PhysicalMember PanelPropertyID="7" ID="142" MemberTag="INNERBRACING" StartNodeID="96" EndNodeID="89" SectionID="5" BetaAngle="-90" Label="Plan_1_0" HashId="142_LShapeProfile_1.75_1.75_0.125_0_0_-0.21336_4.8768_-1.0668_-1.0668_4.8768_-0.21336_-90_Plan_1_0" />
+        <PhysicalMember PanelPropertyID="7" ID="143" MemberTag="INNERBRACING" StartNodeID="90" EndNodeID="91" SectionID="5" BetaAngle="-90" Label="Plan_1_1" HashId="143_LShapeProfile_1.75_1.75_0.125_0_0_-1.0668_4.8768_0.21336_-0.21336_4.8768_1.0668_-90_Plan_1_1" />
+        <PhysicalMember PanelPropertyID="7" ID="144" MemberTag="INNERBRACING" StartNodeID="92" EndNodeID="93" SectionID="5" BetaAngle="-90" Label="Plan_1_2" HashId="144_LShapeProfile_1.75_1.75_0.125_0_0_0.21336_4.8768_1.0668_1.0668_4.8768_0.21336_-90_Plan_1_2" />
+        <PhysicalMember PanelPropertyID="7" ID="145" MemberTag="INNERBRACING" StartNodeID="94" EndNodeID="95" SectionID="5" BetaAngle="-90" Label="Plan_1_3" HashId="145_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_4.8768_-0.21336_0.21336_4.8768_-1.0668_-90_Plan_1_3" />
+        <PhysicalMember PanelPropertyID="7" ID="146" MemberTag="INNERBRACING1" StartNodeID="97" EndNodeID="98" SectionID="5" BetaAngle="-90" Label="Plan_1_4" HashId="146_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_4.8768_-9.02389274415327E-17_-1.0668_4.8768_9.02389274415327E-17_-90_Plan_1_4" />
+      </PlanBracing>
+    </PlanBracingDetails>
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="8">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="8" ID="29" StartNodeID="99" EndNodeID="85" SectionID="6" BetaAngle="0" Label="Leg_D" HashId="29_LShapeProfile_3.5_3.5_0.3125_0_0_-1.0668_1.627632_-1.0668_-1.0668_3.252216_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="8" ID="30" StartNodeID="100" EndNodeID="86" SectionID="6" BetaAngle="90" Label="Leg_C" HashId="30_LShapeProfile_3.5_3.5_0.3125_0_0_-1.0668_1.627632_1.0668_-1.0668_3.252216_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="8" ID="31" StartNodeID="101" EndNodeID="87" SectionID="6" BetaAngle="-180" Label="Leg_B" HashId="31_LShapeProfile_3.5_3.5_0.3125_0_0_1.0668_1.627632_1.0668_1.0668_3.252216_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="8" ID="32" StartNodeID="102" EndNodeID="88" SectionID="6" BetaAngle="-90" Label="Leg_A" HashId="32_LShapeProfile_3.5_3.5_0.3125_0_0_1.0668_1.627632_-1.0668_1.0668_3.252216_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="8" ID="153" MemberTag="DIAGONAL" StartNodeID="102" EndNodeID="85" SectionID="4" BetaAngle="0" Label="Face_A_0" HashId="153_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_1.627632_-1.0668_-1.0668_3.252216_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="8" ID="154" MemberTag="DIAGONAL" StartNodeID="99" EndNodeID="88" SectionID="4" BetaAngle="-90" Label="Face_A_1" HashId="154_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_1.627632_-1.0668_1.0668_3.252216_-1.0668_-90_Face_A_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="8" ID="151" MemberTag="DIAGONAL" StartNodeID="101" EndNodeID="88" SectionID="4" BetaAngle="0" Label="Face_B_0" HashId="151_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_1.627632_1.0668_1.0668_3.252216_-1.0668_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="8" ID="152" MemberTag="DIAGONAL" StartNodeID="102" EndNodeID="87" SectionID="4" BetaAngle="-90" Label="Face_B_1" HashId="152_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_1.627632_-1.0668_1.0668_3.252216_1.0668_-90_Face_B_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="8" ID="149" MemberTag="DIAGONAL" StartNodeID="100" EndNodeID="87" SectionID="4" BetaAngle="0" Label="Face_C_0" HashId="149_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_1.627632_1.0668_1.0668_3.252216_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="8" ID="150" MemberTag="DIAGONAL" StartNodeID="101" EndNodeID="86" SectionID="4" BetaAngle="-90" Label="Face_C_1" HashId="150_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_1.627632_1.0668_-1.0668_3.252216_1.0668_-90_Face_C_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="8" ID="147" MemberTag="DIAGONAL" StartNodeID="99" EndNodeID="86" SectionID="4" BetaAngle="0" Label="Face_D_0" HashId="147_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_1.627632_-1.0668_-1.0668_3.252216_1.0668_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="8" ID="148" MemberTag="DIAGONAL" StartNodeID="100" EndNodeID="85" SectionID="4" BetaAngle="-90" Label="Face_D_1" HashId="148_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_1.627632_1.0668_-1.0668_3.252216_-1.0668_-90_Face_D_1" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails />
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <Panel ID="9">
+    <Legs>
+      <Leg Name="D">
+        <PhysicalMember PanelPropertyID="9" ID="33" StartNodeID="103" EndNodeID="99" SectionID="6" BetaAngle="0" Label="Leg_D" HashId="33_LShapeProfile_3.5_3.5_0.3125_0_0_-1.0668_-1.08286712929839E-15_-1.0668_-1.0668_1.627632_-1.0668_0_Leg_D" />
+      </Leg>
+      <Leg Name="C">
+        <PhysicalMember PanelPropertyID="9" ID="34" StartNodeID="104" EndNodeID="100" SectionID="6" BetaAngle="90" Label="Leg_C" HashId="34_LShapeProfile_3.5_3.5_0.3125_0_0_-1.0668_-1.08286712929839E-15_1.0668_-1.0668_1.627632_1.0668_90_Leg_C" />
+      </Leg>
+      <Leg Name="B">
+        <PhysicalMember PanelPropertyID="9" ID="35" StartNodeID="105" EndNodeID="101" SectionID="6" BetaAngle="-180" Label="Leg_B" HashId="35_LShapeProfile_3.5_3.5_0.3125_0_0_1.0668_-1.08286712929839E-15_1.0668_1.0668_1.627632_1.0668_-180_Leg_B" />
+      </Leg>
+      <Leg Name="A">
+        <PhysicalMember PanelPropertyID="9" ID="36" StartNodeID="106" EndNodeID="102" SectionID="6" BetaAngle="-90" Label="Leg_A" HashId="36_LShapeProfile_3.5_3.5_0.3125_0_0_1.0668_-1.08286712929839E-15_-1.0668_1.0668_1.627632_-1.0668_-90_Leg_A" />
+      </Leg>
+    </Legs>
+    <FaceBracingDetails>
+      <Face ID="1" Name="FaceA">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="9" ID="161" MemberTag="DIAGONAL" StartNodeID="106" EndNodeID="99" SectionID="4" BetaAngle="0" Label="Face_A_0" HashId="161_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_-1.08286712929839E-15_-1.0668_-1.0668_1.627632_-1.0668_0_Face_A_0" />
+            <PhysicalMember PanelPropertyID="9" ID="162" MemberTag="DIAGONAL" StartNodeID="103" EndNodeID="102" SectionID="4" BetaAngle="-90" Label="Face_A_1" HashId="162_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_-1.08286712929839E-15_-1.0668_1.0668_1.627632_-1.0668_-90_Face_A_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="2" Name="FaceB">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="9" ID="159" MemberTag="DIAGONAL" StartNodeID="105" EndNodeID="102" SectionID="4" BetaAngle="0" Label="Face_B_0" HashId="159_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_-1.08286712929839E-15_1.0668_1.0668_1.627632_-1.0668_0_Face_B_0" />
+            <PhysicalMember PanelPropertyID="9" ID="160" MemberTag="DIAGONAL" StartNodeID="106" EndNodeID="101" SectionID="4" BetaAngle="-90" Label="Face_B_1" HashId="160_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_-1.08286712929839E-15_-1.0668_1.0668_1.627632_1.0668_-90_Face_B_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="3" Name="FaceC">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="9" ID="157" MemberTag="DIAGONAL" StartNodeID="104" EndNodeID="101" SectionID="4" BetaAngle="0" Label="Face_C_0" HashId="157_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_-1.08286712929839E-15_1.0668_1.0668_1.627632_1.0668_0_Face_C_0" />
+            <PhysicalMember PanelPropertyID="9" ID="158" MemberTag="DIAGONAL" StartNodeID="105" EndNodeID="100" SectionID="4" BetaAngle="-90" Label="Face_C_1" HashId="158_LShapeProfile_1.75_1.75_0.25_0_0_1.0668_-1.08286712929839E-15_1.0668_-1.0668_1.627632_1.0668_-90_Face_C_1" />
+          </Segment>
+        </Segments>
+      </Face>
+      <Face ID="4" Name="FaceD">
+        <Segments>
+          <Segment ID="1" Name="X Brace">
+            <PhysicalMember PanelPropertyID="9" ID="155" MemberTag="DIAGONAL" StartNodeID="103" EndNodeID="100" SectionID="4" BetaAngle="0" Label="Face_D_0" HashId="155_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_-1.08286712929839E-15_-1.0668_-1.0668_1.627632_1.0668_0_Face_D_0" />
+            <PhysicalMember PanelPropertyID="9" ID="156" MemberTag="DIAGONAL" StartNodeID="104" EndNodeID="99" SectionID="4" BetaAngle="-90" Label="Face_D_1" HashId="156_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_-1.08286712929839E-15_1.0668_-1.0668_1.627632_-1.0668_-90_Face_D_1" />
+          </Segment>
+        </Segments>
+      </Face>
+    </FaceBracingDetails>
+    <PlanBracingDetails />
+    <HipBracingDetails>
+      <HipBracings ID="1" Name="LegA" />
+      <HipBracings ID="2" Name="LegB" />
+      <HipBracings ID="3" Name="LegC" />
+      <HipBracings ID="4" Name="LegD" />
+    </HipBracingDetails>
+  </Panel>
+  <AppurtenancesSections>
+    <AppurtenancesSection ID="1" Name="CircleProfile" Radius="1.1875" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0301625" Y="0" Z="0" HashId="1_HollowCircleProfile_1.1875_0.143_0.0301625_0_0" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0299972666690455" Y="0" Z="0.0031528397733106" HashId="1_HollowCircleProfile_1.1875_0.143_0.0299972666690455_0_0.0031528397733106" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0295033770071334" Y="0" Z="0.00627113637429067" HashId="1_HollowCircleProfile_1.1875_0.143_0.0295033770071334_0_0.00627113637429067" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0286862421727526" Y="0" Z="0.00932072509283435" HashId="1_HollowCircleProfile_1.1875_0.143_0.0286862421727526_0_0.00932072509283435" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0275548148661449" Y="0" Z="0.0122681939967738" HashId="1_HollowCircleProfile_1.1875_0.143_0.0275548148661449_0_0.0122681939967738" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0261214912416481" Y="0" Z="0.01508125" HashId="1_HollowCircleProfile_1.1875_0.143_0.0261214912416481_0_0.01508125" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0244019750928344" Y="0" Z="0.0177290726722717" HashId="1_HollowCircleProfile_1.1875_0.143_0.0244019750928344_0_0.0177290726722717" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0224151057984619" Y="0" Z="0.0201826519142991" HashId="1_HollowCircleProfile_1.1875_0.143_0.0224151057984619_0_0.0201826519142991" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0201826519142991" Y="0" Z="0.0224151057984619" HashId="1_HollowCircleProfile_1.1875_0.143_0.0201826519142991_0_0.0224151057984619" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0177290726722717" Y="0" Z="0.0244019750928344" HashId="1_HollowCircleProfile_1.1875_0.143_0.0177290726722717_0_0.0244019750928344" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.01508125" Y="0" Z="0.0261214912416481" HashId="1_HollowCircleProfile_1.1875_0.143_0.01508125_0_0.0261214912416481" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0122681939967738" Y="0" Z="0.0275548148661449" HashId="1_HollowCircleProfile_1.1875_0.143_0.0122681939967738_0_0.0275548148661449" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.00932072509283435" Y="0" Z="0.0286862421727526" HashId="1_HollowCircleProfile_1.1875_0.143_0.00932072509283435_0_0.0286862421727526" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.00627113637429067" Y="0" Z="0.0295033770071334" HashId="1_HollowCircleProfile_1.1875_0.143_0.00627113637429067_0_0.0295033770071334" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0031528397733106" Y="0" Z="0.0299972666690455" HashId="1_HollowCircleProfile_1.1875_0.143_0.0031528397733106_0_0.0299972666690455" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="1.84685945735837E-18" Y="0" Z="0.0301625" HashId="1_HollowCircleProfile_1.1875_0.143_1.84685945735837E-18_0_0.0301625" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.00315283977331059" Y="0" Z="0.0299972666690455" HashId="1_HollowCircleProfile_1.1875_0.143_-0.00315283977331059_0_0.0299972666690455" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.00627113637429066" Y="0" Z="0.0295033770071334" HashId="1_HollowCircleProfile_1.1875_0.143_-0.00627113637429066_0_0.0295033770071334" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.00932072509283435" Y="0" Z="0.0286862421727526" HashId="1_HollowCircleProfile_1.1875_0.143_-0.00932072509283435_0_0.0286862421727526" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0122681939967738" Y="0" Z="0.027554814866145" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0122681939967738_0_0.027554814866145" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.01508125" Y="0" Z="0.0261214912416481" HashId="1_HollowCircleProfile_1.1875_0.143_-0.01508125_0_0.0261214912416481" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0177290726722717" Y="0" Z="0.0244019750928344" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0177290726722717_0_0.0244019750928344" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0201826519142991" Y="0" Z="0.0224151057984619" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0201826519142991_0_0.0224151057984619" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0224151057984619" Y="0" Z="0.0201826519142991" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0224151057984619_0_0.0201826519142991" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0244019750928343" Y="0" Z="0.0177290726722717" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0244019750928343_0_0.0177290726722717" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0261214912416481" Y="0" Z="0.01508125" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0261214912416481_0_0.01508125" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0275548148661449" Y="0" Z="0.0122681939967738" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0275548148661449_0_0.0122681939967738" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0286862421727526" Y="0" Z="0.00932072509283435" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0286862421727526_0_0.00932072509283435" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0295033770071334" Y="0" Z="0.00627113637429067" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0295033770071334_0_0.00627113637429067" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0299972666690455" Y="0" Z="0.00315283977331061" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0299972666690455_0_0.00315283977331061" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0301625" Y="0" Z="3.69371891471675E-18" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0301625_0_3.69371891471675E-18" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0299972666690455" Y="0" Z="-0.00315283977331059" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0299972666690455_0_-0.00315283977331059" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0295033770071334" Y="0" Z="-0.00627113637429066" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0295033770071334_0_-0.00627113637429066" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0286862421727526" Y="0" Z="-0.00932072509283436" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0286862421727526_0_-0.00932072509283436" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.027554814866145" Y="0" Z="-0.0122681939967738" HashId="1_HollowCircleProfile_1.1875_0.143_-0.027554814866145_0_-0.0122681939967738" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0261214912416481" Y="0" Z="-0.01508125" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0261214912416481_0_-0.01508125" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0244019750928344" Y="0" Z="-0.0177290726722717" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0244019750928344_0_-0.0177290726722717" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0224151057984619" Y="0" Z="-0.0201826519142991" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0224151057984619_0_-0.0201826519142991" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0201826519142991" Y="0" Z="-0.0224151057984619" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0201826519142991_0_-0.0224151057984619" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0177290726722717" Y="0" Z="-0.0244019750928343" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0177290726722717_0_-0.0244019750928343" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.01508125" Y="0" Z="-0.0261214912416481" HashId="1_HollowCircleProfile_1.1875_0.143_-0.01508125_0_-0.0261214912416481" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0122681939967738" Y="0" Z="-0.027554814866145" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0122681939967738_0_-0.027554814866145" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.00932072509283435" Y="0" Z="-0.0286862421727526" HashId="1_HollowCircleProfile_1.1875_0.143_-0.00932072509283435_0_-0.0286862421727526" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.00627113637429068" Y="0" Z="-0.0295033770071334" HashId="1_HollowCircleProfile_1.1875_0.143_-0.00627113637429068_0_-0.0295033770071334" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-0.00315283977331059" Y="0" Z="-0.0299972666690455" HashId="1_HollowCircleProfile_1.1875_0.143_-0.00315283977331059_0_-0.0299972666690455" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="-5.54057837207512E-18" Y="0" Z="-0.0301625" HashId="1_HollowCircleProfile_1.1875_0.143_-5.54057837207512E-18_0_-0.0301625" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.00315283977331058" Y="0" Z="-0.0299972666690455" HashId="1_HollowCircleProfile_1.1875_0.143_0.00315283977331058_0_-0.0299972666690455" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.00627113637429064" Y="0" Z="-0.0295033770071334" HashId="1_HollowCircleProfile_1.1875_0.143_0.00627113637429064_0_-0.0295033770071334" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.00932072509283434" Y="0" Z="-0.0286862421727526" HashId="1_HollowCircleProfile_1.1875_0.143_0.00932072509283434_0_-0.0286862421727526" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0122681939967738" Y="0" Z="-0.0275548148661449" HashId="1_HollowCircleProfile_1.1875_0.143_0.0122681939967738_0_-0.0275548148661449" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.01508125" Y="0" Z="-0.0261214912416481" HashId="1_HollowCircleProfile_1.1875_0.143_0.01508125_0_-0.0261214912416481" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0177290726722717" Y="0" Z="-0.0244019750928344" HashId="1_HollowCircleProfile_1.1875_0.143_0.0177290726722717_0_-0.0244019750928344" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.020182651914299" Y="0" Z="-0.0224151057984619" HashId="1_HollowCircleProfile_1.1875_0.143_0.020182651914299_0_-0.0224151057984619" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0224151057984619" Y="0" Z="-0.0201826519142991" HashId="1_HollowCircleProfile_1.1875_0.143_0.0224151057984619_0_-0.0201826519142991" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0244019750928343" Y="0" Z="-0.0177290726722717" HashId="1_HollowCircleProfile_1.1875_0.143_0.0244019750928343_0_-0.0177290726722717" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0261214912416481" Y="0" Z="-0.01508125" HashId="1_HollowCircleProfile_1.1875_0.143_0.0261214912416481_0_-0.01508125" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.027554814866145" Y="0" Z="-0.0122681939967738" HashId="1_HollowCircleProfile_1.1875_0.143_0.027554814866145_0_-0.0122681939967738" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0286862421727526" Y="0" Z="-0.00932072509283436" HashId="1_HollowCircleProfile_1.1875_0.143_0.0286862421727526_0_-0.00932072509283436" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0295033770071334" Y="0" Z="-0.00627113637429068" HashId="1_HollowCircleProfile_1.1875_0.143_0.0295033770071334_0_-0.00627113637429068" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0299972666690455" Y="0" Z="-0.0031528397733106" HashId="1_HollowCircleProfile_1.1875_0.143_0.0299972666690455_0_-0.0031528397733106" />
+    <AppurtenancePolyLine PolygonID="1" RefID="1" X="0.0301625" Y="0" Z="-7.38743782943349E-18" HashId="1_HollowCircleProfile_1.1875_0.143_0.0301625_0_-7.38743782943349E-18" />
+    <AppurtenancesSection ID="2" Name="CircleProfile" Radius="2" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0508" Y="0" Z="0" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0508_0_0" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0505217122847083" Y="0" Z="0.0053100459339968" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0505217122847083_0_0.0053100459339968" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0496898981172773" Y="0" Z="0.0105619138935422" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0496898981172773_0_0.0105619138935422" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0483136710277938" Y="0" Z="0.0156980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0483136710277938_0_0.0156980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0464081092482441" Y="0" Z="0.0206622214682506" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0464081092482441_0_0.0206622214682506" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0439940905122495" Y="0" Z="0.0254" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0439940905122495_0_0.0254" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0410980633142473" Y="0" Z="0.0298594908164576" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0410980633142473_0_0.0298594908164576" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0377517571342516" Y="0" Z="0.03399183480303" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0377517571342516_0_0.03399183480303" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.03399183480303" Y="0" Z="0.0377517571342516" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.03399183480303_0_0.0377517571342516" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0298594908164576" Y="0" Z="0.0410980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0298594908164576_0_0.0410980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0254" Y="0" Z="0.0439940905122495" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0254_0_0.0439940905122495" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0206622214682506" Y="0" Z="0.0464081092482441" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0206622214682506_0_0.0464081092482441" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0156980633142473" Y="0" Z="0.0483136710277938" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0156980633142473_0_0.0483136710277938" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0105619138935422" Y="0" Z="0.0496898981172773" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0105619138935422_0_0.0496898981172773" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0053100459339968" Y="0" Z="0.0505217122847083" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0053100459339968_0_0.0505217122847083" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="3.11050013870884E-18" Y="0" Z="0.0508" HashId="1_LShapeProfile_2_2_0.1875_0_0_3.11050013870884E-18_0_0.0508" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00531004593399679" Y="0" Z="0.0505217122847083" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00531004593399679_0_0.0505217122847083" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0105619138935422" Y="0" Z="0.0496898981172773" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0105619138935422_0_0.0496898981172773" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0156980633142473" Y="0" Z="0.0483136710277938" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0156980633142473_0_0.0483136710277938" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0206622214682506" Y="0" Z="0.0464081092482441" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0206622214682506_0_0.0464081092482441" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0254" Y="0" Z="0.0439940905122495" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0254_0_0.0439940905122495" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0298594908164576" Y="0" Z="0.0410980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0298594908164576_0_0.0410980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.03399183480303" Y="0" Z="0.0377517571342516" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.03399183480303_0_0.0377517571342516" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0377517571342516" Y="0" Z="0.03399183480303" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0377517571342516_0_0.03399183480303" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0410980633142473" Y="0" Z="0.0298594908164576" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0410980633142473_0_0.0298594908164576" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0439940905122495" Y="0" Z="0.0254" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0439940905122495_0_0.0254" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0464081092482441" Y="0" Z="0.0206622214682507" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0464081092482441_0_0.0206622214682507" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0483136710277938" Y="0" Z="0.0156980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0483136710277938_0_0.0156980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0496898981172773" Y="0" Z="0.0105619138935422" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0496898981172773_0_0.0105619138935422" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0505217122847083" Y="0" Z="0.00531004593399681" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0505217122847083_0_0.00531004593399681" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0508" Y="0" Z="6.22100027741768E-18" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0508_0_6.22100027741768E-18" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0505217122847083" Y="0" Z="-0.00531004593399678" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0505217122847083_0_-0.00531004593399678" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0496898981172773" Y="0" Z="-0.0105619138935422" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0496898981172773_0_-0.0105619138935422" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0483136710277938" Y="0" Z="-0.0156980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0483136710277938_0_-0.0156980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0464081092482441" Y="0" Z="-0.0206622214682506" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0464081092482441_0_-0.0206622214682506" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0439940905122495" Y="0" Z="-0.0254" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0439940905122495_0_-0.0254" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0410980633142473" Y="0" Z="-0.0298594908164576" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0410980633142473_0_-0.0298594908164576" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0377517571342516" Y="0" Z="-0.03399183480303" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0377517571342516_0_-0.03399183480303" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.03399183480303" Y="0" Z="-0.0377517571342516" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.03399183480303_0_-0.0377517571342516" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0298594908164576" Y="0" Z="-0.0410980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0298594908164576_0_-0.0410980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0254" Y="0" Z="-0.0439940905122495" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0254_0_-0.0439940905122495" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0206622214682506" Y="0" Z="-0.0464081092482441" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0206622214682506_0_-0.0464081092482441" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0156980633142473" Y="0" Z="-0.0483136710277938" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0156980633142473_0_-0.0483136710277938" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0105619138935422" Y="0" Z="-0.0496898981172773" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0105619138935422_0_-0.0496898981172773" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00531004593399679" Y="0" Z="-0.0505217122847083" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00531004593399679_0_-0.0505217122847083" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="-9.33150041612651E-18" Y="0" Z="-0.0508" HashId="1_LShapeProfile_2_2_0.1875_0_0_-9.33150041612651E-18_0_-0.0508" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.00531004593399677" Y="0" Z="-0.0505217122847083" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00531004593399677_0_-0.0505217122847083" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0105619138935421" Y="0" Z="-0.0496898981172773" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0105619138935421_0_-0.0496898981172773" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0156980633142473" Y="0" Z="-0.0483136710277938" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0156980633142473_0_-0.0483136710277938" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0206622214682507" Y="0" Z="-0.0464081092482441" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0206622214682507_0_-0.0464081092482441" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0254" Y="0" Z="-0.0439940905122495" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0254_0_-0.0439940905122495" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0298594908164576" Y="0" Z="-0.0410980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0298594908164576_0_-0.0410980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.03399183480303" Y="0" Z="-0.0377517571342516" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.03399183480303_0_-0.0377517571342516" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0377517571342516" Y="0" Z="-0.03399183480303" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0377517571342516_0_-0.03399183480303" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0410980633142473" Y="0" Z="-0.0298594908164576" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0410980633142473_0_-0.0298594908164576" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0439940905122495" Y="0" Z="-0.0254" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0439940905122495_0_-0.0254" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0464081092482441" Y="0" Z="-0.0206622214682506" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0464081092482441_0_-0.0206622214682506" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0483136710277938" Y="0" Z="-0.0156980633142473" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0483136710277938_0_-0.0156980633142473" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0496898981172773" Y="0" Z="-0.0105619138935422" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0496898981172773_0_-0.0105619138935422" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0505217122847083" Y="0" Z="-0.00531004593399679" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0505217122847083_0_-0.00531004593399679" />
+    <AppurtenancePolyLine PolygonID="1" RefID="2" X="0.0508" Y="0" Z="-1.24420005548354E-17" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0508_0_-1.24420005548354E-17" />
+    <AppurtenancesSection ID="3" Name="RegularPolygonProfile" SideCount="4" SideLength="0.001" />
+    <AppurtenancePolyLine PolygonID="1" RefID="3" X="0.234660047187973" Y="0" Z="0.0225628757639202" />
+    <AppurtenancePolyLine PolygonID="1" RefID="3" X="-0.136870047187973" Y="0" Z="-0.19194012423608" />
+    <AppurtenancePolyLine PolygonID="1" RefID="3" X="-0.234660047187973" Y="0" Z="-0.0225628757639202" />
+    <AppurtenancePolyLine PolygonID="1" RefID="3" X="0.136870047187973" Y="0" Z="0.191940124236081" />
+    <AppurtenancesSection ID="4" Name="RegularPolygonProfile" SideCount="4" SideLength="0.001" />
+    <AppurtenancePolyLine PolygonID="1" RefID="4" X="0.234660047187973" Y="0" Z="0.0225628757639202" />
+    <AppurtenancePolyLine PolygonID="1" RefID="4" X="-0.136870047187973" Y="0" Z="-0.19194012423608" />
+    <AppurtenancePolyLine PolygonID="1" RefID="4" X="-0.234660047187973" Y="0" Z="-0.0225628757639202" />
+    <AppurtenancePolyLine PolygonID="1" RefID="4" X="0.136870047187973" Y="0" Z="0.191940124236081" />
+    <AppurtenancesSection ID="5" Name="RegularPolygonProfile" SideCount="4" SideLength="0.001" />
+    <AppurtenancePolyLine PolygonID="1" RefID="5" X="-0.214503" Y="0" Z="0.0977899999999998" />
+    <AppurtenancePolyLine PolygonID="1" RefID="5" X="0.214503" Y="0" Z="0.0977899999999998" />
+    <AppurtenancePolyLine PolygonID="1" RefID="5" X="0.214503" Y="0" Z="-0.0977900000000003" />
+    <AppurtenancePolyLine PolygonID="1" RefID="5" X="-0.214503" Y="0" Z="-0.0977900000000003" />
+    <AppurtenancesSection ID="6" Name="RegularPolygonProfile" SideCount="4" SideLength="0.001" />
+    <AppurtenancePolyLine PolygonID="1" RefID="6" X="-0.214503" Y="0" Z="0.0977899999999998" />
+    <AppurtenancePolyLine PolygonID="1" RefID="6" X="0.214503" Y="0" Z="0.0977899999999998" />
+    <AppurtenancePolyLine PolygonID="1" RefID="6" X="0.214503" Y="0" Z="-0.0977900000000003" />
+    <AppurtenancePolyLine PolygonID="1" RefID="6" X="-0.214503" Y="0" Z="-0.0977900000000003" />
+    <AppurtenancesSection ID="7" Name="RegularPolygonProfile" SideCount="4" SideLength="0.001" />
+    <AppurtenancePolyLine PolygonID="1" RefID="7" X="-0.0590562951129736" Y="0" Z="-0.228225272738427" />
+    <AppurtenancePolyLine PolygonID="1" RefID="7" X="-0.133552405221154" Y="0" Z="0.194263162150328" />
+    <AppurtenancePolyLine PolygonID="1" RefID="7" X="0.0590562951129736" Y="0" Z="0.228225272738427" />
+    <AppurtenancePolyLine PolygonID="1" RefID="7" X="0.133552405221154" Y="0" Z="-0.194263162150328" />
+    <AppurtenancesSection ID="8" Name="RegularPolygonProfile" SideCount="4" SideLength="0.001" />
+    <AppurtenancePolyLine PolygonID="1" RefID="8" X="-0.0590562951129736" Y="0" Z="-0.228225272738427" />
+    <AppurtenancePolyLine PolygonID="1" RefID="8" X="-0.133552405221154" Y="0" Z="0.194263162150328" />
+    <AppurtenancePolyLine PolygonID="1" RefID="8" X="0.0590562951129736" Y="0" Z="0.228225272738427" />
+    <AppurtenancePolyLine PolygonID="1" RefID="8" X="0.133552405221154" Y="0" Z="-0.194263162150328" />
+  </AppurtenancesSections>
+  <MountProperties>
+    <MountProperty ID="1" Label="SAC VFA12-HD - 45 (ft)" Name="SAC VFA12-HD" Elevation="45" Manufacturer="MOUNTS" ModelName="SAC VFA12-HD" Type="SectorFrame" Location="LegA" Azimuth="-15" Height="3.5" Width="12.5" Standoff="3" Weight="658" Classification="Existing" ComponentName="Mount" />
+    <MountProperty ID="2" Label="SAC VFA12-HD - 45 (ft)" Name="SAC VFA12-HD" Elevation="45" Manufacturer="MOUNTS" ModelName="SAC VFA12-HD" Type="SectorFrame" Location="LegC" Azimuth="-45" Height="3.5" Width="12.5" Standoff="3" Weight="658" Classification="Existing" ComponentName="Mount" />
+    <MountProperty ID="3" Label="SAC VFA12-HD - 45 (ft)" Name="SAC VFA12-HD" Elevation="45" Manufacturer="MOUNTS" ModelName="SAC VFA12-HD" Type="SectorFrame" Location="LegD" Azimuth="-35" Height="3.5" Width="12.5" Standoff="3" Weight="658" Classification="Existing" ComponentName="Mount" />
+    <MountProperty ID="7" Label="- - 30.64 (ft)" Name="-" Elevation="30.64" Manufacturer="-" ModelName="-" Type="None" Location="LegD" Azimuth="0" Height="0" Width="0" Standoff="0" Weight="0" Classification="Existing" ComponentName="Mount" />
+  </MountProperties>
+  <MountNodes>
+    <MountNode ID="1" X="1.0668" Y="14.2494" Z="-1.0668" />
+    <MountNode ID="2" X="-0.125778394209356" Y="14.2494" Z="-2.81119362922049" />
+    <MountNode ID="3" X="3.17377839420935" Y="14.2494" Z="-0.90619362922049" />
+    <MountNode ID="4" X="1.0668" Y="13.1826" Z="-1.0668" />
+    <MountNode ID="5" X="-0.125778394209356" Y="13.1826" Z="-2.81119362922049" />
+    <MountNode ID="6" X="3.17377839420935" Y="13.1826" Z="-0.90619362922049" />
+    <MountNode ID="7" X="0.470510802895322" Y="14.2494" Z="-1.93899681461025" />
+    <MountNode ID="8" X="2.12028919710468" Y="14.2494" Z="-0.986496814610245" />
+    <MountNode ID="9" X="1.56448125" Y="14.9352" Z="-1.92880921097439" />
+    <MountNode ID="10" X="1.56448125" Y="12.4968" Z="-1.92880921097439" />
+    <MountNode ID="11" X="-1.0668" Y="14.2494" Z="1.0668" />
+    <MountNode ID="12" X="0.8382" Y="14.2494" Z="1.9812" />
+    <MountNode ID="13" X="-2.9718" Y="14.2494" Z="1.9812" />
+    <MountNode ID="14" X="-1.0668" Y="13.1826" Z="1.0668" />
+    <MountNode ID="15" X="0.8382" Y="13.1826" Z="1.9812" />
+    <MountNode ID="16" X="-2.9718" Y="13.1826" Z="1.9812" />
+    <MountNode ID="17" X="-0.1143" Y="14.2494" Z="1.524" />
+    <MountNode ID="18" X="-2.0193" Y="14.2494" Z="1.524" />
+    <MountNode ID="19" X="-1.0668" Y="14.9352" Z="2.0621625" />
+    <MountNode ID="20" X="-1.0668" Y="12.4968" Z="2.0621625" />
+    <MountNode ID="21" X="-1.0668" Y="14.2494" Z="-1.0668" />
+    <MountNode ID="22" X="-2.29810798780987" Y="14.2494" Z="0.650474875829615" />
+    <MountNode ID="23" X="-1.63650843089886" Y="14.2494" Z="-3.1016426631469" />
+    <MountNode ID="24" X="-1.0668" Y="13.1826" Z="-1.0668" />
+    <MountNode ID="25" X="-2.29810798780987" Y="13.1826" Z="0.650474875829615" />
+    <MountNode ID="26" X="-1.63650843089886" Y="13.1826" Z="-3.1016426631469" />
+    <MountNode ID="27" X="-1.68245399390493" Y="14.2494" Z="-0.208162562085192" />
+    <MountNode ID="28" X="-1.35165421544943" Y="14.2494" Z="-2.08422133157345" />
+    <MountNode ID="29" X="-2.04704070705761" Y="14.9352" Z="-1.239642884243" />
+    <MountNode ID="30" X="-2.04704070705761" Y="12.4968" Z="-1.239642884243" />
+    <MountNode ID="31" X="-1.0668" Y="9.339072" Z="-1.0668" />
+  </MountNodes>
+  <Mounts>
+    <Mount ID="1">
+      <MountMember ID="1" RefID="1" StartNodeID="1" EndNodeID="2" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="3" RefID="1" StartNodeID="1" EndNodeID="3" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="5" RefID="1" StartNodeID="4" EndNodeID="5" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="7" RefID="1" StartNodeID="4" EndNodeID="6" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="9" RefID="1" StartNodeID="7" EndNodeID="4" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="11" RefID="1" StartNodeID="7" EndNodeID="5" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="13" RefID="1" StartNodeID="8" EndNodeID="4" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="15" RefID="1" StartNodeID="8" EndNodeID="6" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="17" RefID="1" StartNodeID="2" EndNodeID="3" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="19" RefID="1" StartNodeID="5" EndNodeID="6" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="21" RefID="1" StartNodeID="2" EndNodeID="5" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="23" RefID="1" StartNodeID="3" EndNodeID="6" SectionID="2" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="25" RefID="1" StartNodeID="9" EndNodeID="10" SectionID="1" Label="Mount" MountPropertyID="1" />
+      <MountMember ID="27" RefID="1" StartNodeID="9" EndNodeID="10" SectionID="1" Label="Mount" MountPropertyID="1" />
+    </Mount>
+    <Mount ID="2">
+      <MountMember ID="1" RefID="2" StartNodeID="11" EndNodeID="12" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="3" RefID="2" StartNodeID="11" EndNodeID="13" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="5" RefID="2" StartNodeID="14" EndNodeID="15" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="7" RefID="2" StartNodeID="14" EndNodeID="16" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="9" RefID="2" StartNodeID="17" EndNodeID="14" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="11" RefID="2" StartNodeID="17" EndNodeID="15" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="13" RefID="2" StartNodeID="18" EndNodeID="14" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="15" RefID="2" StartNodeID="18" EndNodeID="16" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="17" RefID="2" StartNodeID="12" EndNodeID="13" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="19" RefID="2" StartNodeID="15" EndNodeID="16" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="21" RefID="2" StartNodeID="12" EndNodeID="15" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="23" RefID="2" StartNodeID="13" EndNodeID="16" SectionID="2" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="25" RefID="2" StartNodeID="19" EndNodeID="20" SectionID="1" Label="Mount" MountPropertyID="2" />
+      <MountMember ID="27" RefID="2" StartNodeID="19" EndNodeID="20" SectionID="1" Label="Mount" MountPropertyID="2" />
+    </Mount>
+    <Mount ID="3">
+      <MountMember ID="1" RefID="3" StartNodeID="21" EndNodeID="22" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="3" RefID="3" StartNodeID="21" EndNodeID="23" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="5" RefID="3" StartNodeID="24" EndNodeID="25" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="7" RefID="3" StartNodeID="24" EndNodeID="26" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="9" RefID="3" StartNodeID="27" EndNodeID="24" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="11" RefID="3" StartNodeID="27" EndNodeID="25" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="13" RefID="3" StartNodeID="28" EndNodeID="24" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="15" RefID="3" StartNodeID="28" EndNodeID="26" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="17" RefID="3" StartNodeID="22" EndNodeID="23" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="19" RefID="3" StartNodeID="25" EndNodeID="26" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="21" RefID="3" StartNodeID="22" EndNodeID="25" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="23" RefID="3" StartNodeID="23" EndNodeID="26" SectionID="2" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="25" RefID="3" StartNodeID="29" EndNodeID="30" SectionID="1" Label="Mount" MountPropertyID="3" />
+      <MountMember ID="27" RefID="3" StartNodeID="29" EndNodeID="30" SectionID="1" Label="Mount" MountPropertyID="3" />
+    </Mount>
+    <Mount ID="7" />
+  </Mounts>
+  <AntennaProperties>
+    <AntennaProperty ID="8" Label="ASI4518R10v06 - 45 (ft)" Name="ASI4518R10v06" Elevation="45" Manufacturer="HUAWEI TECHNOLOGIES CO" ModelName="ASI4518R10v06" Type="PANEL" Location="LegA" Azimuth="0" LateralOffset="0" VerticalOffset="0" HorizontalOffset="0" Height="109" Width="16.89" Depth="7.7" Weight="100.5" Classification="Existing" ComponentName="Antenna" />
+    <AntennaProperty ID="9" Label="ASI4518R10v06 - 45 (ft)" Name="ASI4518R10v06" Elevation="45" Manufacturer="HUAWEI TECHNOLOGIES CO" ModelName="ASI4518R10v06" Type="PANEL" Location="LegA" Azimuth="0" LateralOffset="0" VerticalOffset="0" HorizontalOffset="0" Height="109" Width="16.89" Depth="7.7" Weight="100.5" Classification="Existing" ComponentName="Antenna" />
+    <AntennaProperty ID="10" Label="ASI4518R10v06 - 45 (ft)" Name="ASI4518R10v06" Elevation="45" Manufacturer="HUAWEI TECHNOLOGIES CO" ModelName="ASI4518R10v06" Type="PANEL" Location="LegC" Azimuth="0" LateralOffset="0" VerticalOffset="0" HorizontalOffset="0" Height="109" Width="16.89" Depth="7.7" Weight="100.5" Classification="Existing" ComponentName="Antenna" />
+    <AntennaProperty ID="11" Label="ASI4518R10v06 - 45 (ft)" Name="ASI4518R10v06" Elevation="45" Manufacturer="HUAWEI TECHNOLOGIES CO" ModelName="ASI4518R10v06" Type="PANEL" Location="LegC" Azimuth="0" LateralOffset="0" VerticalOffset="0" HorizontalOffset="0" Height="109" Width="16.89" Depth="7.7" Weight="100.5" Classification="Existing" ComponentName="Antenna" />
+    <AntennaProperty ID="12" Label="ASI4518R10v06 - 45 (ft)" Name="ASI4518R10v06" Elevation="45" Manufacturer="HUAWEI TECHNOLOGIES CO" ModelName="ASI4518R10v06" Type="PANEL" Location="LegD" Azimuth="0" LateralOffset="0" VerticalOffset="0" HorizontalOffset="0" Height="109" Width="16.89" Depth="7.7" Weight="100.5" Classification="Existing" ComponentName="Antenna" />
+    <AntennaProperty ID="13" Label="ASI4518R10v06 - 45 (ft)" Name="ASI4518R10v06" Elevation="45" Manufacturer="HUAWEI TECHNOLOGIES CO" ModelName="ASI4518R10v06" Type="PANEL" Location="LegD" Azimuth="0" LateralOffset="0" VerticalOffset="0" HorizontalOffset="0" Height="109" Width="16.89" Depth="7.7" Weight="100.5" Classification="Existing" ComponentName="Antenna" />
+  </AntennaProperties>
+  <AntennaNodes>
+    <AntennaNode ID="1" X="1.6284575" Y="12.3317" Z="-2.03961932645212" />
+    <AntennaNode ID="2" X="1.6284575" Y="15.1003" Z="-2.03961932645212" />
+    <AntennaNode ID="3" X="1.6284575" Y="12.3317" Z="-2.03961932645212" />
+    <AntennaNode ID="4" X="1.6284575" Y="15.1003" Z="-2.03961932645212" />
+    <AntennaNode ID="5" X="-1.0668" Y="12.3317" Z="2.190115" />
+    <AntennaNode ID="6" X="-1.0668" Y="15.1003" Z="2.190115" />
+    <AntennaNode ID="7" X="-1.0668" Y="12.3317" Z="2.190115" />
+    <AntennaNode ID="8" X="-1.0668" Y="15.1003" Z="2.190115" />
+    <AntennaNode ID="9" X="-2.17304932107491" Y="12.3317" Z="-1.26186160269593" />
+    <AntennaNode ID="10" X="-2.17304932107491" Y="15.1003" Z="-1.26186160269593" />
+    <AntennaNode ID="11" X="-2.17304932107491" Y="12.3317" Z="-1.26186160269593" />
+    <AntennaNode ID="12" X="-2.17304932107491" Y="15.1003" Z="-1.26186160269593" />
+  </AntennaNodes>
+  <Antennas>
+    <Antenna ID="1">
+      <AntennaMember ID="3" RefID="1" StartNodeID="1" EndNodeID="2" SectionID="3" AntennaPropertyID="8" Label="Antenna" HashId="3_LShapeProfile_3.5_3.5_0.25_0_0_-1.0668_12.4968_-1.0668_-1.0668_13.716_-1.0668_Antenna" />
+    </Antenna>
+    <Antenna ID="2">
+      <AntennaMember ID="4" RefID="2" StartNodeID="3" EndNodeID="4" SectionID="4" AntennaPropertyID="9" Label="Antenna" HashId="4_LShapeProfile_1.75_1.75_0.25_0_0_-1.0668_12.4968_1.0668_-1.0668_13.716_1.0668_Antenna" />
+    </Antenna>
+    <Antenna ID="3">
+      <AntennaMember ID="5" RefID="3" StartNodeID="5" EndNodeID="6" SectionID="5" AntennaPropertyID="10" Label="Antenna" HashId="5_LShapeProfile_1.75_1.75_0.125_0_0_1.0668_12.4968_1.0668_1.0668_13.716_1.0668_Antenna" />
+    </Antenna>
+    <Antenna ID="4">
+      <AntennaMember ID="6" RefID="4" StartNodeID="7" EndNodeID="8" SectionID="6" AntennaPropertyID="11" Label="Antenna" HashId="6_LShapeProfile_3.5_3.5_0.3125_0_0_1.0668_12.4968_-1.0668_1.0668_13.716_-1.0668_Antenna" />
+    </Antenna>
+    <Antenna ID="5">
+      <AntennaMember ID="7" RefID="5" StartNodeID="9" EndNodeID="10" SectionID="7" AntennaPropertyID="12" Label="Antenna" HashId="7_LShapeProfile_2.5_2.5_0.1875_0_0_-1.0668_13.716_9.02389274415327E-17_9.02389274415327E-17_13.716_1.0668_Antenna" />
+    </Antenna>
+    <Antenna ID="6">
+      <AntennaMember ID="8" RefID="6" StartNodeID="11" EndNodeID="12" SectionID="8" AntennaPropertyID="13" Label="Antenna" HashId="8_1.0668_13.716_-9.02389274415327E-17_-9.02389274415327E-17_13.716_-1.0668_Antenna" />
+    </Antenna>
+  </Antennas>
+  <LinearAppurtenancesSections>
+    <LinearAppurtenancesSection ID="1" Name="FlatBarProfile" Width="1" Depth="0.5" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0127" Y="0" Z="0.00635" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0127_0_0.00635" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="1" X="0.0127" Y="0" Z="0.00635" HashId="1_HollowCircleProfile_1.1875_0.143_0.0127_0_0.00635" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="1" X="0.0127" Y="0" Z="-0.00635" HashId="1_HollowCircleProfile_1.1875_0.143_0.0127_0_-0.00635" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="1" X="-0.0127" Y="0" Z="-0.00635" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0127_0_-0.00635" />
+    <LinearAppurtenancesSection ID="2" Name="EllipseProfile" Radius1="0.58" Radius2="1.005" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0127635" Y="0" Z="0" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0127635_0_0" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0125695937555713" Y="0" Z="0.00127909247669461" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0125695937555713_0_0.00127909247669461" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0119937667654009" Y="0" Z="0.00251932037573688" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0119937667654009_0_0.00251932037573688" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0110535152412027" Y="0" Z="0.003683" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0110535152412027_0_0.003683" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00977740824974908" Y="0" Z="0.00473477353295105" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00977740824974908_0_0.00473477353295105" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00820421965623414" Y="0" Z="0.00564268336801439" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00820421965623414_0_0.00564268336801439" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00638175" Y="0" Z="0.00637914312427617" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00638175_0_0.00637914312427617" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00436537409933717" Y="0" Z="0.006921775844709" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00436537409933717_0_0.006921775844709" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00221635851565187" Y="0" Z="0.00725409390868792" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00221635851565187_0_0.00725409390868792" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="7.81513159850595E-19" Y="0" Z="0.007366" HashId="1_LShapeProfile_2_2_0.1875_0_0_7.81513159850595E-19_0_0.007366" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00221635851565186" Y="0" Z="0.00725409390868792" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00221635851565186_0_0.00725409390868792" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00436537409933717" Y="0" Z="0.006921775844709" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00436537409933717_0_0.006921775844709" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00638175" Y="0" Z="0.00637914312427617" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00638175_0_0.00637914312427617" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00820421965623414" Y="0" Z="0.00564268336801439" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00820421965623414_0_0.00564268336801439" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00977740824974907" Y="0" Z="0.00473477353295105" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00977740824974907_0_0.00473477353295105" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0110535152412027" Y="0" Z="0.003683" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0110535152412027_0_0.003683" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0119937667654009" Y="0" Z="0.00251932037573688" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0119937667654009_0_0.00251932037573688" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0125695937555713" Y="0" Z="0.00127909247669461" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0125695937555713_0_0.00127909247669461" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0127635" Y="0" Z="9.02045040225563E-19" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0127635_0_9.02045040225563E-19" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0125695937555713" Y="0" Z="-0.00127909247669461" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0125695937555713_0_-0.00127909247669461" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0119937667654009" Y="0" Z="-0.00251932037573688" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0119937667654009_0_-0.00251932037573688" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.0110535152412027" Y="0" Z="-0.003683" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.0110535152412027_0_-0.003683" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00977740824974908" Y="0" Z="-0.00473477353295105" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00977740824974908_0_-0.00473477353295105" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00820421965623415" Y="0" Z="-0.00564268336801439" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00820421965623415_0_-0.00564268336801439" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00638175" Y="0" Z="-0.00637914312427617" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00638175_0_-0.00637914312427617" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00436537409933718" Y="0" Z="-0.006921775844709" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00436537409933718_0_-0.006921775844709" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-0.00221635851565186" Y="0" Z="-0.00725409390868792" HashId="1_LShapeProfile_2_2_0.1875_0_0_-0.00221635851565186_0_-0.00725409390868792" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="-2.34453947955179E-18" Y="0" Z="-0.007366" HashId="1_LShapeProfile_2_2_0.1875_0_0_-2.34453947955179E-18_0_-0.007366" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00221635851565186" Y="0" Z="-0.00725409390868792" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00221635851565186_0_-0.00725409390868792" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00436537409933717" Y="0" Z="-0.006921775844709" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00436537409933717_0_-0.006921775844709" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00638175" Y="0" Z="-0.00637914312427617" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00638175_0_-0.00637914312427617" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00820421965623414" Y="0" Z="-0.00564268336801439" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00820421965623414_0_-0.00564268336801439" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.00977740824974907" Y="0" Z="-0.00473477353295105" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.00977740824974907_0_-0.00473477353295105" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0110535152412027" Y="0" Z="-0.003683" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0110535152412027_0_-0.003683" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0119937667654009" Y="0" Z="-0.00251932037573687" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0119937667654009_0_-0.00251932037573687" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0125695937555713" Y="0" Z="-0.00127909247669462" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0125695937555713_0_-0.00127909247669462" />
+    <LinearAppurtenancePolyLine PolygonID="1" RefID="2" X="0.0127635" Y="0" Z="0" HashId="1_LShapeProfile_2_2_0.1875_0_0_0.0127635_0_0" />
+  </LinearAppurtenancesSections>
+  <AppurtenanceNodes>
+    <AppurtenanceNode Id="0" X="0.255016" Y="2.5908" Z="1.108964" />
+    <AppurtenanceNode Id="1" X="0.255016" Y="3.252216" Z="1.108964" />
+    <AppurtenanceNode Id="2" X="0.31877" Y="2.5908" Z="1.108964" />
+    <AppurtenanceNode Id="3" X="0.31877" Y="3.252216" Z="1.108964" />
+    <AppurtenanceNode Id="4" X="0.255016" Y="4.8768" Z="1.108964" />
+    <AppurtenanceNode Id="5" X="0.31877" Y="4.8768" Z="1.108964" />
+    <AppurtenanceNode Id="6" X="0.255016" Y="6.096" Z="1.108964" />
+    <AppurtenanceNode Id="7" X="0.31877" Y="6.096" Z="1.108964" />
+    <AppurtenanceNode Id="8" X="0.255016" Y="7.9248" Z="1.108964" />
+    <AppurtenanceNode Id="9" X="0.31877" Y="7.9248" Z="1.108964" />
+    <AppurtenanceNode Id="10" X="0.255016" Y="9.144" Z="1.108964" />
+    <AppurtenanceNode Id="11" X="0.31877" Y="9.144" Z="1.108964" />
+    <AppurtenanceNode Id="12" X="0.255016" Y="9.339072" Z="1.108964" />
+    <AppurtenanceNode Id="13" X="0.31877" Y="9.339072" Z="1.108964" />
+  </AppurtenanceNodes>
+  <AttachmentNodes>
+    <AttachmentNode Id="0" X="0.4572" Y="0" Z="1.0668" />
+    <AttachmentNode Id="1" X="0.4572" Y="1.627632" Z="1.0668" />
+    <AttachmentNode Id="2" X="0.4572" Y="3.252216" Z="1.0668" />
+    <AttachmentNode Id="3" X="0.4572" Y="4.8768" Z="1.0668" />
+    <AttachmentNode Id="4" X="0.4572" Y="6.096" Z="1.0668" />
+    <AttachmentNode Id="5" X="0.4572" Y="7.9248" Z="1.0668" />
+    <AttachmentNode Id="6" X="0.4572" Y="9.144" Z="1.0668" />
+    <AttachmentNode Id="7" X="0.4572" Y="10.8204" Z="1.0668" />
+    <AttachmentNode Id="8" X="0.4572" Y="12.4968" Z="1.0668" />
+    <AttachmentNode Id="9" X="0.4572" Y="13.716" Z="1.0668" />
+    <AttachmentNode Id="10" X="-0.4572" Y="0" Z="1.0668" />
+    <AttachmentNode Id="11" X="-0.4572" Y="1.627632" Z="1.0668" />
+    <AttachmentNode Id="12" X="-0.4572" Y="3.252216" Z="1.0668" />
+    <AttachmentNode Id="13" X="-0.4572" Y="4.8768" Z="1.0668" />
+    <AttachmentNode Id="14" X="-0.4572" Y="6.096" Z="1.0668" />
+    <AttachmentNode Id="15" X="-0.4572" Y="7.9248" Z="1.0668" />
+    <AttachmentNode Id="16" X="-0.4572" Y="9.144" Z="1.0668" />
+    <AttachmentNode Id="17" X="-0.4572" Y="10.8204" Z="1.0668" />
+    <AttachmentNode Id="18" X="-0.4572" Y="12.4968" Z="1.0668" />
+    <AttachmentNode Id="19" X="-0.4572" Y="13.716" Z="1.0668" />
+    <AttachmentNode Id="20" X="0.4572" Y="1.2192" Z="1.0668" />
+    <AttachmentNode Id="21" X="-0.4572" Y="1.2192" Z="1.0668" />
+    <AttachmentNode Id="22" X="0.4572" Y="2.4384" Z="1.0668" />
+    <AttachmentNode Id="23" X="-0.4572" Y="2.4384" Z="1.0668" />
+    <AttachmentNode Id="24" X="0.4572" Y="3.6576" Z="1.0668" />
+    <AttachmentNode Id="25" X="-0.4572" Y="3.6576" Z="1.0668" />
+    <AttachmentNode Id="26" X="0.4572" Y="7.3152" Z="1.0668" />
+    <AttachmentNode Id="27" X="-0.4572" Y="7.3152" Z="1.0668" />
+    <AttachmentNode Id="28" X="0.4572" Y="8.5344" Z="1.0668" />
+    <AttachmentNode Id="29" X="-0.4572" Y="8.5344" Z="1.0668" />
+    <AttachmentNode Id="30" X="0.4572" Y="9.7536" Z="1.0668" />
+    <AttachmentNode Id="31" X="-0.4572" Y="9.7536" Z="1.0668" />
+    <AttachmentNode Id="32" X="0.4572" Y="10.9728" Z="1.0668" />
+    <AttachmentNode Id="33" X="-0.4572" Y="10.9728" Z="1.0668" />
+    <AttachmentNode Id="34" X="0.4572" Y="12.192" Z="1.0668" />
+    <AttachmentNode Id="35" X="-0.4572" Y="12.192" Z="1.0668" />
+    <AttachmentNode Id="36" X="0.4572" Y="13.4112" Z="1.0668" />
+    <AttachmentNode Id="37" X="-0.4572" Y="13.4112" Z="1.0668" />
+  </AttachmentNodes>
+  <AppurtenanceProperties>
+    <AppurtenanceProperty ID="2" Label="EW63 - 30.64 (ft)" StartElevation="8.5" EndElevation="30.64" Manufacturer="ANDREW" ModelName="EW63" Location="" Depth="1.16" Width="2.01" ForceCoefficient="RND" Weight="0.51" AttachmentID="1" Classification="Existing" ComponentName="Appurtenance" />
+  </AppurtenanceProperties>
+  <Appurtenances>
+    <Appurtenance ID="2">
+      <AppurtenanceMember ID="15" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="1" EndNodeID="0" BetaAngle="0" Label="Appurtenance" HashId="15_1_LShapeProfile_2_2_0.1875_0_0_0.255016_3.252216_1.108964_0.255016_2.5908_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="16" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="3" EndNodeID="2" BetaAngle="0" Label="Appurtenance" HashId="16_1_LShapeProfile_2_2_0.1875_0_0_0.31877_3.252216_1.108964_0.31877_2.5908_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="17" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="4" EndNodeID="1" BetaAngle="0" Label="Appurtenance" HashId="17_1_LShapeProfile_2_2_0.1875_0_0_0.255016_4.8768_1.108964_0.255016_3.252216_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="18" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="5" EndNodeID="3" BetaAngle="0" Label="Appurtenance" HashId="18_1_LShapeProfile_2_2_0.1875_0_0_0.31877_4.8768_1.108964_0.31877_3.252216_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="19" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="6" EndNodeID="4" BetaAngle="0" Label="Appurtenance" HashId="19_1_LShapeProfile_2_2_0.1875_0_0_0.255016_6.096_1.108964_0.255016_4.8768_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="20" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="7" EndNodeID="5" BetaAngle="0" Label="Appurtenance" HashId="20_1_LShapeProfile_2_2_0.1875_0_0_0.31877_6.096_1.108964_0.31877_4.8768_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="21" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="8" EndNodeID="6" BetaAngle="0" Label="Appurtenance" HashId="21_1_LShapeProfile_2_2_0.1875_0_0_0.255016_7.9248_1.108964_0.255016_6.096_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="22" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="9" EndNodeID="7" BetaAngle="0" Label="Appurtenance" HashId="22_1_LShapeProfile_2_2_0.1875_0_0_0.31877_7.9248_1.108964_0.31877_6.096_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="23" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="10" EndNodeID="8" BetaAngle="0" Label="Appurtenance" HashId="23_1_LShapeProfile_2_2_0.1875_0_0_0.255016_9.144_1.108964_0.255016_7.9248_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="24" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="11" EndNodeID="9" BetaAngle="0" Label="Appurtenance" HashId="24_1_LShapeProfile_2_2_0.1875_0_0_0.31877_9.144_1.108964_0.31877_7.9248_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="25" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="12" EndNodeID="10" BetaAngle="0" Label="Appurtenance" HashId="25_1_LShapeProfile_2_2_0.1875_0_0_0.255016_9.339072_1.108964_0.255016_9.144_1.108964_0_Appurtenance" />
+      <AppurtenanceMember ID="26" AppurtenancePropertyID="2" RefId="1" SectionId="2" StartNodeID="13" EndNodeID="11" BetaAngle="0" Label="Appurtenance" HashId="26_1_LShapeProfile_2_2_0.1875_0_0_0.31877_9.339072_1.108964_0.31877_9.144_1.108964_0_Appurtenance" />
+    </Appurtenance>
+  </Appurtenances>
+  <AttachmentProperties>
+    <AttachmentProperty ID="1" Label="Feedline Ladder (3 ft) - (45-0)" TopElevation="45" BottomElevation="0" AttachmentName="Feedline Ladder (3 ft)" AttachmentType="Continuous" Location="FaceCD" Azimuth="0" Width="3" Depth="1.5" Weight="2.4457" Classification="Existing" ComponentName="Attachment" />
+  </AttachmentProperties>
+  <Attachments>
+    <Attachment ID="1">
+      <AttachmentMember ID="1" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="1" EndNodeID="0" Label="Attachment" HashId="1_1_HollowCircleProfile_1.1875_0.143_0.4572_1.627632_1.0668_Attachment" />
+      <AttachmentMember ID="2" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="2" EndNodeID="1" Label="Attachment" HashId="2_1_HollowCircleProfile_1.1875_0.143_0.4572_3.252216_1.0668_0.4572_1.627632_1.0668_Attachment" />
+      <AttachmentMember ID="3" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="3" EndNodeID="2" Label="Attachment" HashId="3_1_HollowCircleProfile_1.1875_0.143_0.4572_4.8768_1.0668_0.4572_3.252216_1.0668_Attachment" />
+      <AttachmentMember ID="4" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="4" EndNodeID="3" Label="Attachment" HashId="4_1_HollowCircleProfile_1.1875_0.143_0.4572_6.096_1.0668_0.4572_4.8768_1.0668_Attachment" />
+      <AttachmentMember ID="5" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="5" EndNodeID="4" Label="Attachment" HashId="5_1_HollowCircleProfile_1.1875_0.143_0.4572_7.9248_1.0668_0.4572_6.096_1.0668_Attachment" />
+      <AttachmentMember ID="6" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="6" EndNodeID="5" Label="Attachment" HashId="6_1_HollowCircleProfile_1.1875_0.143_0.4572_9.144_1.0668_0.4572_7.9248_1.0668_Attachment" />
+      <AttachmentMember ID="7" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="7" EndNodeID="6" Label="Attachment" HashId="7_1_HollowCircleProfile_1.1875_0.143_0.4572_10.8204_1.0668_0.4572_9.144_1.0668_Attachment" />
+      <AttachmentMember ID="8" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="8" EndNodeID="7" Label="Attachment" HashId="8_1_HollowCircleProfile_1.1875_0.143_0.4572_12.4968_1.0668_0.4572_10.8204_1.0668_Attachment" />
+      <AttachmentMember ID="9" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="9" EndNodeID="8" Label="Attachment" HashId="9_1_HollowCircleProfile_1.1875_0.143_0.4572_13.716_1.0668_0.4572_12.4968_1.0668_Attachment" />
+      <AttachmentMember ID="10" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="11" EndNodeID="10" Label="Attachment" HashId="10_1_HollowCircleProfile_1.1875_0.143_-0.4572_1.627632_1.0668_-0.4572_0_1.0668_Attachment" />
+      <AttachmentMember ID="11" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="12" EndNodeID="11" Label="Attachment" HashId="11_1_HollowCircleProfile_1.1875_0.143_-0.4572_3.252216_1.0668_-0.4572_1.627632_1.0668_Attachment" />
+      <AttachmentMember ID="12" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="13" EndNodeID="12" Label="Attachment" HashId="12_1_HollowCircleProfile_1.1875_0.143_-0.4572_4.8768_1.0668_-0.4572_3.252216_1.0668_Attachment" />
+      <AttachmentMember ID="13" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="14" EndNodeID="13" Label="Attachment" HashId="13_1_HollowCircleProfile_1.1875_0.143_-0.4572_6.096_1.0668_-0.4572_4.8768_1.0668_Attachment" />
+      <AttachmentMember ID="14" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="15" EndNodeID="14" Label="Attachment" HashId="14_1_HollowCircleProfile_1.1875_0.143_-0.4572_7.9248_1.0668_-0.4572_6.096_1.0668_Attachment" />
+      <AttachmentMember ID="15" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="16" EndNodeID="15" Label="Attachment" HashId="15_1_HollowCircleProfile_1.1875_0.143_-0.4572_9.144_1.0668_-0.4572_7.9248_1.0668_Attachment" />
+      <AttachmentMember ID="16" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="17" EndNodeID="16" Label="Attachment" HashId="16_1_HollowCircleProfile_1.1875_0.143_-0.4572_10.8204_1.0668_-0.4572_9.144_1.0668_Attachment" />
+      <AttachmentMember ID="17" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="18" EndNodeID="17" Label="Attachment" HashId="17_1_HollowCircleProfile_1.1875_0.143_-0.4572_12.4968_1.0668_-0.4572_10.8204_1.0668_Attachment" />
+      <AttachmentMember ID="18" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="19" EndNodeID="18" Label="Attachment" HashId="18_1_HollowCircleProfile_1.1875_0.143_-0.4572_13.716_1.0668_-0.4572_12.4968_1.0668_Attachment" />
+      <AttachmentMember ID="19" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="21" EndNodeID="20" Label="Attachment" HashId="19_1_HollowCircleProfile_1.1875_0.143_-0.4572_1.2192_1.0668_0.4572_1.2192_1.0668_Attachment" />
+      <AttachmentMember ID="20" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="23" EndNodeID="22" Label="Attachment" HashId="20_1_HollowCircleProfile_1.1875_0.143_-0.4572_2.4384_1.0668_0.4572_2.4384_1.0668_Attachment" />
+      <AttachmentMember ID="21" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="25" EndNodeID="24" Label="Attachment" HashId="21_1_HollowCircleProfile_1.1875_0.143_-0.4572_3.6576_1.0668_0.4572_3.6576_1.0668_Attachment" />
+      <AttachmentMember ID="22" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="13" EndNodeID="3" Label="Attachment" HashId="22_1_HollowCircleProfile_1.1875_0.143_-0.4572_4.8768_1.0668_0.4572_4.8768_1.0668_Attachment" />
+      <AttachmentMember ID="23" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="14" EndNodeID="4" Label="Attachment" HashId="23_1_HollowCircleProfile_1.1875_0.143_-0.4572_6.096_1.0668_0.4572_6.096_1.0668_Attachment" />
+      <AttachmentMember ID="24" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="27" EndNodeID="26" Label="Attachment" HashId="24_1_HollowCircleProfile_1.1875_0.143_-0.4572_7.3152_1.0668_0.4572_7.3152_1.0668_Attachment" />
+      <AttachmentMember ID="25" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="29" EndNodeID="28" Label="Attachment" HashId="25_1_HollowCircleProfile_1.1875_0.143_-0.4572_8.5344_1.0668_0.4572_8.5344_1.0668_Attachment" />
+      <AttachmentMember ID="26" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="31" EndNodeID="30" Label="Attachment" HashId="26_1_HollowCircleProfile_1.1875_0.143_-0.4572_9.7536_1.0668_0.4572_9.7536_1.0668_Attachment" />
+      <AttachmentMember ID="27" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="33" EndNodeID="32" Label="Attachment" HashId="27_1_HollowCircleProfile_1.1875_0.143_-0.4572_10.9728_1.0668_0.4572_10.9728_1.0668_Attachment" />
+      <AttachmentMember ID="28" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="35" EndNodeID="34" Label="Attachment" HashId="28_1_HollowCircleProfile_1.1875_0.143_-0.4572_12.192_1.0668_0.4572_12.192_1.0668_Attachment" />
+      <AttachmentMember ID="29" AttachmentPropertyID="1" RefId="1" SectionId="1" StartNodeID="37" EndNodeID="36" Label="Attachment" HashId="29_1_HollowCircleProfile_1.1875_0.143_-0.4572_13.4112_1.0668_0.4572_13.4112_1.0668_Attachment" />
+    </Attachment>
+  </Attachments>
+  <WindLoadParameters>
+    <WindLoadData WindID="1" Label="Wind Load Parameter" ComponentName="WindLoadParameter" DesignStandard="TIA-222-H (ASCE 7-16)" UltimateWindSpeed="105" BasicWindSpeed="60" IceWindSpeed="50" IceThickness="105" GroundElevation="6418" BaseELevation="0" WindDirTrueNorth="All" RiskCategory="II" ExposureCategory="C" TopographicCategory="4" />
+  </WindLoadParameters>
+  <TowerSummaryReaction>
+    <TowerReaction ReactionID="1" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Compression" LoadCombination="C 14 -  1.2D + 1.0Wo-180°" Moment="0" Axial="53.213" Shear="4.896" />
+    <TowerReaction ReactionID="2" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Tension" LoadCombination="C 22 -  0.9D + 1.0Wo-180°" Moment="0" Axial="-49.222" Shear="4.697" />
+    <TowerReaction ReactionID="3" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Shear" LoadCombination="C 14 -  1.2D + 1.0Wo-180°" Moment="0" Axial="53.213" Shear="4.896" />
+    <TowerReaction ReactionID="4" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Overturning Moment (1.2D)" LoadCombination="C 14 -  1.2D + 1.0Wo-180°" Moment="504.543" Axial="8.989" Shear="15.278" />
+    <TowerReaction ReactionID="5" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Overturning Moment (0.9D)" LoadCombination="C 22 -  0.9D + 1.0Wo-180°" Moment="503.964" Axial="6.742" Shear="15.278" />
+    <TowerReaction ReactionID="6" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Overturning Moment (1.0D)" LoadCombination="C 33 -  1.0D + 1.0Ws-315°" Moment="175.834" Axial="7.491" Shear="5.188" />
+    <TowerReaction ReactionID="7" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Compression" LoadCombination="C 2 -  1.2D + 1.0Di + 1.0Wi-0°" Moment="121.9714" Axial="11.48" Shear="3.801" />
+    <TowerReaction ReactionID="8" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Shear" LoadCombination="C 14 -  1.2D + 1.0Wo-180°" Moment="504.5429" Axial="8.989" Shear="15.278" />
+  </TowerSummaryReaction>
+  <ProjectData ID="1" Label="Project Data" HashId="" ComponentName="ProjectData" Carr_Subject="" Carr_sitename="" Carr_siteNumber="" Carr_AnalysisType="" Carr_CarrierName="" Cust_siteid="" Cust_JobNumber="" Cust_SiteName="" Cust_City="" Cust_State="" Cust_Zip="" Cust_Address="" Cust_ProjectID="" Cust_Applicationid="" Cust_ApplicationRevisionid="" Cust_Name="" Site_Address="" Site_City="" Site_State="" Site_Zip="" Site_County="" Site_Lattitude="" Site_Longitude="" Site_Altitude="" />
+  <TowerRatings TowerRatingID="1" Label="Tower Ratings" ComponentName="TowerRatings" GuyAnchorFoundationSoilInteraction="" GuyAnchorFoundationStructural="" GuyAnchorRod="" FoundationStructural="" FoundationSoilInteraction="" StructureRating="N/A" />
+  <SupportSections>
+    <SupportSection ID="1" Name="FlatBarProfile" Width="6" Depth="6" />
+    <SupportPolyLine PolygonID="1" RefID="1" X="-0.0762" Y="0" Z="0.0762" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0762_0_0.0762" />
+    <SupportPolyLine PolygonID="1" RefID="1" X="0.0762" Y="0" Z="0.0762" HashId="1_HollowCircleProfile_1.1875_0.143_0.0762_0_0.0762" />
+    <SupportPolyLine PolygonID="1" RefID="1" X="0.0762" Y="0" Z="-0.0762" HashId="1_HollowCircleProfile_1.1875_0.143_0.0762_0_-0.0762" />
+    <SupportPolyLine PolygonID="1" RefID="1" X="-0.0762" Y="0" Z="-0.0762" HashId="1_HollowCircleProfile_1.1875_0.143_-0.0762_0_-0.0762" />
+  </SupportSections>
+  <SupportNodes>
+    <SupportNode ID="0" X="-1.0668" Y="-1.0668" Z="-0.0762000000000011" />
+    <SupportNode ID="1" X="-1.0668" Y="-1.0668" Z="-1.08286712929839E-15" />
+    <SupportNode ID="2" X="-1.0668" Y="1.0668" Z="-0.0762000000000011" />
+    <SupportNode ID="3" X="-1.0668" Y="1.0668" Z="-1.08286712929839E-15" />
+    <SupportNode ID="4" X="1.0668" Y="1.0668" Z="-0.0762000000000011" />
+    <SupportNode ID="5" X="1.0668" Y="1.0668" Z="-1.08286712929839E-15" />
+    <SupportNode ID="6" X="1.0668" Y="-1.0668" Z="-0.0762000000000011" />
+    <SupportNode ID="7" X="1.0668" Y="-1.0668" Z="-1.08286712929839E-15" />
+  </SupportNodes>
+  <Supports>
+    <Support ID="1">
+      <SupportMember ID="1" RefId="1" StartNodeID="0" EndNodeID="1" SectionID="1" BetaAngle="-225" Label="Support" />
+    </Support>
+    <Support ID="2">
+      <SupportMember ID="2" RefId="2" StartNodeID="2" EndNodeID="3" SectionID="1" BetaAngle="-225" Label="Support" />
+    </Support>
+    <Support ID="3">
+      <SupportMember ID="3" RefId="3" StartNodeID="4" EndNodeID="5" SectionID="1" BetaAngle="-225" Label="Support" />
+    </Support>
+    <Support ID="4">
+      <SupportMember ID="4" RefId="4" StartNodeID="6" EndNodeID="7" SectionID="1" BetaAngle="-225" Label="Support" />
+    </Support>
+  </Supports>
+</Staad>

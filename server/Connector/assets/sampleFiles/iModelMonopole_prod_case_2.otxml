@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Staad>
+  <Nodes>
+    <Node ID="1" X="0" Y="42.543984" Z="0" />
+    <Node ID="2" X="0" Y="33.860232" Z="0" />
+    <Node ID="3" X="0" Y="34.856166" Z="0" />
+    <Node ID="4" X="0" Y="28.983432" Z="0" />
+    <Node ID="5" X="0" Y="30.143958" Z="0" />
+    <Node ID="6" X="0" Y="14.130528" Z="0" />
+    <Node ID="7" X="0" Y="15.821406" Z="0" />
+    <Node ID="8" X="0" Y="0" Z="0" />
+  </Nodes>
+  <PoleProperties>
+    <PoleProperty PoleID="1" Label="Pole 1" SectionLength="28.49" TopElevation="139.58" BottomElevation="111.09" TopFlatDiameter="1.54166666666667" BottomFlatDiameter="2.22" TopTipDiameter="1.5633" BottomTipDiameter="2.25209166666667" Thickness="0.0208333333333333" PolesectionType="Tapered" TopFlatWidth="0.238916666666667" BottomFlatWidth="0.360366666666667" ComponentName="Pole" />
+    <PoleProperty PoleID="2" Label="Pole 2" SectionLength="19.2675" TopElevation="114.3575" BottomElevation="95.09" TopFlatDiameter="2.095" BottomFlatDiameter="2.58" TopTipDiameter="2.12516666666667" BottomTipDiameter="2.61765" Thickness="0.0208333333333333" PolesectionType="Tapered" TopFlatWidth="0.337991666666667" BottomFlatWidth="0.424825" ComponentName="Pole" />
+    <PoleProperty PoleID="3" Label="Pole 3" SectionLength="52.5375" TopElevation="98.8975" BottomElevation="46.36" TopFlatDiameter="2.41905" BottomFlatDiameter="3.74" TopTipDiameter="2.45421666666667" BottomTipDiameter="3.79554166666667" Thickness="0.0208333333333333" PolesectionType="Tapered" TopFlatWidth="0.396008333333333" BottomFlatWidth="0.632525" ComponentName="Pole" />
+    <PoleProperty PoleID="4" Label="Pole 4" SectionLength="51.9075" TopElevation="51.9075" BottomElevation="0" TopFlatDiameter="3.49" BottomFlatDiameter="4.96" TopTipDiameter="3.54168333333333" BottomTipDiameter="5.03436666666667" Thickness="0.0208333333333333" PolesectionType="Tapered" TopFlatWidth="0.587758333333333" BottomFlatWidth="0.850958333333333" ComponentName="Pole" />
+  </PoleProperties>
+  <Pole ID="1">
+    <PhysicalMember PolePropertyID="1" ID="1" StartNodeID="1" EndNodeID="2" SectionID="1" BetaAngle="-90" Label="Leg_C" HashId="1_-90_Leg_C" />
+  </Pole>
+  <Pole ID="2">
+    <PhysicalMember PolePropertyID="2" ID="2" StartNodeID="3" EndNodeID="4" SectionID="2" BetaAngle="-90" Label="Leg_C" HashId="2_-90_Leg_C" />
+  </Pole>
+  <Pole ID="3">
+    <PhysicalMember PolePropertyID="3" ID="3" StartNodeID="5" EndNodeID="6" SectionID="3" BetaAngle="-90" Label="Leg_C" HashId="3_-90_Leg_C" />
+  </Pole>
+  <Pole ID="4">
+    <PhysicalMember PolePropertyID="4" ID="4" StartNodeID="7" EndNodeID="8" SectionID="4" BetaAngle="-90" Label="Leg_C" HashId="4_-90_Leg_C" />
+  </Pole>
+  <WindLoadParameters>
+    <WindLoadData WindID="1" Label="Wind Load Parameter" ComponentName="WindLoadParameter" DesignStandard="TIA-222-G" UltimateWindSpeed="110" BasicWindSpeed="60" IceWindSpeed="30" IceThickness="110" GroundElevation="N/A" BaseELevation="0" WindDirTrueNorth="All" RiskCategory="II" ExposureCategory="C" TopographicCategory="1" />
+  </WindLoadParameters>
+  <TowerSummaryReaction>
+    <TowerReaction ReactionID="1" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Overturning Moment (1.2D)" LoadCombination="LC -PDELTA 14  1.2D + 1.6Wo-30°" Moment="2258.329" Axial="22.165" Shear="24.882" />
+    <TowerReaction ReactionID="2" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Overturning Moment (0.9D)" LoadCombination="LC -PDELTA 26  0.9D + 1.6Wo-30°" Moment="2245.114" Axial="16.624" Shear="24.882" />
+    <TowerReaction ReactionID="3" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Overturning Moment (1.0D)" LoadCombination="LC -PDELTA 38  1.0D + 1.0Ws-30°" Moment="374.473" Axial="18.471" Shear="4.142" />
+    <TowerReaction ReactionID="4" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Compression" LoadCombination="LC -PDELTA 1  1.2D + 1.0Di + 1.0Wi-0°" Moment="178.1716" Axial="34.193" Shear="2.039" />
+    <TowerReaction ReactionID="5" Label="Tower Reactions" ComponentName="TowerSummaryReaction" MaxReaction="Total Shear" LoadCombination="LC -PDELTA 14  1.2D + 1.6Wo-30°" Moment="2258.3293" Axial="22.165" Shear="24.882" />
+  </TowerSummaryReaction>
+  <ProjectData ID="1" Label="Project Data" HashId="" ComponentName="ProjectData" Carr_Subject="" Carr_sitename="" Carr_siteNumber="" Carr_AnalysisType="" Carr_CarrierName="" Cust_siteid="" Cust_JobNumber="" Cust_SiteName="" Cust_City="" Cust_State="" Cust_Zip="" Cust_Address="" Cust_ProjectID="" Cust_Applicationid="" Cust_ApplicationRevisionid="" Cust_Name="" Site_Address="" Site_City="" Site_State="" Site_Zip="" Site_County="" Site_Lattitude="29.8774616" Site_Longitude="-95.4933782" Site_Altitude="-1.618488" />
+  <AnchorGuyFoundation />
+  <TowerInformation TowerID="DemoTower" ComponentName="TowerInformation" Label="Tower Information" TowerName="DemoTower" Description="" UnitSystem="English" Convention="OpenTower" BearingAngle="0" TowerType="Monopole" TowerHeight="139.58" TopFaceWidth="1.54166666666667" TopFaceDepth="N/A" BottomFaceWidth="4.96" BottomFaceDepth="N/A" NoofPanel="N/A" />
+  <TowerRatings TowerRatingID="1" Label="Tower Ratings" ComponentName="TowerRatings" GuyAnchorFoundationSoilInteraction="" GuyAnchorFoundationStructural="" GuyAnchorRod="" FoundationStructural="" FoundationSoilInteraction="" StructureRating="80.125" />
+</Staad>

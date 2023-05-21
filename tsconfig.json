@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      // "target": "es6",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "server/*"
+        ]
+      },
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true
+    }
+  }
+  

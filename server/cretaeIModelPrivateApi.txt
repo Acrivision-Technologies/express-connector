@@ -1,0 +1,95 @@
+Create iModel
+POST /sv1.1/Repositories/Context--{ContextId}/ContextScope/iModel
+
+parameters:
+ContextId: 1d31148a-effd-4d58-9106-fb1286a382f4
+
+Request Body
+{
+  "instance": {
+    "schemaName": "ContextScope",
+    "className": "iModel",
+    "eTag": "string",
+    "properties": {
+      "Name": "Test",
+      "Description": "Test IModel created from swagger",
+      "UserCreated": "5dc89132-5f63-426f-9a8f-32488a59aee9",
+      "CreatedDate": "2023-05-11T04:48:06.833Z",
+      "DataLocationId": "99999999-9999-9999-9999-999999999999",
+      "Initialized": true,
+      "iModelTemplate": "Empty",
+      "Type": 0,
+      "Extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Secured": true,
+      "Shared": false
+    }
+  }
+}
+
+Return:
+{
+    "changedInstance": {
+        "change": "Created",
+        "instanceAfterChange": {
+            "instanceId": "30ec031f-a51a-4895-9d5a-41229b0b5de8",
+            "schemaName": "ContextScope",
+            "className": "iModel",
+            "properties": {
+                "Name": "Test",
+                "Description": "Test IModel created from swagger",
+                "UserCreated": "5dc89132-5f63-426f-9a8f-32488a59aee9",
+                "CreatedDate": "2023-05-11T04:57:29.663Z",
+                "DataLocationId": "99999999-9999-9999-9999-999999999999",
+                "Initialized": true,
+                "iModelTemplate": "Empty",
+                "Type": 0,
+                "Extent": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Secured": true,
+                "Shared": false
+            }
+        }
+    }
+}
+
+
+Request Example
+curl -X 'POST' \
+  'https://imodelhubapi.bentley.com/sv1.1/Repositories/Context--1d31148a-effd-4d58-9106-fb1286a382f4/ContextScope/iModel' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJlbnRsZXlJTVNfMjAyMyIsInBpLmF0bSI6ImE4bWUifQ.eyJzY29wZSI6WyJpbW9kZWxodWIiXSwiY2xpZW50X2lkIjoiaW1vZGVsaHViLXN3YWdnZXIiLCJhdWQiOlsiaHR0cHM6Ly9pbXMuYmVudGxleS5jb20vYXMvdG9rZW4ub2F1dGgyIiwiaHR0cHM6Ly9pbXNvaWRjLmJlbnRsZXkuY29tL2FzL3Rva2VuLm9hdXRoMiIsImh0dHBzOi8vaW1zb2lkYy5iZW50bGV5LmNvbS9yZXNvdXJjZXMiLCJpbW9kZWwtaHViLXNlcnZpY2VzLTI0ODUiXSwic3ViIjoiNWRjODkxMzItNWY2My00MjZmLTlhOGYtMzI0ODhhNTlhZWU5IiwibmJmIjoxNjgzNzgwMDkyLCJzdWJqZWN0IjoiNWRjODkxMzItNWY2My00MjZmLTlhOGYtMzI0ODhhNTlhZWU5IiwidXNhZ2VfY291bnRyeV9pc28iOiJJTiIsImF1dGhfdGltZSI6MTY4Mzc4MDM5MiwiaXNzIjoiaHR0cHM6Ly9pbXNvaWRjLmJlbnRsZXkuY29tIiwibmFtZSI6ImhpdGVzaC5tYWMyMDIyQGdtYWlsLmNvbSIsInByZWZlcnJlZF91c2VybmFtZSI6ImhpdGVzaC5tYWMyMDIyQGdtYWlsLmNvbSIsImdpdmVuX25hbWUiOiJIaXRlc2giLCJmYW1pbHlfbmFtZSI6IkRpbmdhbmthciIsImVtYWlsIjoiaGl0ZXNoLm1hYzIwMjJAZ21haWwuY29tIiwic2lkIjoiVF9GaElsX0Zyd3IyS21CSXBsWU9EOU1fQl9ZLlNVMVRMVUpsYm5Sc1pYa3RVMGMuVzVuei5VSWJEY3R0OG1LaURIaGRqS0lBcFN5eXJNIiwiZXhwIjoxNjgzNzgzOTkyfQ.iJdxrkS8WpN9joMFiiDiSlLNvbyX3ZX5FNe5YE1moVVpYFBIYxMcEaYgEipHZ_p890hf1Wk79baMc1Q620lWHFpVzlCwtQYE0KDObPU8wzzUfdADaqzKDy3WGO_jpwzlB0c_pDycR0jAmmVpnwf2pSdWBvwCUMu_-8CicTbMfy7e0k5yoOnzZZKq_aOWk17SB6-zfAjXGwfYGgvkGWRI7BCVNgN-F-AfgswydBXIQG8L1v36mMtMLW8_6URdgJ_m8qTz75imSWaaUkle8_YWTzVwe411p_movQVV4Q_k4ruPa6HYhy0ByhlZ2X9D5Ie_bGeWjVGDnqsHHCDNBAzqZg' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "instance": {
+    "schemaName": "ContextScope",
+    "className": "iModel",
+    "eTag": "string",
+    "properties": {
+      "Name": "Test",
+      "Description": "Test IModel created from swagger",
+      "UserCreated": "5dc89132-5f63-426f-9a8f-32488a59aee9",
+      "CreatedDate": "2023-05-11T04:48:06.833Z",
+      "DataLocationId": "99999999-9999-9999-9999-999999999999",
+      "Initialized": true,
+      "iModelTemplate": "Empty",
+      "Type": 0,
+      "Extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Secured": true,
+      "Shared": false
+    }
+  }
+}'
